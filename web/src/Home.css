@@ -62,7 +62,8 @@ body {
 
 .pursuit-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 
+    repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -108,7 +109,8 @@ body {
 
 .legends-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -187,4 +189,16 @@ body {
 
 .enter-realm-button:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .legend-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
 }
