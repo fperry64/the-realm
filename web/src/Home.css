@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #0a0f1c;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+.hero {
+  height: 85vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0.05rem 2rem 4rem 2rem;
+}
+
+.content h2 {
+  color: #d8c27a;
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.legend-title {
+  font-family: 'Cinzel', serif;
+  font-size: 3.5rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: green;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 15px rgba(191, 207, 255, 0.35);
+}
+
+
+.section-divider {
+  width: 800px;
+  height: 4px;
+
+  margin: 4rem auto 2rem auto;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    #d8c27a,
+    transparent
+  );
+}
+
+.content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.pursuit-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pursuit-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(216, 194, 122, 0.25);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.pursuit-card:hover {
+  transform: translateY(-5px);
+}
+
+.pursuit-icon {
+  width: 100px;
+  height: 100px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  display: block;
+
+  margin: 0 auto 1rem auto;
+
+  border: 1px solid rgba(216, 194, 122, 0.25);
+}
+
+.pursuit-card h3 {
+  color: #d8c27a;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pursuit-card p {
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}
+
+.legends-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.legend-card {
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(166, 28, 60, 0.35);
+
+  border-radius: 12px;
+
+  padding: 1.5rem;
+
+  transition: transform 0.2s ease;
+}
+
+.legend-card:hover {
+  transform: translateY(-5px);
+}
+
+.legend-icon {
+  width: 120px;
+  height: 120px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  display: block;
+
+  margin: 0 auto 1rem auto;
+
+  border: 1px solid rgba(166, 28, 60, 0.35);
+}
+
+.legend-card h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d8c27a;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.legend-card p {
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}
+
+.enter-realm-container {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.enter-realm-button {
+  background: #d8c27a;
+  color: #111827;
+
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  padding: 1rem 3rem;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  border: 4px solid #a61c3c;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.enter-realm-button:hover {
+  transform: scale(1.05);
+}
