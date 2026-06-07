@@ -14,6 +14,7 @@ function Register() {
       email,
       password,
       options: {
+        emailRedirectTo: 'https://the-blitz-realm.vercel.app/choose-destiny',
         data: {
           username: username
         }
