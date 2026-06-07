@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import '../ChooseDestiny.css'
 
 function ChooseDestiny() {
   const [selectedDestiny, setSelectedDestiny] = useState(null)
+  const navigate = useNavigate()
 
   const destinies = [
     {
@@ -55,8 +57,11 @@ function ChooseDestiny() {
         <div className="selected-destiny">
           <h2>YOUR DESTINY HAS BEEN CHOSEN: {selectedDestiny}</h2>
 
-          <button className="continue-button">
-            CONTINUE
+          <button
+            className="continue-button"
+            onClick={() => navigate('/character')}
+          >
+            BEGIN YOUR JOURNEY
           </button>
         </div>
       )}
