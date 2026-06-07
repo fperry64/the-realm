@@ -1,12 +1,6 @@
 .choose-destiny-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
   text-align: center;
-  padding: 60px 20px;
-}
-
-.destiny-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-top: 30px;
 }
