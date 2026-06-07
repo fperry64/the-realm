@@ -8,7 +8,7 @@ function ChooseDestiny() {
   const navigate = useNavigate()
 
   async function handleBeginJourney() {
-    console.log('Selected Destiny:', selectedDestiny)
+    alert(`Selected Destiny: ${selectedDestiny}`)
   }
 
   const destinies = [
