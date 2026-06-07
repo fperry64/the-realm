@@ -26,7 +26,7 @@ function ChooseDestiny() {
       .eq('id', user.id)
 
     if (error) {
-      alert(error.message)
+      alert(JSON.stringify(error))
       return
     }
 
