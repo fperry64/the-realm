@@ -52,6 +52,10 @@
   margin-top: 40px;
 }
 
+.selected-destiny h2 {
+  color: #d4af37;
+}
+
 .continue-button {
   margin-top: 20px;
   padding: 12px 30px;
