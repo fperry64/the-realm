@@ -202,3 +202,24 @@ body {
     letter-spacing: 2px;
   }
 }
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0;
+}
+
+.top-nav a {
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.top-nav a:hover {
+  color: white;
+}

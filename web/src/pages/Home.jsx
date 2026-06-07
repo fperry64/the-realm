@@ -14,6 +14,13 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div>
+
+      <div className="top-nav">
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+      </div>
+
       <section
         className="hero"
         style={{
@@ -220,14 +227,6 @@ function Home() {
         </p>
 
         <div className="section-divider"></div>
-
-        <div className="enter-realm-container">
-          <Link to="/register">
-            <button className="enter-realm-button">
-              Enter The Realm
-            </button>
-          </Link>
-        </div>
 
       </section>
     </div>
