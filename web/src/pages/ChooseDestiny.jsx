@@ -8,7 +8,29 @@ function ChooseDestiny() {
   const navigate = useNavigate()
 
   async function handleBeginJourney() {
-    alert(`Selected Destiny: ${selectedDestiny}`)
+    const {
+      data: { user }
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      alert('No authenticated user found.')
+      return
+    }
+
+    const { error } = await supabase
+      .from('profiles')
+      .update({
+        original_destiny: selectedDestiny,
+        current_destiny: selectedDestiny
+      })
+      .eq('id', user.id)
+
+    if (error) {
+      alert(error.message)
+      return
+    }
+
+    navigate('/character')
   }
 
   const destinies = [
