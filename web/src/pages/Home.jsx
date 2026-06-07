@@ -9,6 +9,7 @@ import kingImg from '../assets/king.png'
 import blazeImg from '../assets/blaze.png'
 import ghostImg from '../assets/ghost.png'
 import sentinelImg from '../assets/sentinel.png'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -221,9 +222,11 @@ function Home() {
         <div className="section-divider"></div>
 
         <div className="enter-realm-container">
-          <button className="enter-realm-button">
-            Enter The Realm
-          </button>
+          <Link to="/register">
+            <button className="enter-realm-button">
+              Enter The Realm
+            </button>
+          </Link>
         </div>
 
       </section>
