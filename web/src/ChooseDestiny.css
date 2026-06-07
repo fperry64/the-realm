@@ -42,3 +42,22 @@
 .destiny-card p {
   margin: 0;
 }
+
+.selected {
+  border: 3px solid #d4af37;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+}
+
+.selected-destiny {
+  margin-top: 40px;
+}
+
+.continue-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #d4af37;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

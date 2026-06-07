@@ -1,6 +1,32 @@
+import { useState } from 'react'
 import '../ChooseDestiny.css'
 
 function ChooseDestiny() {
+  const [selectedDestiny, setSelectedDestiny] = useState(null)
+
+  const destinies = [
+    {
+      name: 'WEALTH',
+      description: 'Build your fortune and pursue prosperity.'
+    },
+    {
+      name: 'RELICS',
+      description: 'Collect rare artifacts and hidden treasures.'
+    },
+    {
+      name: 'LORE',
+      description: 'Uncover forgotten knowledge and ancient secrets.'
+    },
+    {
+      name: 'LEGACY',
+      description: 'Earn influence, reputation, and recognition.'
+    },
+    {
+      name: 'FORTUNE',
+      description: 'Challenge fate through risk and reward.'
+    }
+  ]
+
   return (
     <div className="choose-destiny-page">
 
@@ -11,33 +37,29 @@ function ChooseDestiny() {
       </p>
 
       <div className="destiny-grid">
-
-        <div className="destiny-card">
-          <h2>WEALTH</h2>
-          <p>Build your fortune and pursue prosperity.</p>
-        </div>
-
-        <div className="destiny-card">
-          <h2>RELICS</h2>
-          <p>Collect rare artifacts and hidden treasures.</p>
-        </div>
-
-        <div className="destiny-card">
-          <h2>LORE</h2>
-          <p>Uncover forgotten knowledge and ancient secrets.</p>
-        </div>
-
-        <div className="destiny-card">
-          <h2>LEGACY</h2>
-          <p>Earn influence, reputation, and recognition.</p>
-        </div>
-
-        <div className="destiny-card">
-          <h2>FORTUNE</h2>
-          <p>Challenge fate through risk and reward.</p>
-        </div>
-
+        {destinies.map((destiny) => (
+          <div
+            key={destiny.name}
+            className={`destiny-card ${
+              selectedDestiny === destiny.name ? 'selected' : ''
+            }`}
+            onClick={() => setSelectedDestiny(destiny.name)}
+          >
+            <h2>{destiny.name}</h2>
+            <p>{destiny.description}</p>
+          </div>
+        ))}
       </div>
+
+      {selectedDestiny && (
+        <div className="selected-destiny">
+          <h2>Selected Destiny: {selectedDestiny}</h2>
+
+          <button className="continue-button">
+            CONTINUE
+          </button>
+        </div>
+      )}
 
     </div>
   )
