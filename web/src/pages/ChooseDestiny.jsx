@@ -53,7 +53,7 @@ function ChooseDestiny() {
 
       {selectedDestiny && (
         <div className="selected-destiny">
-          <h2>Selected Destiny: {selectedDestiny}</h2>
+          <h2>YOUR DESTINY HAS BEEN CHOSEN: {selectedDestiny}</h2>
 
           <button className="continue-button">
             CONTINUE
