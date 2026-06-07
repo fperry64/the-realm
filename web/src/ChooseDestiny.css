@@ -1,0 +1,12 @@
+.choose-destiny-page {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.destiny-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
