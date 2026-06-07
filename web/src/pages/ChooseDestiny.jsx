@@ -10,26 +10,11 @@ function ChooseDestiny() {
   return (
     <div className="choose-destiny-page">
 
-      <h1>THE GATE RECOGNIZES YOU</h1>
+      <h1 className="legend-title">CHOOSE YOUR DESTINY</h1>
 
-      <p>
-        Your account has been created.
-      </p>
+      <div className="destiny-layout">
 
-      <p>
-        The Sentinel watches.
-      </p>
-
-      <p>
-        Before entering The Realm, you must choose the path where your story begins.
-      </p>
-
-      <div className="section-divider"></div>
-
-      <h2 className="legend-title">CHOOSE YOUR DESTINY</h2>
-
-      <div className="pursuit-grid">
-
+        {/* WEALTH */}
         <div className="pursuit-card">
           <img
             src={wealthImg}
@@ -42,6 +27,21 @@ function ChooseDestiny() {
           </p>
         </div>
 
+        {/* GATE CARD */}
+        <div className="gate-card">
+          <h2>THE GATE RECOGNIZES YOU</h2>
+
+          <p>
+            Choose Your Destiny
+          </p>
+
+          <p>
+            Your Original Destiny will be recorded and may shape opportunities,
+            discoveries, and encounters throughout your journey.
+          </p>
+        </div>
+
+        {/* RELICS */}
         <div className="pursuit-card">
           <img
             src={relicsImg}
@@ -54,6 +54,7 @@ function ChooseDestiny() {
           </p>
         </div>
 
+        {/* LORE */}
         <div className="pursuit-card">
           <img
             src={loreImg}
@@ -66,6 +67,7 @@ function ChooseDestiny() {
           </p>
         </div>
 
+        {/* LEGACY */}
         <div className="pursuit-card">
           <img
             src={legacyImg}
@@ -78,6 +80,7 @@ function ChooseDestiny() {
           </p>
         </div>
 
+        {/* FORTUNE */}
         <div className="pursuit-card">
           <img
             src={fortuneImg}
