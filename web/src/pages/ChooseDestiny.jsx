@@ -1,10 +1,15 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { supabase } from '../supabase'
 import '../ChooseDestiny.css'
 
 function ChooseDestiny() {
   const [selectedDestiny, setSelectedDestiny] = useState(null)
   const navigate = useNavigate()
+
+  async function handleBeginJourney() {
+    console.log('Selected Destiny:', selectedDestiny)
+  }
 
   const destinies = [
     {
@@ -59,7 +64,7 @@ function ChooseDestiny() {
 
           <button
             className="continue-button"
-            onClick={() => navigate('/character')}
+            onClick={handleBeginJourney}
           >
             BEGIN YOUR JOURNEY
           </button>
