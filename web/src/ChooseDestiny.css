@@ -1,31 +1,44 @@
 .choose-destiny-page {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
-.destiny-layout {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  max-width: 1100px;
-  margin: 40px auto;
+.choose-destiny-page h1 {
+  color: #d4af37;
+  margin-bottom: 20px;
 }
 
-.gate-card {
+.destiny-message {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.destiny-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.destiny-card {
   background: rgba(20, 20, 20, 0.95);
   border: 2px solid #d4af37;
   border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.destiny-layout .pursuit-card,
-.destiny-layout .gate-card {
-  min-height: 420px;
+.destiny-card:hover {
+  transform: translateY(-4px);
+}
+
+.destiny-card h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.destiny-card p {
+  margin: 0;
 }
