@@ -180,7 +180,7 @@ function CharacterSheet() {
             <p>{profile.relics}</p>
           </div>
 
-          <div className="character-card full-width">
+          <div className="character-card">
             <h2>ACHIEVEMENTS UNLOCKED</h2>
 
             <div className="coming-soon">
