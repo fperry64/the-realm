@@ -11,6 +11,16 @@ function Navbar() {
 
   useEffect(() => {
     loadUser()
+
+    const {
+        data: { subscription }
+    } = supabase.auth.onAuthStateChange(() => {
+        loadUser()
+    })
+
+    return () => {
+        subscription.unsubscribe()
+    }
   }, [])
 
   async function loadUser() {
@@ -18,7 +28,11 @@ function Navbar() {
       data: { user }
     } = await supabase.auth.getUser()
 
-    if (!user) return
+    if (!user) {
+        setUser(null)
+        setUsername('')
+        return
+    }
 
     setUser(user)
 
