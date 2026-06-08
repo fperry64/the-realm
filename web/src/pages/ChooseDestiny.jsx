@@ -19,6 +19,9 @@ function ChooseDestiny() {
       return
     }
 
+    alert(`User ID: ${user.id}`)
+    alert(`Selected Destiny: ${selectedDestiny}`)
+
     const { data, error } = await supabase
       .from('profiles')
       .update({
@@ -27,8 +30,9 @@ function ChooseDestiny() {
       })
       .eq('id', user.id)
       .select()
-    
-      alert(JSON.stringify(data))
+
+    alert(`Error: ${JSON.stringify(error)}`)
+    alert(`Data: ${JSON.stringify(data)}`)
 
     if (error) {
       alert(JSON.stringify(error))
