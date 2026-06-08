@@ -172,7 +172,7 @@ function CharacterSheet() {
             <h2>ACHIEVEMENTS</h2>
 
             <div className="coming-soon">
-              COMING SOON
+              COMING REAL SOON
             </div>
           </div>
 
