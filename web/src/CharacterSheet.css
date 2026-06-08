@@ -184,8 +184,8 @@
 }
 
 .identity-avatar {
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
 
   border-radius: 12px;
