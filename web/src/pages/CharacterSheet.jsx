@@ -121,7 +121,7 @@ function CharacterSheet() {
         <div className="character-grid">
 
           <div className="character-card identity-card full-width">
-            <h2>IDENTITY</h2>
+            <h2>PROFILE</h2>
 
             <div className="identity-content">
 
