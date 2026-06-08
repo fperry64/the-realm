@@ -31,6 +31,59 @@ function CharacterSheet() {
     setProfile(data)
   }
 
+  async function handleAvatarUpload() {
+    const input = document.createElement('input')
+
+    input.type = 'file'
+    input.accept = 'image/*'
+
+    input.onchange = async (event) => {
+        const file = event.target.files[0]
+
+        if (!file) return
+
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) return
+
+        const fileName = `${user.id}-${Date.now()}-${file.name}`
+
+        const { error: uploadError } = await supabase.storage
+            .from('avatars')
+            .upload(fileName, file)
+
+        if (uploadError) {
+            console.error(uploadError)
+            alert('Avatar upload failed.')
+            return
+        }
+
+        const {
+            data: { publicUrl }
+        } = supabase.storage
+            .from('avatars')
+            .getPublicUrl(fileName)
+
+        const { error: profileError } = await supabase
+            .from('profiles')
+            .update({
+                avatar_url: publicUrl
+            })
+            .eq('id', user.id)
+
+        if (profileError) {
+            console.error(profileError)
+            return
+        }
+
+        await loadProfile()
+    }
+
+    input.click()
+  }
+
   const destinyTitles = {
     LORE: 'Keeper of Forgotten Knowledge',
     RELICS: 'Seeker of Lost Artifacts',
@@ -127,10 +180,20 @@ function CharacterSheet() {
 
                 <div className="identity-image">
                     <img
-                        src="https://placehold.co/200x200?text=Portrait"
+                        src={
+                            profile.avatar_url ||
+                            'https://placehold.co/200x200?text=Portrait'
+                        }
                         alt="Character Portrait"
-                        className="identity-avatar"
+                        className="indentity-avatar"
                     />
+
+                    <button
+                        className="upload-avatar-btn"
+                        onClick={handleAvatarUpload}
+                    >
+                        Upload Portrait
+                    </button>
                 </div>
 
                 <div className="identity-details">
