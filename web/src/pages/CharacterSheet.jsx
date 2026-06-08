@@ -178,7 +178,7 @@ function CharacterSheet() {
 
             <div className="identity-content">
 
-                <div className="identity-image">
+                <div className="identity-avatar">
                     <img
                         src={
                             profile.avatar_url ||
