@@ -107,7 +107,7 @@ function CharacterSheet() {
                     </p>
 
                     <p>
-                        Your journey has only begun.
+                        Your journey awaits...
                     </p>
 
                     <p className="realm-divider">
