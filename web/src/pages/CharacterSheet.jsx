@@ -55,10 +55,6 @@ function CharacterSheet() {
     <div className="character-page">
       <div className="character-container">
 
-        <h1 className="character-title">
-            THE REALM HAS BEEN WAITING
-        </h1>
-
         <img
           src={realmBanner}
           alt="The Realm Has Been Waiting"
