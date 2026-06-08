@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../supabase'
-import realmBanner from '../assets/realm-banner.jpg'
+import realmBanner from '../assets/realm-arrival-banner.png'
 import '../CharacterSheet.css'
 
 function CharacterSheet() {
