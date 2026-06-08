@@ -32,7 +32,7 @@ function Login() {
     <div className="login-page">
       <div className="login-card">
 
-        <h1>Return to The Realm</h1>
+        <h1>Journey Back to The Realm</h1>
 
         <form onSubmit={handleLogin}>
 
