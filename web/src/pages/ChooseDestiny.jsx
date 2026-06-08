@@ -19,13 +19,16 @@ function ChooseDestiny() {
       return
     }
 
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from('profiles')
       .update({
         original_destiny: selectedDestiny,
         current_destiny: selectedDestiny
       })
       .eq('id', user.id)
+      .select()
+    
+      alert(JSON.stringify(data))
 
     if (error) {
       alert(JSON.stringify(error))
