@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Register from './pages/Register'
+import Login from './pages/Login'
 import ChooseDestiny from './pages/ChooseDestiny'
 import CharacterSheet from './pages/CharacterSheet'
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/choose-destiny" element={<ChooseDestiny />} />
         <Route path="/character" element={<CharacterSheet />} />
       </Routes>
