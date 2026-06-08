@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../supabase'
 import '../Casino.css'
+import blazeCasinoBanner from '../assets/blaze-casino-banner.png'
 
 function Casino() {
   const [profile, setProfile] = useState(null)
