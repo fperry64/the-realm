@@ -12,8 +12,6 @@ function ChooseDestiny() {
       data: { user }
     } = await supabase.auth.getUser()
 
-    alert(`User ID: ${user.id}`)
-
     if (!user) {
       alert('No authenticated user found.')
       return
