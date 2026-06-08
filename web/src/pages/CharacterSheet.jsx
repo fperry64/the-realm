@@ -178,14 +178,14 @@ function CharacterSheet() {
 
             <div className="identity-content">
 
-                <div className="identity-avatar">
+                <div className="identity-image">
                     <img
                         src={
                             profile.avatar_url ||
                             'https://placehold.co/200x200?text=Portrait'
                         }
                         alt="Character Portrait"
-                        className="indentity-avatar"
+                        className="identity-avatar"
                     />
                 </div>
 
