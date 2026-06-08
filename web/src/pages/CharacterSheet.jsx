@@ -120,28 +120,46 @@ function CharacterSheet() {
 
         <div className="character-grid">
 
-          <div className="character-card">
+          <div className="character-card identity-card full-width">
             <h2>IDENTITY</h2>
 
-            <p>
-              <strong>Name:</strong> {profile.username}
-            </p>
+            <div className="identity-content">
 
-            <p>
-              <strong>Title:</strong> {profile.title}
-            </p>
-          </div>
+                <div className="identity-image">
+                    <img
+                        src="https://placehold.co/200x200?text=Portrait"
+                        alt="Character Portrait"
+                        className="identity-avatar"
+                    />
+                </div>
 
-          <div className="character-card">
-            <h2>DESTINY</h2>
+                <div className="identity-details">
 
-            <p>
-              <strong>Original Destiny:</strong> {profile.original_destiny}
-            </p>
+                    <h3>{profile.username}</h3>
 
-            <p>
-              <strong>Current Destiny:</strong> {profile.current_destiny}
-            </p>
+                    <p className="identity-title">
+                        {profile.title}
+                    </p>
+
+                    <p className="identity-subtitle">
+                        {destinySubtitle}
+                    </p>
+
+                    <p>
+                        <strong>Destiny:</strong> {profile.current_destiny}
+                    </p>
+
+                    <p>
+                        <strong>Original Destiny:</strong> {profile.original_destiny}
+                    </p>
+
+                    <p>
+                        <strong>Alignment:</strong> {profile.alignment}
+                    </p>
+
+                </div>
+
+            </div>
           </div>
 
           <div className="character-card">
@@ -157,19 +175,13 @@ function CharacterSheet() {
           </div>
 
           <div className="character-card">
-            <h2>RELIC COLLECTION</h2>
+            <h2>RELICS COLLECTED</h2>
 
             <p>{profile.relics}</p>
           </div>
 
-          <div className="character-card">
-            <h2>MORAL ALIGNMENT</h2>
-
-            <p>{profile.alignment}</p>
-          </div>
-
           <div className="character-card full-width">
-            <h2>ACHIEVEMENTS</h2>
+            <h2>ACHIEVEMENTS UNLOCKED</h2>
 
             <div className="coming-soon">
               COMING REAL SOON
