@@ -254,3 +254,9 @@
 .upload-avatar-btn:hover {
   background: rgba(212, 175, 55, 0.3);
 }
+
+.identity-label {
+  color: #d4af37;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
