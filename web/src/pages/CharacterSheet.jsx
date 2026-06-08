@@ -21,6 +21,10 @@ function CharacterSheet() {
                 LORE
                 </div>
 
+                <div className="destiny-subtitle">
+                    Keep of Forgotten Knowledge
+                </div>
+
                 <p>
                 The archives remain sealed.
                 </p>
@@ -40,13 +44,28 @@ function CharacterSheet() {
                 <p className="arrival-line">
                     another seeker has arrived.
                 </p>
+
+                <div className="realm-teaser">
+                    <p>════════════════════════════</p>
+
+                    <p className="teaser-title">
+                        THE ARCHIVES REMAIN CLOSED
+                    </p>
+
+                    <p>
+                        Your journey has only begun.
+                    </p>
+
+                    <p>════════════════════════════</p>
+                </div>
+
             </div>
         </div>
 
         <div className="character-grid">
 
           <div className="character-card">
-            <h2>CHARACTER</h2>
+            <h2>IDENTITY</h2>
 
             <p>
               <strong>Name:</strong> Wanderer
@@ -70,25 +89,25 @@ function CharacterSheet() {
           </div>
 
           <div className="character-card">
-            <h2>GHOST COINS</h2>
+            <h2>TREASURY</h2>
 
             <p>1000</p>
           </div>
 
           <div className="character-card">
-            <h2>REPUTATION</h2>
+            <h2>RENOWN</h2>
 
             <p>0</p>
           </div>
 
           <div className="character-card">
-            <h2>RELICS</h2>
+            <h2>RELIC COLLECTION</h2>
 
             <p>0</p>
           </div>
 
           <div className="character-card">
-            <h2>ALIGNMENT</h2>
+            <h2>MORAL ALIGNMENT</h2>
 
             <p>Neutral</p>
           </div>
