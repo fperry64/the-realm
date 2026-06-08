@@ -6,8 +6,42 @@ function CharacterSheet() {
       <div className="character-container">
 
         <h1 className="character-title">
-          CHARACTER SHEET
+            THE REALM HAS BEEN WAITING
         </h1>
+
+        <div className="realm-arrival-banner">
+            <h2>WANDERER: WANDERER</h2>
+
+            <div className="destiny-reveal">
+                <div className="destiny-title">
+                DESTINY REVEALED
+                </div>
+
+                <div className="destiny-name">
+                LORE
+                </div>
+
+                <p>
+                The archives remain sealed.
+                </p>
+
+                <p>
+                The ancient records remain hidden.
+                </p>
+
+                <p>
+                The Forgotten King's story remains unfinished.
+                </p>
+
+                <p className="arrival-line">
+                At last...
+                </p>
+
+                <p className="arrival-line">
+                    another seeker has arrived.
+                </p>
+            </div>
+        </div>
 
         <div className="character-grid">
 

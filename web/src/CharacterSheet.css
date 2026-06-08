@@ -60,3 +60,47 @@
     grid-column: span 1;
   }
 }
+
+.realm-arrival-banner {
+  max-width: 850px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.realm-arrival-banner h2 {
+  color: #d4af37;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.destiny-reveal {
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid #d4af37;
+  border-radius: 16px;
+  padding: 35px;
+}
+
+.destiny-title {
+  color: #d4af37;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.destiny-name {
+  color: #d4af37;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.destiny-reveal p {
+  color: #e5e5e5;
+  margin: 12px 0;
+  font-size: 1.05rem;
+}
+
+.arrival-line {
+  margin-top: 25px;
+  font-style: italic;
+}
