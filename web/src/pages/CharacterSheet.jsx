@@ -129,26 +129,6 @@ function CharacterSheet() {
                     {destinySubtitle}
                 </div>
 
-                <p>
-                The archives remain sealed.
-                </p>
-
-                <p>
-                The ancient records remain hidden.
-                </p>
-
-                <p>
-                The Forgotten King's story remains unfinished.
-                </p>
-
-                <p className="arrival-line">
-                At last...
-                </p>
-
-                <p className="arrival-line">
-                    another seeker has arrived.
-                </p>
-
                 <div className="realm-teaser">
                     <p className="realm-divider">
                         ════════════════════════════
@@ -214,18 +194,27 @@ function CharacterSheet() {
                     <div className="identity-right">
 
                         <p>
-                        <strong>Current Destiny:</strong><br />
-                        {profile.current_destiny}
+                            <span className="identity-label">
+                                Current Destiny:
+                            </span>
+                            <br />
+                            {profile.current_destiny}
                         </p>
 
                         <p>
-                        <strong>Original Destiny:</strong><br />
-                        {profile.original_destiny}
+                            <span className="identity-label">
+                                Original Destiny:
+                            </span>
+                            <br />
+                            {profile.original_destiny}
                         </p>
 
                         <p>
-                        <strong>Alignment:</strong><br />
-                        {profile.alignment || 'Neutral'}
+                            <span className="identity-label">
+                                Alignment:
+                            </span>
+                            <br />
+                            {profile.alignment || 'Neutral'}
                         </p>
 
                     </div>
