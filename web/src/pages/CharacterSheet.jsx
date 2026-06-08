@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../supabase'
+import realmBanner from '../assets/realm-banner.jpg'
 import '../CharacterSheet.css'
 
 function CharacterSheet() {
@@ -57,6 +58,12 @@ function CharacterSheet() {
         <h1 className="character-title">
             THE REALM HAS BEEN WAITING
         </h1>
+
+        <img
+          src={realmBanner}
+          alt="The Realm Has Been Waiting"
+          className="realm-banner"
+        />
 
         <div className="realm-arrival-banner">
             <h2>WANDERER: {profile.username}</h2>
@@ -144,7 +151,7 @@ function CharacterSheet() {
           <div className="character-card">
             <h2>TREASURY</h2>
 
-            <p>{profile.ghost_coins}</p>
+            <p>{profile.ghost_coins} Ghost Coins</p>
           </div>
 
           <div className="character-card">
