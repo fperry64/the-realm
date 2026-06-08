@@ -6,6 +6,7 @@ import Login from './pages/Login'
 import Navbar from './components/Navbar'
 import ChooseDestiny from './pages/ChooseDestiny'
 import CharacterSheet from './pages/CharacterSheet'
+import Casino from './pages/Casino'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/choose-destiny" element={<ChooseDestiny />} />
         <Route path="/character" element={<CharacterSheet />} />
+        <Route path="/casino" element={<Casino />} />
       </Routes>
     </BrowserRouter>
   )

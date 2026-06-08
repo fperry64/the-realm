@@ -76,6 +76,10 @@ function Navbar() {
               Wanderer: {username}
             </span>
 
+            <Link to="/casino">
+              Casino
+            </Link>
+
             <Link to="/character">
               Character Sheet
             </Link>
