@@ -9,7 +9,7 @@
 }
 
 .login-card {
-  width: 400px;
+  width: 600px;
 
   padding: 40px;
 
@@ -25,7 +25,13 @@
 .login-card h1 {
   color: #d4af37;
 
+  font-size: 2rem;
+
+  line-height: 1.2;
+
   margin-bottom: 25px;
+
+  text-align: center;
 }
 
 .login-card form {
