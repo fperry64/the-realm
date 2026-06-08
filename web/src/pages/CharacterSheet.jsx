@@ -115,8 +115,7 @@ function CharacterSheet() {
         />
 
         <div className="realm-arrival-banner">
-            <h2>WANDERER: {profile.username}</h2>
-
+            
             <div className="destiny-reveal">
                 <div className="destiny-title">
                 DESTINY REVEALED
