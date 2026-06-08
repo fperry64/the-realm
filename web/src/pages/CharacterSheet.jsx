@@ -30,6 +30,18 @@ function CharacterSheet() {
     setProfile(data)
   }
 
+  const destinyTitles = {
+    LORE: 'Keeper of Forgotten Knowledge',
+    RELICS: 'Seeker of Lost Artifacts',
+    WEALTH: 'Master of Fortune and Prosperity',
+    LEGACY: 'Builder of Enduring Greatness',
+    FORTUNE: "Walker of Fate's Uncertain Road"
+  }
+
+  const destinySubtitle =
+    destinyTitles[profile?.current_destiny] ||
+    'Wanderer of The Realm'
+
   if (!profile) {
     return (
       <div className="character-page">
@@ -59,7 +71,7 @@ function CharacterSheet() {
                 </div>
 
                 <div className="destiny-subtitle">
-                    Keep of Forgotten Knowledge
+                    {destinySubtitle}
                 </div>
 
                 <p>
