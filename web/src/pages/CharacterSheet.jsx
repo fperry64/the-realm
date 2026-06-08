@@ -1,6 +1,43 @@
+import { useEffect, useState } from 'react'
+import { supabase } from '../supabase'
 import '../CharacterSheet.css'
 
 function CharacterSheet() {
+  const [profile, setProfile] = useState(null)
+
+  useEffect(() => {
+    loadProfile()
+  }, [])
+
+  async function loadProfile() {
+    const {
+      data: { user }
+    } = await supabase.auth.getUser()
+
+    if (!user) return
+
+    const { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', user.id)
+        .single()
+
+    if (error) {
+      console.error(error)
+      return
+    }
+
+    setProfile(data)
+  }
+
+  if (!profile) {
+    return (
+      <div className="character-page">
+        Loading Character Profile...
+      </div>
+    )
+  }
+
   return (
     <div className="character-page">
       <div className="character-container">
@@ -10,7 +47,7 @@ function CharacterSheet() {
         </h1>
 
         <div className="realm-arrival-banner">
-            <h2>WANDERER: WANDERER</h2>
+            <h2>WANDERER: {profile.username}</h2>
 
             <div className="destiny-reveal">
                 <div className="destiny-title">
@@ -18,7 +55,7 @@ function CharacterSheet() {
                 </div>
 
                 <div className="destiny-name">
-                LORE
+                    {profile.current_destiny}
                 </div>
 
                 <div className="destiny-subtitle">
@@ -72,11 +109,11 @@ function CharacterSheet() {
             <h2>IDENTITY</h2>
 
             <p>
-              <strong>Name:</strong> Wanderer
+              <strong>Name:</strong> {profile.username}
             </p>
 
             <p>
-              <strong>Title:</strong> Wanderer
+              <strong>Title:</strong> {profile.title}
             </p>
           </div>
 
@@ -84,36 +121,36 @@ function CharacterSheet() {
             <h2>DESTINY</h2>
 
             <p>
-              <strong>Original Destiny:</strong> LORE
+              <strong>Original Destiny:</strong> {profile.original_destiny}
             </p>
 
             <p>
-              <strong>Current Destiny:</strong> LORE
+              <strong>Current Destiny:</strong> {profile.current_destiny}
             </p>
           </div>
 
           <div className="character-card">
             <h2>TREASURY</h2>
 
-            <p>1000</p>
+            <p>{profile.ghost_coins}</p>
           </div>
 
           <div className="character-card">
             <h2>RENOWN</h2>
 
-            <p>0</p>
+            <p>{profile.reputation}</p>
           </div>
 
           <div className="character-card">
             <h2>RELIC COLLECTION</h2>
 
-            <p>0</p>
+            <p>{profile.relics}</p>
           </div>
 
           <div className="character-card">
             <h2>MORAL ALIGNMENT</h2>
 
-            <p>Neutral</p>
+            <p>{profile.alignment}</p>
           </div>
 
           <div className="character-card full-width">
