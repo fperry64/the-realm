@@ -14,13 +14,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div>
-
-      <div className="top-nav">
-        <Link to="/">Home</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
-      </div>
-
+      
       <section
         className="hero"
         style={{

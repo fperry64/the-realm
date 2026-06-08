@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../supabase'
 import realmBanner from '../assets/realm-arrival-banner.png'
+import { useNavigate } from 'react-router-dom'
 import '../CharacterSheet.css'
 
 function CharacterSheet() {
   const [profile, setProfile] = useState(null)
+  const navigate = useNavigate()
 
   useEffect(() => {
     loadProfile()
@@ -15,7 +17,10 @@ function CharacterSheet() {
       data: { user }
     } = await supabase.auth.getUser()
 
-    if (!user) return
+    if (!user) {
+        navigate('/login')
+        return
+    }
 
     const { data, error } = await supabase
         .from('profiles')
