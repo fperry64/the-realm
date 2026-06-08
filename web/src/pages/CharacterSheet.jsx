@@ -187,13 +187,6 @@ function CharacterSheet() {
                         alt="Character Portrait"
                         className="indentity-avatar"
                     />
-
-                    <button
-                        className="upload-avatar-btn"
-                        onClick={handleAvatarUpload}
-                    >
-                        Upload Portrait
-                    </button>
                 </div>
 
                 <div className="identity-details">
@@ -209,6 +202,13 @@ function CharacterSheet() {
                         <p className="identity-subtitle">
                         {destinySubtitle}
                         </p>
+
+                        <button
+                            className="upload-avatar-button"
+                            onClick={handleAvatarUpload}
+                        >
+                            Upload Portrait
+                        </button>
 
                     </div>
 
