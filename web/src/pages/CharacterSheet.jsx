@@ -1,4 +1,4 @@
-import './CharacterSheet.css'
+import '../CharacterSheet.css'
 
 function CharacterSheet() {
   return (
