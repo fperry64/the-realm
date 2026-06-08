@@ -46,17 +46,21 @@ function CharacterSheet() {
                 </p>
 
                 <div className="realm-teaser">
-                    <p>════════════════════════════</p>
+                    <p className="realm-divider">
+                        ════════════════════════════
+                    </p>
 
                     <p className="teaser-title">
-                        THE ARCHIVES REMAIN CLOSED
+                        THE ARCHIVES REMAIN SEALED
                     </p>
 
                     <p>
                         Your journey has only begun.
                     </p>
 
-                    <p>════════════════════════════</p>
+                    <p className="realm-divider">
+                        ════════════════════════════
+                    </p>
                 </div>
 
             </div>
