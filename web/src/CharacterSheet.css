@@ -196,7 +196,24 @@
 }
 
 .identity-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  width: 100%;
+}
+
+.identity-left {
+  flex: 1;
   text-align: left;
+}
+
+.identity-right {
+  flex: 1;
+  text-align: left;
+}
+
+.identity-right p {
+  margin-bottom: 15px;
 }
 
 .identity-details h3 {

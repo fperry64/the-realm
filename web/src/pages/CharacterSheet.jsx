@@ -135,27 +135,38 @@ function CharacterSheet() {
 
                 <div className="identity-details">
 
-                    <h3>{profile.username}</h3>
+                    <div className="identity-left">
 
-                    <p className="identity-title">
+                        <h3>{profile.username}</h3>
+
+                        <p className="identity-title">
                         {profile.title}
-                    </p>
+                        </p>
 
-                    <p className="identity-subtitle">
+                        <p className="identity-subtitle">
                         {destinySubtitle}
-                    </p>
+                        </p>
 
-                    <p>
-                        <strong>Destiny:</strong> {profile.current_destiny}
-                    </p>
+                    </div>
 
-                    <p>
-                        <strong>Original Destiny:</strong> {profile.original_destiny}
-                    </p>
+                    <div className="identity-right">
 
-                    <p>
-                        <strong>Alignment:</strong> {profile.alignment}
-                    </p>
+                        <p>
+                        <strong>Current Destiny:</strong><br />
+                        {profile.current_destiny}
+                        </p>
+
+                        <p>
+                        <strong>Original Destiny:</strong><br />
+                        {profile.original_destiny}
+                        </p>
+
+                        <p>
+                        <strong>Alignment:</strong><br />
+                        {profile.alignment || 'Neutral'}
+                        </p>
+
+                    </div>
 
                 </div>
 
