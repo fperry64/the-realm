@@ -14,6 +14,7 @@ import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
 
 import { useState } from 'react'
+import { GoTrueClient } from '@supabase/supabase-js'
     
 const SYMBOLS = [
   ghostSlot,
@@ -55,6 +56,13 @@ function SlotMachine({
   const [betAmount, setBetAmount] = useState(10)
   const [lastWin, setLastWin] = useState(0)
   const [spinning, setSpinning] = useState(false)
+  const [spinningReels, setSpinningReels] = useState([
+    false,
+    false,
+    false,
+    false,
+    false
+  ])
 
   function spin() {
 
@@ -62,13 +70,115 @@ function SlotMachine({
 
     setSpinning(true)
 
-    setTimeout(() => {
+    const finalReels = generateRandomReels()
+
+    setSpinningReels([
+        true,
+        true,
+        true,
+        true,
+        true
+    ])
+
+    const spinInterval = setInterval(() => {
 
         setReels(generateRandomReels())
 
+    }, 100)
+
+    setTimeout(() => {
+
+        setReels(prev => [
+            finalReels[0],
+            prev[1],
+            prev[2],
+            prev[3],
+            prev[4]
+        ])
+        
+        setSpinningReels([
+            false,
+            true,
+            true,
+            true,
+            true
+        ])
+    }, 1200)
+
+    setTimeout(() => {
+
+        setReels(prev => [
+            finalReels[0],
+            finalReels[1],
+            prev[2],
+            prev[3],
+            prev[4]
+        ])
+        
+        setSpinningReels([
+            false,
+            false,
+            true,
+            true,
+            true
+        ])
+    }, 1500)
+
+    setTimeout(() => {
+
+        setReels(prev => [
+            finalReels[0],
+            finalReels[1],
+            finalReels[2],
+            prev[3],
+            prev[4]
+        ])
+        
+        setSpinningReels([
+            false,
+            false,
+            false,
+            true,
+            true
+        ])
+    }, 1800)
+
+    setTimeout(() => {
+
+        setReels(prev => [
+            finalReels[0],
+            finalReels[1],
+            finalReels[2],
+            finalReels[3],
+            prev[4]
+        ])
+        
+        setSpinningReels([
+            false,
+            false,
+            false,
+            false,
+            true
+        ])
+    }, 2100)
+
+    setTimeout(() => {
+
+        clearInterval(spinInterval)
+
+        setReels(finalReels)
+           
+        setSpinningReels([
+            false,
+            false,
+            false,
+            false,
+            false
+        ])
+
         setSpinning(false)
 
-    }, 1000)
+    }, 2400)
 
   }
 
@@ -98,7 +208,11 @@ function SlotMachine({
         {reels.map((reel, reelIndex) => (
             <div
                 key={reelIndex}
-                className="reel-column"
+                className={
+                    spinningReels[reelIndex]
+                    ? 'slot-reel spinning'
+                    : 'slot-reel'
+                }
             >
                 {reel.map((symbol, rowIndex) => (
                     <div
