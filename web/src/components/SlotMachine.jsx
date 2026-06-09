@@ -30,6 +30,15 @@ const SYMBOLS = [
   blazeJackpotSymbol
 ]
 
+function generateRandomReels() {
+  return Array.from({ length: 5 }, () =>
+    Array.from(
+      { length: 3 },
+      () => SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)]
+    )
+  )
+}
+
 function SlotMachine({
   jackpot,
   ghostCoins
@@ -46,6 +55,22 @@ function SlotMachine({
   const [betAmount, setBetAmount] = useState(10)
   const [lastWin, setLastWin] = useState(0)
   const [spinning, setSpinning] = useState(false)
+
+  function spin() {
+
+    if (spinning) return
+
+    setSpinning(true)
+
+    setTimeout(() => {
+
+        setReels(generateRandomReels())
+
+        setSpinning(false)
+
+    }, 1000)
+
+  }
 
   return (
     <div className="slot-machine">
@@ -159,8 +184,12 @@ function SlotMachine({
 
     </div>
 
-      <button className="spin-button">
-        SPIN
+      <button
+        className="spin-button"
+        disabled={spinning}
+        onClick={spin}        
+      >
+        {spinning ? 'SPINNING...' : 'SPIN'}
       </button>
 
     </div>
