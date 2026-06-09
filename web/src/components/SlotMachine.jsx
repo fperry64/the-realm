@@ -53,7 +53,7 @@ function SlotMachine({
       <h2>BLAZE MORTEM'S SLOT MACHINE</h2>
 
       <div className="machine-balance-label">
-        Ghost Coins
+        Ghost Coin Balance
       </div>
 
       <div className="machine-balance-value">
@@ -93,16 +93,67 @@ function SlotMachine({
 
       <div className="bet-section">
 
-        <label>Bet Amount</label>
+        <div className="bet-label">
+            BET AMOUNT
+        </div>
 
-        <input
-          type="number"
-          min="10"
-          max="1000000"
-          defaultValue="10"
-        />
+        <div className="bet-value">
+            {betAmount.toLocaleString()} GC
+        </div>
 
-      </div>
+        <div className="bet-controls">
+
+            <button
+                onClick={() =>
+                    setBetAmount(prev => Math.max(10, prev - 10))
+                }
+            >
+                -10
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(prev => Math.max(10, prev - 100))
+                }
+            >
+                -100
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(10)
+                }
+            >
+                MIN
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(prev => Math.min(1000000, prev + 10))
+                }
+            >
+                +10
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(prev => Math.min(1000000, prev + 100))
+                }
+            >
+                +100
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(1000000)
+                }
+            >
+                MAX
+            </button>
+
+        </div>
+
+    </div>
 
       <button className="spin-button">
         SPIN
