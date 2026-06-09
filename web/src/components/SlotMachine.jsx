@@ -31,6 +31,67 @@ const SYMBOLS = [
   blazeJackpotSymbol
 ]
 
+const PAYTABLE = {
+  [loreScroll]:      { 3: 2, 4: 5, 5: 10 },
+  [sentinelSymbol]:  { 3: 3, 4: 8, 5: 15 },
+  [relicSymbol]:     { 3: 4, 4: 10, 5: 20 },
+  [forgeSymbol]:     { 3: 5, 4: 15, 5: 35 },
+  [dragonSymbol]:    { 3: 7, 4: 25, 5: 60 },
+  [kingSymbol]:      { 3: 10, 4: 40, 5: 100 },
+  [sigilSymbol]:     { 3: 15, 4: 75, 5: 200 },
+  [ghostSlot]:       { 3: 25, 4: 125, 5: 500 },
+  [blazeSlot]:       { 3: 50, 4: 250, 5: 1000 }
+}
+
+const PAYLINES = [
+  [0, 0, 0, 0, 0], // Top
+  [1, 1, 1, 1, 1], // Middle
+  [2, 2, 2, 2, 2], // Bottom
+  [0, 1, 2, 1, 0], // V
+  [2, 1, 0, 1, 2]  // Inverted V
+]
+
+function calculateWinnings(reels, betAmount) {
+
+    let totalWin = 0
+
+    for (const line of PAYLINES) {
+
+        const symbols = line.map(
+            (row, reel) => reels[reel][row]
+        )
+
+        const firstSymbol = symbols[0]
+
+        let matchCount = 1
+
+        for (let i = 1; i < symbols.length; i++) {
+
+            if (symbols[i] === firstSymbol) {
+                matchCount++
+            } else {
+                break
+            }
+
+        }
+
+        if (
+            matchCount >= 3 &&
+            PAYTABLE[firstSymbol]
+        ) {
+
+            totalWin +=
+                betAmount *
+                PAYTABLE[firstSymbol][matchCount]
+
+        }
+
+    }
+
+    return totalWin
+
+}
+
 function generateRandomReels() {
   return Array.from({ length: 5 }, () =>
     Array.from(
@@ -131,7 +192,7 @@ function SlotMachine({
             return newReels
         })
 
-    }, 250)
+    }, 175)
 
     setTimeout(() => {
 
@@ -245,15 +306,9 @@ function SlotMachine({
 
     }, 5600)
 
-    setTimeout(() => {
+    setTimeout(async () => {
 
-        setReels(prev => [
-            finalReels[0],
-            finalReels[1],
-            finalReels[2],
-            finalReels[3],
-            finalReels[4]
-        ])
+        setReels(finalReels)
 
         setSpinningReels([
             false,
@@ -270,14 +325,35 @@ function SlotMachine({
             false,
             false
         ]
+
+        const winnings =
+            calculateWinnings(finalReels, betAmount)
+        setLastWin(winnings)
+
+        if (winnings > 0) {
+            const finalBalance = newBalance + winnings
+            setBalance(finalBalance)
         
+            const {
+                data: { user }
+            } = await supabase.auth.getUser()
+
+            if (user) {
+
+                await supabase
+                    .from('profiles')
+                    .update({
+                        ghost_coins: finalBalance
+                    })
+                    .eq('id', user.id)
+            }
+        }
+
     }, 6800)
 
     setTimeout(() => {
 
-        clearInterval(spinInterval)
-
-        setLastWin(500)
+        clearInterval(spinInterval)        
 
         setSpinning(false)
     
