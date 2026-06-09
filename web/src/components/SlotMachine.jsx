@@ -61,28 +61,52 @@ function calculateWinnings(reels, betAmount) {
             (row, reel) => reels[reel][row]
         )
 
-        const firstSymbol = symbols[0]
+        const nonWildSymbols = symbols.filter(
+            symbol =>
+                symbol !== wildSymbol &&
+                symbol !== scatterSymbol &&
+                symbol !== blazeJackpotSymbol
+        )
 
-        let matchCount = 1
+        let targetSymbol
 
-        for (let i = 1; i < symbols.length; i++) {
+        if (nonWildSymbols.length > 0) {
 
-            if (symbols[i] === firstSymbol) {
+            targetSymbol = nonWildSymbols[0]
+
+        } else {
+
+            targetSymbol = blazeSlot
+
+        }
+
+        let matchCount = 0
+
+        for (const symbol of symbols) {
+
+            if (
+                symbol === targetSymbol ||
+                symbol === wildSymbol
+            ) {
+
                 matchCount++
+
             } else {
+
                 break
+
             }
 
         }
 
         if (
             matchCount >= 3 &&
-            PAYTABLE[firstSymbol]
+            PAYTABLE[targetSymbol]
         ) {
 
             totalWin +=
                 betAmount *
-                PAYTABLE[firstSymbol][matchCount]
+                PAYTABLE[targetSymbol][matchCount]
 
         }
 
