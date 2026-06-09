@@ -70,15 +70,7 @@ function Casino() {
             alt="Blaze Mortem's Casino"
             className="casino-banner"
         />
-
-        <section className="casino-hero">
-          <p>
-            Welcome, Wanderer.
-            Take a seat. Test your luck.
-            Fortune favors the reckless.
-          </p>
-        </section>
-
+        
         <section className="casino-quote-card">
           <p>
             “The house always wins… unless I decide the story needs a twist.”
