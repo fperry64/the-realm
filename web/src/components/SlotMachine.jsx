@@ -112,6 +112,8 @@ function calculateWinnings(reels, betAmount) {
                 PAYTABLE[targetSymbol][matchCount]
 
         }
+    
+    }
 
     const scatterCount = reels
         .flat()
@@ -134,7 +136,7 @@ function calculateWinnings(reels, betAmount) {
             totalWin += betAmount * 25
         }
 
-    }
+    }   
 
     return totalWin
 
