@@ -447,14 +447,6 @@ function SlotMachine({
 
       <h2>BLAZE MORTEM'S SLOT MACHINE</h2>
 
-      <div className="machine-balance-label">
-        Ghost Coin Balance
-      </div>
-
-      <div className="machine-balance-value">
-        {balance.toLocaleString()} Ghost Coins
-      </div>
-
       <div className="machine-jackpot-label">
         <p>🔥 BLAZE'S JACKPOT 🔥</p>
       </div>
@@ -489,6 +481,10 @@ function SlotMachine({
         ))}
 
     </div>
+
+        <div className="machine-balance-value">
+            GHOST COINT BALANCE: {balance.toLocaleString()}
+        </div>
 
         <div className="last-win">
             LAST WIN: {lastWin.toLocaleString()} GC
