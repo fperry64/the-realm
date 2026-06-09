@@ -14,7 +14,7 @@ import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
 
 import { useState, useRef } from 'react'
-import { GoTrueClient } from '@supabase/supabase-js'
+import { supabase } from '../supabase'
     
 const SYMBOLS = [
   ghostSlot,
@@ -52,7 +52,7 @@ function SlotMachine({
     [sigilSymbol, scatterSymbol, ghostSlot],
     [blazeJackpotSymbol, relicSymbol, kingSymbol]
   ])
-
+  const [balance, setBalance] = useState(ghostCoins)
   const [betAmount, setBetAmount] = useState(10)
   const [lastWin, setLastWin] = useState(0)
   const [spinning, setSpinning] = useState(false)
@@ -76,7 +76,15 @@ function SlotMachine({
 
     if (spinning) return
 
+    if (betAmount > balance) {
+        alert('Not enough Ghost Coins to place that bet.')
+        return
+    }
+
     setSpinning(true)
+
+    const newBalance = balance - betAmount
+    setBalance(newBalance)
 
     const finalReels = generateRandomReels()
 
@@ -264,7 +272,7 @@ function SlotMachine({
       </div>
 
       <div className="machine-balance-value">
-        {ghostCoins.toLocaleString()} Ghost Coins
+        {balance.toLocaleString()} Ghost Coins
       </div>
 
       <div className="machine-jackpot-label">
