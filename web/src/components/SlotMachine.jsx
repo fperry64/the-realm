@@ -276,6 +276,9 @@ function SlotMachine({
     setTimeout(() => {
 
         clearInterval(spinInterval)
+
+        setLastWin(500)
+
         setSpinning(false)
     
     }, 8000)
