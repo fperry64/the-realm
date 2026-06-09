@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { supabase } from '../supabase'
 import '../Casino.css'
 import blazeCasinoBanner from '../assets/blaze-casino-banner.png'
+import SlotMachine from '../components/SlotMachine'
 
 
 function Casino() {
@@ -77,10 +78,7 @@ function Casino() {
           <span>- Blaze Mortem</span>
         </section>
 
-        <section className="slot-placeholder">
-          <h2>REALM SLOT MACHINE</h2>
-          <p>Coming Online Soon</p>
-        </section>
+        <SlotMachine />
 
       </div>
     </div>
