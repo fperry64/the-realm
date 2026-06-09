@@ -220,14 +220,14 @@ function SlotMachine({
     if (spinning) return
 
     const ravenTriggered =
-        Math.random() < 0.75
+        Math.random() < 0.08
     
     let ravenWildPositions = []
     
     if (ravenTriggered) {
 
         const wildCount =
-            Math.floor(Math.random() * 5) + 1
+            Math.floor(Math.random() * 6) + 3
 
         setEmberWildCount(wildCount)
 
