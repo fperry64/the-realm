@@ -86,20 +86,6 @@ function Casino() {
           </div>
         </section>
 
-        <section className="jackpot-card">
-
-            <h2>🔥 BLAZE'S JACKPOT 🔥</h2>
-
-            <div className="jackpot-value">
-                {jackpot.toLocaleString()} GC
-            </div>
-
-            <p>
-                Current Progressive Jackpot
-            </p>
-
-        </section>
-
         <section className="casino-quote-card">
           <p>
             “The house always wins… unless I decide the story needs a twist.”
@@ -107,7 +93,7 @@ function Casino() {
           <span>- Blaze Mortem</span>
         </section>
 
-        <SlotMachine />
+        <SlotMachine jackpot={jackpot} />
 
       </div>
     </div>

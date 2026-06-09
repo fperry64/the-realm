@@ -14,7 +14,7 @@ import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
 
 import { useState } from 'react'
-
+    
 const SYMBOLS = [
   ghostSlot,
   sentinelSymbol,
@@ -30,7 +30,7 @@ const SYMBOLS = [
   blazeJackpotSymbol
 ]
 
-function SlotMachine() {
+function SlotMachine({ jackpot }) {
 
   const [reels, setReels] = useState([
     [ghostSlot, blazeSlot, wildSymbol],
@@ -48,6 +48,14 @@ function SlotMachine() {
     <div className="slot-machine">
 
       <h2>BLAZE MORTEM'S SLOT MACHINE</h2>
+
+      <div className="machine-jackpot-label">
+        <p>🔥 BLAZE'S JACKPOT 🔥</p>
+      </div>
+
+      <div className="machine-jackpot-value">
+        {jackpot.toLocaleString()} Ghost Coins
+      </div>  
 
       <div className="reel-window">
 
