@@ -72,7 +72,9 @@ function SlotMachine({
     false
   ])
 
-  function spin() {
+  async function spin() {
+
+    console.log('SPIN BUTTON CLICKED')
 
     if (spinning) return
 
