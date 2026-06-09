@@ -5,36 +5,72 @@ import blazeSlot from '../assets/blaze_slot.png'
 import wildSymbol from '../assets/wild.png'
 import relicSymbol from '../assets/relic.png'
 import kingSymbol from '../assets/forgotten_king.png'
+import dragonSymbol from '../assets/dragon.png'
+import forgeSymbol from '../assets/forge.png'
+import sentinelSymbol from '../assets/sentinel_slot.png'
+import loreScroll from '../assets/lore_scroll.png'
+import sigilSymbol from '../assets/sigil.png'
+import scatterSymbol from '../assets/scatter.png'
+import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
+
+import { useState } from 'react'
+
+const SYMBOLS = [
+  ghostSlot,
+  sentinelSymbol,
+  loreScroll,
+  relicSymbol,
+  forgeSymbol,
+  dragonSymbol,
+  blazeSlot,
+  kingSymbol,
+  sigilSymbol,
+  wildSymbol,
+  scatterSymbol,
+  blazeJackpotSymbol
+]
 
 function SlotMachine() {
+
+  const [reels, setReels] = useState([
+    [ghostSlot, blazeSlot, wildSymbol],
+    [relicSymbol, kingSymbol, dragonSymbol],
+    [forgeSymbol, sentinelSymbol, loreScroll],
+    [sigilSymbol, scatterSymbol, ghostSlot],
+    [blazeJackpotSymbol, relicSymbol, kingSymbol]
+  ])
+
+  const [betAmount, setBetAmount] = useState(10)
+  const [lastWin, setLastWin] = useState(0)
+  const [spinning, setSpinning] = useState(false)
+
   return (
     <div className="slot-machine">
 
       <h2>BLAZE MORTEM'S SLOT MACHINE</h2>
 
-      <div className="slot-reels">
+      <div className="reel-window">
 
-        <div className="slot-symbol">
-          <img src={ghostSlot} alt="Ghost" />
-        </div>
+        {reels.map((reel, reelIndex) => (
+            <div
+                key={reelIndex}
+                className="reel-column"
+            >
+                {reel.map((symbol, rowIndex) => (
+                    <div
+                        key={rowIndex}
+                        className="slot-symbol"
+                    >
+                        <img
+                            src={symbol}
+                            alt="Slot Symbol"
+                        />
+                    </div>
+                ))}
+            </div>
+        ))}
 
-        <div className="slot-symbol">
-          <img src={blazeSlot} alt="Blaze Mortem" />
-        </div>
-
-        <div className="slot-symbol">
-          <img src={wildSymbol} alt="Inferno Wild" />
-        </div>
-
-        <div className="slot-symbol">
-          <img src={relicSymbol} alt="Relic" />
-        </div>
-
-        <div className="slot-symbol">
-          <img src={kingSymbol} alt="Forgotten King" />
-        </div>
-
-      </div>
+    </div>
 
       <div className="bet-section">
 
