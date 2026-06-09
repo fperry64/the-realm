@@ -103,12 +103,14 @@ function SlotMachine({
 
         <div className="bet-controls">
 
+
             <button
+                className="min-button"
                 onClick={() =>
-                    setBetAmount(prev => Math.max(10, prev - 10))
+                    setBetAmount(10)
                 }
             >
-                -10
+                MIN
             </button>
 
             <button
@@ -121,11 +123,12 @@ function SlotMachine({
 
             <button
                 onClick={() =>
-                    setBetAmount(10)
+                    setBetAmount(prev => Math.max(10, prev - 10))
                 }
             >
-                MIN
-            </button>
+                -10
+            </button>        
+            
 
             <button
                 onClick={() =>
@@ -144,6 +147,7 @@ function SlotMachine({
             </button>
 
             <button
+                className="max-button"
                 onClick={() =>
                     setBetAmount(1000000)
                 }
