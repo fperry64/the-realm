@@ -69,15 +69,8 @@ function Casino() {
             src={blazeCasinoBanner}
             alt="Blaze Mortem's Casino"
             className="casino-banner"
-        />
+        />        
         
-        <section className="casino-quote-card">
-          <p>
-            “The house always wins… unless I decide the story needs a twist.”
-          </p>
-          <span>- Blaze Mortem</span>
-        </section>
-
         <SlotMachine
             jackpot={jackpot}
             ghostCoins={profile.ghost_coins}
