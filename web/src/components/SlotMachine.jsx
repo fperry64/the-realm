@@ -13,7 +13,7 @@ import sigilSymbol from '../assets/sigil.png'
 import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { GoTrueClient } from '@supabase/supabase-js'
     
 const SYMBOLS = [
@@ -64,6 +64,14 @@ function SlotMachine({
     false
   ])
 
+  const spinningReelsRef = useRef([
+    false,
+    false,
+    false,
+    false,
+    false
+  ])
+
   function spin() {
 
     if (spinning) return
@@ -72,20 +80,23 @@ function SlotMachine({
 
     const finalReels = generateRandomReels()
 
-    setSpinningReels([
+    const activeReels = [
         true,
         true,
         true,
         true,
         true
-    ])
+    ]
+
+    setSpinningReels(activeReels)
+    spinningReelsRef.current = activeReels
 
     const spinInterval = setInterval(() => {
 
         setReels(prev => {
             const newReels = [...prev]
             for (let i = 0; i < 5; i++) {
-                if (spinningReels[i]) {
+                if (spinningReelsRef.current[i]) {
                     newReels[i] = generateRandomReels()[i]
                 }
             }
@@ -111,7 +122,16 @@ function SlotMachine({
             true,
             true
         ])
-    }, 1800)
+
+        SpinningReelsRef.current = [
+            false,
+            true,
+            true,
+            true,
+            true
+        ]
+
+    }, 2000)
 
     setTimeout(() => {
 
@@ -130,7 +150,16 @@ function SlotMachine({
             true,
             true
         ])
-    }, 2100)
+
+        SpinningReelsRef.current = [
+            false,
+            false,
+            true,
+            true,
+            true
+        ]
+
+    }, 3200)
 
     setTimeout(() => {
 
@@ -149,7 +178,16 @@ function SlotMachine({
             true,
             true
         ])
-    }, 2400)
+
+        SpinningReelsRef.current = [
+            false,
+            false,
+            false,
+            true,
+            true
+        ]
+
+    }, 4400)
 
     setTimeout(() => {
 
@@ -168,7 +206,16 @@ function SlotMachine({
             false,
             true
         ])
-    }, 2800)
+
+        SpinningReelsRef.current = [
+            false,
+            false,
+            false,
+            false,
+            true
+        ]
+
+    }, 5600)
 
     setTimeout(() => {
 
@@ -184,9 +231,17 @@ function SlotMachine({
             false
         ])
 
+        SpinningReelsRef.current = [
+            false,
+            false,
+            false,
+            false,
+            false
+        ]
+
         setSpinning(false)
 
-    }, 3400)
+    }, 6800)
 
   }
 
