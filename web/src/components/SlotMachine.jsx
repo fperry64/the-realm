@@ -222,6 +222,8 @@ function SlotMachine({
     const ravenTriggered =
         Math.random() < 0.75
     
+    let ravenWildPositions = []
+    
     if (ravenTriggered) {
 
         const wildCount =
@@ -229,15 +231,12 @@ function SlotMachine({
 
         setEmberWildCount(wildCount)
 
-        const positions = []
-
-        for (
-            let i = 0;
-            i < wildCount;
-            i++
+        while (
+            ravenWildPositions.length <
+            wildCount
         ) {
 
-            positions.push({
+            const newPosition = {
                 reel:
                     Math.floor(
                         Math.random() * 5
@@ -247,12 +246,29 @@ function SlotMachine({
                     Math.floor(
                         Math.random() * 3
                     )
-            })
+            }
+
+            const alreadyUsed =
+                ravenWildPositions.some(
+                    position =>
+                        position.reel ===
+                            newPosition.reel &&
+                        position.row ===
+                            newPosition.row
+                )
+
+            if (!alreadyUsed) {
+
+                ravenWildPositions.push(
+                    newPosition
+                )
+
+            }
 
         }
 
         setEmberWildPositions(
-            positions
+            ravenWildPositions
         )
 
         setEmberRavenActive(true)
@@ -301,11 +317,16 @@ function SlotMachine({
 
     const finalReels = generateRandomReels()
 
+    console.log(
+        'RAVEN POSITIONS:',
+        ravenWildPositions
+    )
+
     if (
         ravenTriggered
     ) {
 
-        emberWildPositions.forEach(
+        ravenWildPositions.forEach(
             position => {
 
                 finalReels[
@@ -318,6 +339,11 @@ function SlotMachine({
         )
 
     }
+
+    console.log(
+        'FINAL REELS:',
+        finalReels
+    )
 
     const activeReels = [
         true,
