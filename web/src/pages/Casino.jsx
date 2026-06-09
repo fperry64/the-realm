@@ -8,6 +8,8 @@ import SlotMachine from '../components/SlotMachine'
 
 function Casino() {
   const [profile, setProfile] = useState(null)
+  const [jackpot, setJackpot] = useState(0)
+
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -36,7 +38,20 @@ function Casino() {
     }
 
     setProfile(data)
-  }
+
+    const {data: jackpotData, error: jackpotError} = await supabase
+      .from('jackpots')
+      .select('current_value')
+      .eq('jackpot_name', "Blaze's Jackpot")
+      .single()
+
+    if (jackpotError) {
+      console.error(jackpotError)
+      } else {
+        setJackpot(jackpotData.current_value)
+      }
+
+    }
 
   if (!profile) {
     return (
@@ -69,6 +84,20 @@ function Casino() {
           <div className="casino-balance">
             {profile.ghost_coins} Ghost Coins
           </div>
+        </section>
+
+        <section className="jackpot-card">
+
+            <h2>🔥 BLAZE'S JACKPOT 🔥</h2>
+
+            <div className="jackpot-value">
+                {jackpot.toLocaleString()} GC
+            </div>
+
+            <p>
+                Current Progressive Jackpot
+            </p>
+
         </section>
 
         <section className="casino-quote-card">
