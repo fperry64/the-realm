@@ -91,12 +91,19 @@ function SlotMachine({
     } = await supabase.auth.getUser()
 
     if (user) {
-        await supabase
+
+        const { data, error } = await supabase
             .from('profiles')
             .update({
                 ghost_coins: newBalance
             })
             .eq('id', user.id)
+
+        console.log('USER ID:', user.id)
+        console.log('NEW BALANCE:', newBalance)
+        console.log('UPDATE DATA:', data)
+        console.log('UPDATE ERROR:', error)
+
     }
 
     const finalReels = generateRandomReels()
