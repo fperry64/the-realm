@@ -12,6 +12,7 @@ import loreScroll from '../assets/lore_scroll.png'
 import sigilSymbol from '../assets/sigil.png'
 import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
+import emberRaven from '../assets/ember_raven.png'
 
 import { useState, useRef } from 'react'
 import { supabase } from '../supabase'
@@ -30,7 +31,7 @@ const SYMBOLS = [
   scatterSymbol
 ]
 
-const JACKPOT_ODDS = 5000
+const JACKPOT_ODDS = 10000
 
 const PAYTABLE = {
   [loreScroll]:      { 3: 2, 4: 5, 5: 10 },
@@ -202,11 +203,42 @@ function SlotMachine({
     false
   ])
 
+  const [emberRavenActive, setEmberRavenActive] =
+    useState(false)
+
+  const [emberWildCount, setEmberWildCount] =
+    useState(0)
+
   async function spin() {
 
     console.log('SPIN BUTTON CLICKED')
 
     if (spinning) return
+
+    const ravenTriggered =
+        Math.random() < 0.05
+    
+    if (ravenTriggered) {
+
+        const wildCount =
+            Math.floor(Math.random() * 5) + 1
+
+        setEmberWildCount(wildCount)
+
+        setEmberRavenActive(true)
+
+        const ravenSound =
+            new Audio('/sounds/caw.mp3')
+
+        ravenSound.play()
+
+        setTimeout(() => {
+
+            setEmberRavenActive(false)
+
+        }, 3000)
+
+    }
 
     if (betAmount > balance) {
         alert('Not enough Ghost Coins to place that bet.')
@@ -235,6 +267,7 @@ function SlotMachine({
             console.error('Failed to update Ghost Coins:', error)
         }
     }
+
 
     const finalReels = generateRandomReels()
 
@@ -455,7 +488,25 @@ function SlotMachine({
         {jackpot.toLocaleString()} Ghost Coins
       </div>  
 
+      {
+        emberRavenActive && (
+            <div className="embe_raven_banner">
+                EMBER RAVEN FEATURE ACTIVATED: {EMBERwILDcOUNT} WILDS ADDED
+            </div>
+        )
+      }
+
       <div className="reel-window">
+
+        {
+            emberRavenActive && (
+                <img
+                    src={emberRaven}
+                    alt="Ember Raven"
+                    className="ember-raven"
+                />
+            )
+        }
 
         {reels.map((reel, reelIndex) => (
             <div

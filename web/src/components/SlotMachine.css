@@ -145,6 +145,9 @@
   display: flex;
   justify-content: center;
   gap: 6px;
+
+  position: relative;
+  overflow: hidden;
   
   width: fit-content;
   margin: 0 auto 25px auto;
@@ -404,4 +407,61 @@
 
   text-shadow:
     0 0 8px rgba(96,165,250,.4);
+}
+
+.ember-raven-banner {
+
+  background: linear-gradient(
+    90deg,
+    #14532d,
+    #166534,
+    #14532d
+  );
+
+  color: #facc15;
+
+  font-weight: bold;
+
+  text-align: center;
+
+  padding: 8px;
+
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+
+  box-shadow:
+    0 0 15px rgba(34,197,94,.5);
+}
+
+.ember-raven {
+
+  position: absolute;
+
+  width: 220px;
+
+  top: 50%;
+
+  left: -250px;
+
+  transform: translateY(-50%);
+
+  z-index: 100;
+
+  pointer-events: none;
+
+  animation:
+    ravenFly 2.5s linear forwards;
+}
+
+@keyframes ravenFly {
+
+  0% {
+    left: -250px;
+  }
+
+  100% {
+    left: 110%;
+  }
+
 }
