@@ -4,6 +4,7 @@ import { supabase } from '../supabase'
 import '../Casino.css'
 import blazeCasinoBanner from '../assets/blaze-casino-banner.png'
 
+
 function Casino() {
   const [profile, setProfile] = useState(null)
   const navigate = useNavigate()
