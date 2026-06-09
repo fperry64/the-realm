@@ -13,6 +13,7 @@ import sigilSymbol from '../assets/sigil.png'
 import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
 import emberRaven from '../assets/ember_raven.png'
+import cawSound from '../assets/caw.mp3'
 
 import { useState, useRef } from 'react'
 import { supabase } from '../supabase'
@@ -228,7 +229,7 @@ function SlotMachine({
         setEmberRavenActive(true)
 
         const ravenSound =
-            new Audio('/sounds/caw.mp3')
+            new Audio(cawSound)
 
         ravenSound.play()
 
