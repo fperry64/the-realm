@@ -12,7 +12,7 @@ import loreScroll from '../assets/lore_scroll.png'
 import sigilSymbol from '../assets/sigil.png'
 import scatterSymbol from '../assets/scatter.png'
 import blazeJackpotSymbol from '../assets/blaze_jackpot.png'
-import emberRaven from '../assets/ember_raven.png'
+import emberRaven from '../assets/ember-raven.png'
 
 import { useState, useRef } from 'react'
 import { supabase } from '../supabase'
