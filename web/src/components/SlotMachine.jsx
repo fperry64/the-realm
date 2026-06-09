@@ -42,8 +42,8 @@ const PAYTABLE = {
   [dragonSymbol]:    { 3: 7, 4: 25, 5: 60 },
   [kingSymbol]:      { 3: 10, 4: 40, 5: 100 },
   [sigilSymbol]:     { 3: 15, 4: 75, 5: 200 },
-  [ghostSlot]:       { 3: 25, 4: 125, 5: 500 },
-  [blazeSlot]:       { 3: 50, 4: 250, 5: 1000 }
+  [ghostSlot]:       { 3: 25, 4: 100, 5: 250 },
+  [blazeSlot]:       { 3: 50, 4: 200, 5: 500 }
 }
 
 const PAYLINES = [
@@ -127,11 +127,11 @@ function calculateWinnings(reels, betAmount) {
             }
 
             else if (scatterCount === 4) {
-                totalWin += betAmount * 25
+                totalWin += betAmount * 10
             }
 
             else if (scatterCount >= 5) {
-                totalWin += betAmount * 100
+                totalWin += betAmount * 25
             }
 
         }
