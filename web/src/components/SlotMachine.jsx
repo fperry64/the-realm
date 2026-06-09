@@ -123,7 +123,7 @@ function SlotMachine({
             true
         ])
 
-        SpinningReelsRef.current = [
+        spinningReelsRef.current = [
             false,
             true,
             true,
@@ -151,7 +151,7 @@ function SlotMachine({
             true
         ])
 
-        SpinningReelsRef.current = [
+        spinningReelsRef.current = [
             false,
             false,
             true,
@@ -179,7 +179,7 @@ function SlotMachine({
             true
         ])
 
-        SpinningReelsRef.current = [
+        spinningReelsRef.current = [
             false,
             false,
             false,
@@ -207,7 +207,7 @@ function SlotMachine({
             true
         ])
 
-        SpinningReelsRef.current = [
+        spinningReelsRef.current = [
             false,
             false,
             false,
@@ -219,10 +219,14 @@ function SlotMachine({
 
     setTimeout(() => {
 
-        clearInterval(spinInterval)
+        setReels(prev => [
+            finalReels[0],
+            finalReels[1],
+            finalReels[2],
+            finalReels[3],
+            finalReels[4]
+        ])
 
-        setReels(finalReels)
-           
         setSpinningReels([
             false,
             false,
@@ -231,17 +235,22 @@ function SlotMachine({
             false
         ])
 
-        SpinningReelsRef.current = [
+        spinningReelsRef.current = [
             false,
             false,
             false,
             false,
             false
         ]
-
-        setSpinning(false)
-
+        
     }, 6800)
+
+    setTimeout(() => {
+
+        clearInterval(spinInterval)
+        setSpinning(false)
+    
+    }, 8000)
 
   }
 
