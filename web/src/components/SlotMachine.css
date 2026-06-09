@@ -297,26 +297,16 @@
     0 0 8px rgba(96, 165, 250, 0.4);
 }
 
-.bet-label {
-  text-align: center;
-
-  color: #d4af37;
-
-  font-weight: bold;
-
-  margin-bottom: 8px;
-}
-
 .bet-value {
   text-align: center;
 
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 
   font-weight: bold;
 
   color: #ffd700;
 
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .bet-controls {

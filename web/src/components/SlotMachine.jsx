@@ -495,13 +495,9 @@ function SlotMachine({
         </div>
 
         <div className="bet-section">
-
-        <div className="bet-label">
-            BET AMOUNT
-        </div>
-
+        
         <div className="bet-value">
-            {betAmount.toLocaleString()} GC
+            BET AMOUNT: {betAmount.toLocaleString()} GC
         </div>
 
         <div className="bet-controls">
