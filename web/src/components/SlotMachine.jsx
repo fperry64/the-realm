@@ -86,6 +86,19 @@ function SlotMachine({
     const newBalance = balance - betAmount
     setBalance(newBalance)
 
+    const {
+        data: { user }
+    } = await supabase.auth.getUser()
+
+    if (user) {
+        await supabase
+            .from('profiles')
+            .update({
+                ghost_coins: newBalance
+            })
+            .eq('id', user.id)
+    }
+
     const finalReels = generateRandomReels()
 
     const activeReels = [
