@@ -490,8 +490,8 @@ function SlotMachine({
 
       {
         emberRavenActive && (
-            <div className="embe_raven_banner">
-                EMBER RAVEN FEATURE ACTIVATED: {EMBERwILDcOUNT} WILDS ADDED
+            <div className="ember_raven_banner">
+                EMBER RAVEN FEATURE ACTIVATED: {emberWilds} WILDS ADDED
             </div>
         )
       }
