@@ -249,7 +249,9 @@
 
   border: none;
 
-  padding: 14px 40px;
+  padding: 6px 30px;
+
+  min-height: 38px;
 
   border-radius: 10px;
 
