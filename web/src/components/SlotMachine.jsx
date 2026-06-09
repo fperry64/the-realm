@@ -27,9 +27,10 @@ const SYMBOLS = [
   kingSymbol,
   sigilSymbol,
   wildSymbol,
-  scatterSymbol,
-  blazeJackpotSymbol
+  scatterSymbol
 ]
+
+const JACKPOT_ODDS = 5000
 
 const PAYTABLE = {
   [loreScroll]:      { 3: 2, 4: 5, 5: 10 },
@@ -141,40 +142,31 @@ function calculateWinnings(reels, betAmount) {
 
 function generateRandomReels() {
 
-    return Array.from(
+    const reels = Array.from(
         { length: 5 },
-        (_, reelIndex) =>
-
+        () =>
             Array.from(
                 { length: 3 },
-                () => {
-
-                    if (reelIndex === 2) {
-
-                        return SYMBOLS[
-                            Math.floor(
-                                Math.random() * SYMBOLS.length
-                            )
-                        ]
-
-                    }
-
-                    const nonJackpotSymbols =
-                        SYMBOLS.filter(
-                            symbol =>
-                                symbol !== blazeJackpotSymbol
-                        )
-
-                    return nonJackpotSymbols[
+                () =>
+                    SYMBOLS[
                         Math.floor(
-                            Math.random() *
-                            nonJackpotSymbols.length
+                            Math.random() * SYMBOLS.length
                         )
                     ]
-
-                }
             )
     )
+
+    if (
+        Math.floor(
+            Math.random() * JACKPOT_ODDS
+        ) === 0
+    ) {
+
+        reels[2][1] = blazeJackpotSymbol
+
+    }
+
+    return reels
 
 }
 
