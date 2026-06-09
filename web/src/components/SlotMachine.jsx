@@ -216,7 +216,7 @@ function SlotMachine({
     if (spinning) return
 
     const ravenTriggered =
-        Math.random() < 0.05
+        Math.random() < 0.75
     
     if (ravenTriggered) {
 
