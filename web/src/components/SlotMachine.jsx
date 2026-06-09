@@ -210,6 +210,9 @@ function SlotMachine({
   const [emberWildCount, setEmberWildCount] =
     useState(0)
 
+  const [emberWildPositions, setEmberWildPositions] =
+    useState([])
+
   async function spin() {
 
     console.log('SPIN BUTTON CLICKED')
@@ -225,6 +228,32 @@ function SlotMachine({
             Math.floor(Math.random() * 5) + 1
 
         setEmberWildCount(wildCount)
+
+        const positions = []
+
+        for (
+            let i = 0;
+            i < wildCount;
+            i++
+        ) {
+
+            positions.push({
+                reel:
+                    Math.floor(
+                        Math.random() * 5
+                    ),
+
+                row:
+                    Math.floor(
+                        Math.random() * 3
+                    )
+            })
+
+        }
+
+        setEmberWildPositions(
+            positions
+        )
 
         setEmberRavenActive(true)
 
@@ -271,6 +300,24 @@ function SlotMachine({
 
 
     const finalReels = generateRandomReels()
+
+    if (
+        ravenTriggered
+    ) {
+
+        emberWildPositions.forEach(
+            position => {
+
+                finalReels[
+                    position.reel
+                ][
+                    position.row
+                ] = wildSymbol
+
+            }
+        )
+
+    }
 
     const activeReels = [
         true,
