@@ -82,7 +82,15 @@ function SlotMachine({
 
     const spinInterval = setInterval(() => {
 
-        setReels(generateRandomReels())
+        setReels(prev => {
+            const newReels = [...prev]
+            for (let i = 0; i < 5; i++) {
+                if (spinningReels[i]) {
+                    newReels[i] = generateRandomReels()[i]
+                }
+            }
+            return newReels
+        })
 
     }, 100)
 
