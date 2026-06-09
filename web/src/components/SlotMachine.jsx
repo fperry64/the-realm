@@ -94,18 +94,16 @@ function SlotMachine({
 
     if (user) {
 
-        const { data, error } = await supabase
+        const { error } = await supabase
             .from('profiles')
             .update({
                 ghost_coins: newBalance
             })
             .eq('id', user.id)
 
-        console.log('USER ID:', user.id)
-        console.log('NEW BALANCE:', newBalance)
-        console.log('UPDATE DATA:', data)
-        console.log('UPDATE ERROR:', error)
-
+        if (error) {
+            console.error('Failed to update Ghost Coins:', error)
+        }
     }
 
     const finalReels = generateRandomReels()
@@ -133,7 +131,7 @@ function SlotMachine({
             return newReels
         })
 
-    }, 100)
+    }, 250)
 
     setTimeout(() => {
 
@@ -332,7 +330,11 @@ function SlotMachine({
 
     </div>
 
-      <div className="bet-section">
+        <div className="last-win">
+            LAST WIN: {lastWin.toLocaleString()} GC
+        </div>
+
+        <div className="bet-section">
 
         <div className="bet-label">
             BET AMOUNT

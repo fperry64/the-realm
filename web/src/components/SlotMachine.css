@@ -398,3 +398,18 @@
 .slot-reel.spinning .slot-symbol img {
   filter: blur(1px);
 }
+
+.last-win {
+  text-align: center;
+
+  color: #7dd3fc;
+
+  font-size: 1.3rem;
+
+  font-weight: bold;
+
+  margin-bottom: 20px;
+
+  text-shadow:
+    0 0 8px rgba(96,165,250,.4);
+}
