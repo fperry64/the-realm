@@ -79,13 +79,6 @@ function Casino() {
           </p>
         </section>
 
-        <section className="casino-balance-card">
-          <h2>GHOST COINS</h2>
-          <div className="casino-balance">
-            {profile.ghost_coins} Ghost Coins
-          </div>
-        </section>
-
         <section className="casino-quote-card">
           <p>
             “The house always wins… unless I decide the story needs a twist.”
@@ -93,7 +86,10 @@ function Casino() {
           <span>- Blaze Mortem</span>
         </section>
 
-        <SlotMachine jackpot={jackpot} />
+        <SlotMachine
+            jackpot={jackpot}
+            ghostCoins={profile.ghost_coins}
+        />
 
       </div>
     </div>

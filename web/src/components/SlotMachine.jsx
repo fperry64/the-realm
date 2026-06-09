@@ -30,7 +30,10 @@ const SYMBOLS = [
   blazeJackpotSymbol
 ]
 
-function SlotMachine({ jackpot }) {
+function SlotMachine({
+  jackpot,
+  ghostCoins
+}) {
 
   const [reels, setReels] = useState([
     [ghostSlot, blazeSlot, wildSymbol],
@@ -48,6 +51,14 @@ function SlotMachine({ jackpot }) {
     <div className="slot-machine">
 
       <h2>BLAZE MORTEM'S SLOT MACHINE</h2>
+
+      <div className="machine-balance-label">
+        Ghost Coins
+      </div>
+
+      <div className="machine-balance-value">
+        {ghostCoins.toLocaleString()} Ghost Coins
+      </div>
 
       <div className="machine-jackpot-label">
         <p>🔥 BLAZE'S JACKPOT 🔥</p>
