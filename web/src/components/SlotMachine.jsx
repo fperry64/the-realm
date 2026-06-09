@@ -111,7 +111,7 @@ function SlotMachine({
             true,
             true
         ])
-    }, 1200)
+    }, 1800)
 
     setTimeout(() => {
 
@@ -130,7 +130,7 @@ function SlotMachine({
             true,
             true
         ])
-    }, 1500)
+    }, 2100)
 
     setTimeout(() => {
 
@@ -149,7 +149,7 @@ function SlotMachine({
             true,
             true
         ])
-    }, 1800)
+    }, 2400)
 
     setTimeout(() => {
 
@@ -168,7 +168,7 @@ function SlotMachine({
             false,
             true
         ])
-    }, 2100)
+    }, 2800)
 
     setTimeout(() => {
 
@@ -186,7 +186,7 @@ function SlotMachine({
 
         setSpinning(false)
 
-    }, 2400)
+    }, 3400)
 
   }
 

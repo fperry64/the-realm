@@ -395,20 +395,8 @@
   ) !important;
 }
 
-.spinning {
-  animation: reelSpin 0.1s linear infinite;
-}
+.slot-reel.spinning .slot-symbol img {
+  filter: blur(3px);
 
-@keyframes reelSpin {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-4px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+  opacity: 0.9;
 }
