@@ -113,27 +113,25 @@ function calculateWinnings(reels, betAmount) {
 
         }
 
-        const scatterCount = reels
-            .flat()
-            .filter(
-                symbol => symbol === scatterSymbol
-            )
-            .length
+    const scatterCount = reels
+        .flat()
+        .filter(
+            symbol => symbol === scatterSymbol
+        )
+        .length
 
-        if (scatterCount >= 3) {
+    if (scatterCount >= 3) {
 
-            if (scatterCount === 3) {
-                totalWin += betAmount * 5
-            }
+        if (scatterCount === 3) {
+            totalWin += betAmount * 5
+        }
 
-            else if (scatterCount === 4) {
-                totalWin += betAmount * 10
-            }
+        else if (scatterCount === 4) {
+            totalWin += betAmount * 10
+        }
 
-            else if (scatterCount >= 5) {
-                totalWin += betAmount * 25
-            }
-
+        else if (scatterCount >= 5) {
+            totalWin += betAmount * 25
         }
 
     }
