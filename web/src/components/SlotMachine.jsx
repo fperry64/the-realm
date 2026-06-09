@@ -110,6 +110,29 @@ function calculateWinnings(reels, betAmount) {
 
         }
 
+        const scatterCount = reels
+            .flat()
+            .filter(
+                symbol => symbol === scatterSymbol
+            )
+            .length
+
+        if (scatterCount >= 3) {
+
+            if (scatterCount === 3) {
+                totalWin += betAmount * 5
+            }
+
+            else if (scatterCount === 4) {
+                totalWin += betAmount * 25
+            }
+
+            else if (scatterCount >= 5) {
+                totalWin += betAmount * 100
+            }
+
+        }
+
     }
 
     return totalWin
@@ -117,12 +140,42 @@ function calculateWinnings(reels, betAmount) {
 }
 
 function generateRandomReels() {
-  return Array.from({ length: 5 }, () =>
-    Array.from(
-      { length: 3 },
-      () => SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)]
+
+    return Array.from(
+        { length: 5 },
+        (_, reelIndex) =>
+
+            Array.from(
+                { length: 3 },
+                () => {
+
+                    if (reelIndex === 2) {
+
+                        return SYMBOLS[
+                            Math.floor(
+                                Math.random() * SYMBOLS.length
+                            )
+                        ]
+
+                    }
+
+                    const nonJackpotSymbols =
+                        SYMBOLS.filter(
+                            symbol =>
+                                symbol !== blazeJackpotSymbol
+                        )
+
+                    return nonJackpotSymbols[
+                        Math.floor(
+                            Math.random() *
+                            nonJackpotSymbols.length
+                        )
+                    ]
+
+                }
+            )
     )
-  )
+
 }
 
 function SlotMachine({
@@ -352,10 +405,22 @@ function SlotMachine({
 
         const winnings =
             calculateWinnings(finalReels, betAmount)
-        setLastWin(winnings)
 
-        if (winnings > 0) {
-            const finalBalance = newBalance + winnings
+        let totalWinnings = winnings
+
+        if (
+            finalReels[2][1] ===
+            blazeJackpotSymbol
+        ) {
+
+            totalWinnings += jackpot
+
+        }
+
+        setLastWin(totalWinnings)
+
+        if (totalWinnings > 0) {
+            const finalBalance = newBalance + totalWinnings
             setBalance(finalBalance)
         
             const {
