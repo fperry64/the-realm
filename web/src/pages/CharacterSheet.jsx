@@ -238,7 +238,7 @@ function CharacterSheet() {
           <div className="character-card">
             <h2>RENOWN</h2>
 
-            <p>{profile.reputation.toLocaleString()}</p>
+            <p>{profile.renown.toLocaleString()}</p>
           </div>
 
           <div className="character-card">
