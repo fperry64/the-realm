@@ -187,7 +187,7 @@ function SlotMachine({
     [blazeJackpotSymbol, relicSymbol, kingSymbol]
   ])
   const [balance, setBalance] = useState(ghostCoins)
-  const [betAmount, setBetAmount] = useState(10)
+  const [betAmount, setBetAmount] = useState(100)
   const [lastWin, setLastWin] = useState(0)
   const [spinning, setSpinning] = useState(false)
   const [spinningReels, setSpinningReels] = useState([
