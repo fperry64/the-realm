@@ -11,6 +11,10 @@ function Leaderboard() {
 
     const [treasuryLeaders, setTreasuryLeaders] = useState([])
 
+    const [myRenownRank, setMyRenownRank] = useState(null)
+
+    const [myTreasuryRank, setMyTreasuryRank] = useState(null)
+
     async function loadRenownLeaders() {
 
         const { data, error } = await supabase
@@ -65,11 +69,50 @@ function Leaderboard() {
 
     }
 
+    async function loadMyRenownRank() {
+
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) return
+
+        const { data, error } = await supabase
+
+            .from('profiles')
+
+            .select('id, renown')
+
+            .order(
+                'renown',
+                { ascending: false }
+            )
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        const rank =
+
+            data.findIndex(
+                profile => profile.id === user.id
+            ) + 1
+
+        setMyRenownRank(rank)
+
+    }
+
     useEffect(() => {
 
         loadRenownLeaders()
 
         loadTreasuryLeaders()
+
+        loadMyRenownRank()
 
     }, [])
 
@@ -102,7 +145,7 @@ function Leaderboard() {
                 <div className="leaderboard-card">
 
                     <h2>
-                        Top 5 Renown
+                        TOP 5 RENOWN LEADERS
                     </h2>
 
                     <table className="leaderboard-table">
@@ -143,12 +186,18 @@ function Leaderboard() {
 
                     </table>
 
+                    <p className="my-rank">
+                    
+                        Your Rank: #{myRenownRank}
+                        
+                    </p>
+
                 </div>
 
                 <div className="leaderboard-card">
 
                     <h2>
-                        Top 5 Treasury
+                        TOP 5 TREASURY LEADERS
                     </h2>
 
                     <table className="leaderboard-table">
