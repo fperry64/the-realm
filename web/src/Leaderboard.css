@@ -44,3 +44,32 @@
 
 }
 
+.leaderboard-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+}
+
+.leaderboard-card {
+
+    background: rgba(15, 15, 15, 0.9);
+
+    border: 2px solid #7a5c2e;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+}
+
+.leaderboard-card h2 {
+
+    color: #d4b26a;
+
+    margin-top: 0;
+
+}

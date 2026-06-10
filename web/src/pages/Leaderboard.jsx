@@ -11,6 +11,68 @@ function Leaderboard() {
 
     const [treasuryLeaders, setTreasuryLeaders] = useState([])
 
+    async function loadRenownLeaders() {
+
+        const { data, error } = await supabase
+
+            .from('profiles')
+
+            .select('username, renown')
+
+            .order(
+                'renown',
+                { ascending: false }
+            )
+
+            .limit(5)
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        setRenownLeaders(data)
+
+    }
+
+    async function loadTreasuryLeaders() {
+
+        const { data, error } = await supabase
+
+            .from('profiles')
+
+            .select('username, ghost_coins')
+
+            .order(
+                'ghost_coins',
+                { ascending: false }
+            )
+
+            .limit(5)
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        setTreasuryLeaders(data)
+
+    }
+
+    useEffect(() => {
+
+        loadRenownLeaders()
+
+        loadTreasuryLeaders()
+
+    }, [])
+
     return (
 
         <div className="leaderboard-page">
@@ -33,6 +95,27 @@ function Leaderboard() {
                 </p>
 
             </div>
+
+            <div className="leaderboard-grid">
+
+                <div className="leaderboard-card">
+
+                    <h2>
+                        TOP 5 RENOWN
+                    </h2>
+
+                </div>
+
+                <div className="leaderboard-card">
+
+                    <h2>
+                        TOP 5 TREASURY
+                    </h2>
+
+                </div>
+
+            </div>
+
 
             </div>
 
