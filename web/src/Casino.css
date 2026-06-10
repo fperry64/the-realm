@@ -196,3 +196,21 @@
 
     line-height: 1.6;
 }
+
+.side-card ul {
+
+    list-style: none;
+
+    padding-left: 0;
+
+    margin-left: 0;
+
+}
+
+.side-card li {
+
+    text-align: left;
+
+    margin-bottom: 4px;
+
+}
