@@ -11,6 +11,22 @@ function RealmMessageBoard() {
 
     async function createPost() {
 
+        if (!title.trim()) {
+
+            alert('Please enter a title.')
+
+            return
+
+        }
+
+        if (!message.trim()) {
+
+            alert('Please enter a message.')
+
+            return
+
+        }
+
         const {
             data: { user }
         } = await supabase.auth.getUser()

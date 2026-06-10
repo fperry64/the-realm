@@ -1,0 +1,46 @@
+.leaderboard-page {
+
+    min-height: 100vh;
+
+}
+
+.leaderboard-container {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+}
+
+.leaderboard-banner {
+
+    width: 100%;
+
+    display: block;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+
+}
+
+.leaderboard-welcome {
+
+    background: rgba(15, 15, 15, 0.9);
+
+    border: 2px solid #7a5c2e;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    color: #f5e6c8;
+
+    margin-bottom: 20px;
+
+}
+
