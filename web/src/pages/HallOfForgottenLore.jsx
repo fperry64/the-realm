@@ -10,6 +10,66 @@ function HallOfForgottenLore() {
 
     async function exploreArchives() {
 
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) {
+
+            setResult(
+                'You must be signed in to explore.'
+            )
+
+            return
+
+        }
+
+        const { data: profile } = await supabase
+
+            .from('profiles')
+
+            .select('last_lore_search')
+
+            .eq('id', user.id)
+
+            .single()
+
+        if (profile?.last_lore_search) {
+
+            const lastSearch = new Date(
+                profile.last_lore_search
+            )
+
+            const now = new Date()
+
+            const hoursPassed =
+
+                (now - lastSearch)
+
+                / (1000 * 60 * 60)
+
+            if (hoursPassed < 12) {
+
+                const hoursRemaining =
+
+                    Math.ceil(
+                        12 - hoursPassed
+                    )
+
+                setResult(
+
+                    `The archives remain silent.
+
+    You may explore again in approximately ${hoursRemaining} hour(s).`
+
+                )
+
+                return
+
+            }
+
+        }
+
         setResult('The archives stir...')
 
     }
