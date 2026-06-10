@@ -232,19 +232,19 @@ function CharacterSheet() {
           <div className="character-card">
             <h2>TREASURY</h2>
 
-            <p>{profile.ghost_coins} Ghost Coins</p>
+            <p>{profile.ghost_coins.toLocaleString()} Ghost Coins</p>
           </div>
 
           <div className="character-card">
             <h2>RENOWN</h2>
 
-            <p>{profile.reputation}</p>
+            <p>{profile.reputation.toLocaleString()}</p>
           </div>
 
           <div className="character-card">
             <h2>RELICS COLLECTED</h2>
 
-            <p>{profile.relics}</p>
+            <p>{profile.relics.toLocaleString()}</p>
           </div>
 
           <div className="character-card">

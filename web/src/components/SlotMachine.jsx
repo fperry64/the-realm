@@ -54,6 +54,8 @@ const PAYLINES = [
   [2, 1, 0, 1, 2]  // Inverted V
 ]
 
+const RENOWN_PER_LEVEL = 250000
+
 function calculateWinnings(reels, betAmount) {
 
     let totalWin = 0
@@ -296,6 +298,12 @@ function SlotMachine({
     const newBalance = balance - betAmount
     setBalance(newBalance)
 
+    const renown =
+        Math.floor(
+            newBalance /
+            RENOWN_PER_LEVEL
+        )
+
     const {
         data: { user }
     } = await supabase.auth.getUser()
@@ -305,7 +313,8 @@ function SlotMachine({
         const { error } = await supabase
             .from('profiles')
             .update({
-                ghost_coins: newBalance
+                ghost_coins: newBalance,
+                renown: renown
             })
             .eq('id', user.id)
 
@@ -521,6 +530,12 @@ function SlotMachine({
         if (totalWinnings > 0) {
             const finalBalance = newBalance + totalWinnings
             setBalance(finalBalance)
+
+            const renown =
+                Math.floor(
+                    finalBalance /
+                    RENOWN_PER_LEVEL
+                )
         
             const {
                 data: { user }
@@ -531,7 +546,8 @@ function SlotMachine({
                 await supabase
                     .from('profiles')
                     .update({
-                        ghost_coins: finalBalance
+                        ghost_coins: finalBalance,
+                        renown: renown
                     })
                     .eq('id', user.id)
             }
