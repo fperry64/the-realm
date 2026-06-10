@@ -126,7 +126,7 @@ function HallOfForgottenLore() {
 
                 setResult({
                     type: 'cooldown',
-                    title: 'The Archives Remain Silent',
+                    title: 'The Archives Remain Silent...for now',
                     text: `You may explore again in approximately ${hoursRemaining} hour(s).`
                 })
 
