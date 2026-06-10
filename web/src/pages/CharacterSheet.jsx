@@ -117,43 +117,7 @@ function CharacterSheet() {
           src={realmBanner}
           alt="The Realm Has Been Waiting"
           className="realm-banner"
-        />
-
-        <div className="realm-arrival-banner">
-            
-            <div className="destiny-reveal">
-                <div className="destiny-title">
-                DESTINY REVEALED
-                </div>
-
-                <div className="destiny-name">
-                    {profile.current_destiny}
-                </div>
-
-                <div className="destiny-subtitle">
-                    {destinySubtitle}
-                </div>
-
-                <div className="realm-teaser">
-                    <p className="realm-divider">
-                        ════════════════════════════
-                    </p>
-
-                    <p className="teaser-title">
-                        THE ARCHIVES REMAIN SEALED
-                    </p>
-
-                    <p>
-                        Your journey awaits...
-                    </p>
-
-                    <p className="realm-divider">
-                        ════════════════════════════
-                    </p>
-                </div>
-
-            </div>
-        </div>
+        />        
 
         <div className="character-grid">
 
