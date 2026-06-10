@@ -222,7 +222,7 @@ function SlotMachine({
     if (spinning) return
 
     const ravenTriggered =
-        Math.random() < 0.08
+        Math.random() < 0.06
     
     let ravenWildPositions = []
     
@@ -638,10 +638,18 @@ function SlotMachine({
         </div>
 
         <div className="bet-controls">
+
+             <button
+                onClick={() =>
+                    setBetAmount(prev => Math.max(100, prev - 100000))
+                }
+            >
+                -100000
+            </button>  
             
             <button
                 onClick={() =>
-                    setBetAmount(prev => Math.max(10, prev - 10000))
+                    setBetAmount(prev => Math.max(100, prev - 10000))
                 }
             >
                 -10000
@@ -649,7 +657,7 @@ function SlotMachine({
 
             <button
                 onClick={() =>
-                    setBetAmount(prev => Math.max(10, prev - 1000))
+                    setBetAmount(prev => Math.max(100, prev - 1000))
                 }
             >
                 -1000
@@ -657,29 +665,12 @@ function SlotMachine({
 
             <button
                 onClick={() =>
-                    setBetAmount(prev => Math.max(10, prev - 100))
+                    setBetAmount(prev => Math.max(100, prev - 100))
                 }
             >
                 -100
-            </button>
-
-            <button
-                onClick={() =>
-                    setBetAmount(prev => Math.max(10, prev - 10))
-                }
-            >
-                -10
-            </button>        
+            </button> 
             
-
-            <button
-                onClick={() =>
-                    setBetAmount(prev => Math.min(1000000, prev + 10))
-                }
-            >
-                +10
-            </button>
-
             <button
                 onClick={() =>
                     setBetAmount(prev => Math.min(1000000, prev + 100))
@@ -703,6 +694,14 @@ function SlotMachine({
                 }
             >
                 +10000
+            </button>
+
+            <button
+                onClick={() =>
+                    setBetAmount(prev => Math.min(1000000, prev + 100000))
+                }
+            >
+                +100000
             </button>
             
         </div>
