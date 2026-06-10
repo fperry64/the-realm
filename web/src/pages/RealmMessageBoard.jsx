@@ -214,7 +214,7 @@ function RealmMessageBoard() {
                             <div className="post-actions">
 
                                 <button
-                                    onClick={(( =>
+                                    onClick={() =>
                                         likePost(post.id)
                                     }
                                 >
