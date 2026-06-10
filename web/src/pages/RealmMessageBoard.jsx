@@ -159,15 +159,23 @@ function RealmMessageBoard() {
                             className="post-display-card"
                         >
 
-                            <h3>
+                            <h3 className="post-title">
                                 {post.title}
                             </h3>
 
-                            <p>
+                            <p className="post-meta">
+
                                 Posted by {post.username}
+
+                                <br />
+
+                                {new Date(
+                                    post.created_at
+                                ).toLocaleString()}
+
                             </p>
 
-                            <p>
+                            <p className="post-message">
                                 {post.message}
                             </p>
 
