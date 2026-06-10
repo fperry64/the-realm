@@ -1,10 +1,11 @@
 import '../RealmMessageBoard.css'
+import { useState } from 'react'
 import boardBanner from '../assets/board.png'
 
-const [title, setTitle] = useState('')
-const [message, setMessage] = useState('')
-
 function RealmMessageBoard() {
+
+    const [title, setTitle] = useState('')
+    const [message, setMessage] = useState('')
 
     return (
 
