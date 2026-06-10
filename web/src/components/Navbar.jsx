@@ -84,6 +84,10 @@ function Navbar() {
               Character Sheet
             </Link>
 
+            <Link to="/hall">
+              Forgotten Lore
+            </Link>
+
             <button
               className="logout-button"
               onClick={handleLogout}

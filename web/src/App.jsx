@@ -7,6 +7,8 @@ import Navbar from './components/Navbar'
 import ChooseDestiny from './pages/ChooseDestiny'
 import CharacterSheet from './pages/CharacterSheet'
 import Casino from './pages/Casino'
+import HallOfForgottenLore from './pages/HallOfForgottenLore'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/choose-destiny" element={<ChooseDestiny />} />
         <Route path="/character" element={<CharacterSheet />} />
         <Route path="/casino" element={<Casino />} />
+        <Route path="/hall" element={<HallOfForgottenLore />} />
       </Routes>
     </BrowserRouter>
   )
