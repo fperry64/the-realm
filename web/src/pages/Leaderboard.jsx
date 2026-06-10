@@ -106,6 +106,43 @@ function Leaderboard() {
 
     }
 
+    async function loadMyTreasuryRank() {
+
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) return
+
+        const { data, error } = await supabase
+
+            .from('profiles')
+
+            .select('id, ghost_coins')
+
+            .order(
+                'ghost_coins',
+                { ascending: false }
+            )
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        const rank =
+
+            data.findIndex(
+                profile => profile.id === user.id
+            ) + 1
+
+        setMyTreasuryRank(rank)
+
+    }
+
     useEffect(() => {
 
         loadRenownLeaders()
@@ -113,6 +150,8 @@ function Leaderboard() {
         loadTreasuryLeaders()
 
         loadMyRenownRank()
+
+        loadMyTreasuryRank()
 
     }, [])
 
@@ -237,6 +276,12 @@ function Leaderboard() {
                         </tbody>
 
                     </table>
+
+                    <p className="my-rank">
+
+                        Your Rank: #{myTreasuryRank}
+
+                    </p>
 
                 </div>
 
