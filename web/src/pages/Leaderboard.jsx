@@ -90,6 +90,7 @@ function Leaderboard() {
                 <p>
 
                     The Realm's greatest champions are recorded here for all eternity.
+                    <br />
                     Wealth may fill one's treasury, but only renown secures a legacy.
 
                 </p>
@@ -97,20 +98,96 @@ function Leaderboard() {
             </div>
 
             <div className="leaderboard-grid">
-
+               
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 RENOWN
+                        Top 5 Renown
                     </h2>
+
+                    <table className="leaderboard-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Rank</th>
+
+                                <th>Username</th>
+
+                                <th>Renown</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            {renownLeaders.map((user, index) => (
+
+                                <tr key={user.username}>
+
+                                    <td>{index + 1}</td>
+
+                                    <td>{user.username}</td>
+
+                                    <td>
+                                        {user.renown?.toLocaleString()}
+                                    </td>
+
+                                </tr>
+
+                            ))}
+
+                        </tbody>
+
+                    </table>
 
                 </div>
 
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 TREASURY
+                        Top 5 Treasury
                     </h2>
+
+                    <table className="leaderboard-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Rank</th>
+
+                                <th>Username</th>
+
+                                <th>Treasury</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            {treasuryLeaders.map((user, index) => (
+
+                                <tr key={user.username}>
+
+                                    <td>{index + 1}</td>
+
+                                    <td>{user.username}</td>
+
+                                    <td>
+                                        {user.ghost_coins?.toLocaleString()}
+                                    </td>
+
+                                </tr>
+
+                            ))}
+
+                        </tbody>
+
+                    </table>
 
                 </div>
 
