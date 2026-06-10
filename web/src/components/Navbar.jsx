@@ -88,6 +88,10 @@ function Navbar() {
               Forgotten Lore
             </Link>
 
+            <Link to="/messageboard">
+              Message Board
+            </Link>
+
             <button
               className="logout-button"
               onClick={handleLogout}
