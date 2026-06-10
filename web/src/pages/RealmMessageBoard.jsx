@@ -10,7 +10,59 @@ function RealmMessageBoard() {
 
     async function createPost() {
 
-        console.log('POST CLICKED')
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) {
+
+            alert('You must be logged in.')
+
+            return
+
+        }
+
+        const { data: profile } = await supabase
+
+            .from('profiles')
+
+            .select('username')
+
+            .eq('id', user.id)
+
+            .single()
+
+        const { error } = await supabase
+
+            .from('realm_messages')
+
+            .insert({
+
+                user_id: user.id,
+
+                username: profile.username,
+
+                title: title,
+
+                message: message
+
+            })
+
+        if (error) {
+
+            console.error(error)
+
+            alert('Failed to create post.')
+
+            return
+
+        }
+
+        alert('Post created successfully!')
+
+        setTitle('')
+
+        setMessage('')
 
     }
 
