@@ -111,6 +111,16 @@ function RealmMessageBoard() {
                     className="message-board-banner"
                 />
 
+                <div className="message-board-content">
+                    
+                    <p>
+                        Share discoveries, discuss clues,
+                        celebrate achievements, and exchange
+                        rumors from across The Realm.
+                    </p>
+
+                </div>
+
                 <div className="post-card">
 
                     <h2>Create Post</h2>
@@ -165,17 +175,7 @@ function RealmMessageBoard() {
 
                     ))}
 
-                </div>
-
-                <div className="message-board-content">
-                    
-                    <p>
-                        Share discoveries, discuss clues,
-                        celebrate achievements, and exchange
-                        rumors from across The Realm.
-                    </p>
-
-                </div>
+                </div>                
 
             </div>
 
