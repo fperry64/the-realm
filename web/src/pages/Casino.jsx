@@ -76,7 +76,7 @@ function Casino() {
 
     <div className="side-card">
 
-        <h3>🎰 HOW TO WIN</h3>
+        <h3>HOW TO WIN</h3>
 
         <div className="card-section">
 
@@ -94,7 +94,7 @@ function Casino() {
 
         <div className="card-section">
 
-            <strong>✨ SCATTER PAYS ✨</strong>
+            <strong>SCATTER PAYS</strong>
 
             <div>
                 Scatter x3 = 5x Bet
@@ -118,7 +118,7 @@ function Casino() {
 
         <div className="card-section">
 
-            <strong>🃏 WILD SYMBOL</strong>
+            <strong>WILD SYMBOL</strong>
 
             <div>
                 Wilds substitute for all symbols except:
@@ -140,13 +140,7 @@ function Casino() {
 
     <div className="side-card">
 
-        <img
-            src={emberRaven}
-            alt="Ember Raven"
-            className="feature-raven"
-        />
-
-        <h3>🐦‍⬛ EMBER RAVEN FEATURE</h3>
+        <h3>EMBER RAVEN FEATURE</h3>
 
         <div className="card-section">
 
@@ -158,47 +152,10 @@ function Casino() {
 
             <ul>
                 <li>The Ember Raven flies across the reels.</li>
-                <li>A mighty CAW! CAW! is heard.</li>
                 <li>The Raven drops 3-8 Wild Symbols.</li>
                 <li>Wilds may appear anywhere on the reels.</li>
                 <li>Wilds can create massive payouts.</li>
             </ul>
-
-        </div>
-
-        <div className="card-section">
-
-            <strong>🔥 BLAZE'S JACKPOT 🔥</strong>
-
-            <br /><br />
-
-            The Blaze's Jackpot Symbol only appears on Reel 3.
-
-            <br /><br />
-
-            If it lands in the center position of Reel 3:
-
-            <br /><br />
-
-            <strong>
-                YOU WIN THE ENTIRE JACKPOT!
-            </strong>
-
-        </div>
-
-        <div className="card-section">
-
-            <strong>📜 REALM LORE</strong>
-
-            <br /><br />
-
-            The Ember Raven serves Blaze Mortem,
-            Master of the Infernal Forge.
-
-            <br /><br />
-
-            When the Raven appears,
-            fortune follows...
 
         </div>
 
