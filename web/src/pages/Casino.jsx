@@ -135,7 +135,7 @@ function Casino() {
 
     <SlotMachine
         jackpot={jackpot}
-        ghostCoins={ghostCoins}
+        ghostCoins={profile.ghost_coins}
     />
 
     <div className="side-card">
