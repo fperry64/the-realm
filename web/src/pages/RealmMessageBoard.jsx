@@ -1,5 +1,5 @@
 import '../RealmMessageBoard.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {supabase } from '../supabase'
 import boardBanner from '../assets/board.png'
 
@@ -7,6 +7,7 @@ function RealmMessageBoard() {
 
     const [title, setTitle] = useState('')
     const [message, setMessage] = useState('')
+    const [posts, setPosts] = useState([])
 
     async function createPost() {
 
@@ -64,7 +65,39 @@ function RealmMessageBoard() {
 
         setMessage('')
 
+        loadPosts()
+
     }
+
+    async function loadPosts() {
+
+        const { data, error } = await supabase
+
+            .from('realm_messages')
+
+            .select('*')
+
+            .order(
+                'created_at',
+                { ascending: false }
+            )
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        setPosts(data)
+
+    }
+
+    useEffect(() => {
+        loadPosts()
+
+    }, [])
 
     return (
 
@@ -104,6 +137,33 @@ function RealmMessageBoard() {
                     >
                         POST MESSAGE
                     </button>
+
+                </div>
+
+                <div className="posts-container">
+
+                    {posts.map(post => (
+
+                        <div
+                            key={post.id}
+                            className="post-display-card"
+                        >
+
+                            <h3>
+                                {post.title}
+                            </h3>
+
+                            <p>
+                                Posted by {post.username}
+                            </p>
+
+                            <p>
+                                {post.message}
+                            </p>
+
+                        </div>
+
+                    ))}
 
                 </div>
 
