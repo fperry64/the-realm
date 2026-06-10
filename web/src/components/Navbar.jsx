@@ -81,19 +81,19 @@ function Navbar() {
             </Link>
 
             <Link to="/character">
-              Character Sheet
+              Character
             </Link>
 
             <Link to="/hall">
-              Forgotten Lore
+              Lore
             </Link>
 
             <Link to="/messageboard">
-              Message Board
+              Messages
             </Link>
 
             <Link to="/leaderboard">
-              Leaderboard
+              Leaders
             </Link>
 
             <button
