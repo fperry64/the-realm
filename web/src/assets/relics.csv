@@ -1,0 +1,1001 @@
+id,legend,series,card_name,serial_number,rarity,card_value,image_key,lore
+RLM-0001,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-001/010,Legendary,6250,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0002,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-002/010,Legendary,5250,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0003,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-003/010,Epic,4250,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0004,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-004/010,Epic,3250,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0005,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-005/010,Rare,2250,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0006,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-006/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0007,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-007/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0008,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-008/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0009,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-009/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0010,Blaze Mortem,Infernal Heat,Blaze Mortem - Infernal Heat,SN-010/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Infernal Heat series.
+RLM-0011,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-001/010,Mythic,6500,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0012,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-002/010,Legendary,5500,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0013,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-003/010,Legendary,4500,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0014,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-004/010,Epic,3500,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0015,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-005/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0016,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-006/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0017,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-007/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0018,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-008/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0019,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-009/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0020,Blaze Mortem,Forgotten Legends,Blaze Mortem - Forgotten Legends,SN-010/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgotten Legends series.
+RLM-0021,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-001/010,Mythic,6500,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0022,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-002/010,Legendary,5500,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0023,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-003/010,Legendary,4500,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0024,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-004/010,Epic,3500,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0025,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-005/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0026,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-006/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0027,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-007/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0028,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-008/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0029,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-009/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0030,Blaze Mortem,Sentinel's Oath,Blaze Mortem - Sentinel's Oath,SN-010/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Sentinel's Oath series.
+RLM-0031,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-001/010,Mythic,7000,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0032,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-002/010,Legendary,6000,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0033,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-003/010,Legendary,5000,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0034,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-004/010,Epic,4000,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0035,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-005/010,Epic,3000,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0036,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-006/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0037,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-007/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0038,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-008/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0039,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-009/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0040,Blaze Mortem,Ghost Storm,Blaze Mortem - Ghost Storm,SN-010/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ghost Storm series.
+RLM-0041,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-001/010,Legendary,6250,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0042,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-002/010,Legendary,5250,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0043,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-003/010,Epic,4250,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0044,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-004/010,Epic,3250,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0045,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-005/010,Rare,2250,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0046,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-006/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0047,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-007/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0048,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-008/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0049,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-009/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0050,Blaze Mortem,Realm Relics,Blaze Mortem - Realm Relics,SN-010/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Realm Relics series.
+RLM-0051,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-001/010,Legendary,6250,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0052,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-002/010,Legendary,5250,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0053,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-003/010,Epic,4250,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0054,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-004/010,Epic,3250,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0055,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-005/010,Rare,2250,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0056,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-006/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0057,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-007/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0058,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-008/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0059,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-009/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0060,Blaze Mortem,Hall of Lore,Blaze Mortem - Hall of Lore,SN-010/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Hall of Lore series.
+RLM-0061,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-001/010,Mythic,6500,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0062,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-002/010,Legendary,5500,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0063,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-003/010,Legendary,4500,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0064,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-004/010,Epic,3500,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0065,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-005/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0066,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-006/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0067,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-007/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0068,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-008/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0069,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-009/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0070,Blaze Mortem,Forgeborn,Blaze Mortem - Forgeborn,SN-010/010,Rare,2000,blaze,A relic tied to Blaze Mortem from the Forgeborn series.
+RLM-0071,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-001/010,Legendary,6250,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0072,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-002/010,Legendary,5250,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0073,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-003/010,Epic,4250,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0074,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-004/010,Epic,3250,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0075,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-005/010,Rare,2250,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0076,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-006/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0077,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-007/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0078,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-008/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0079,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-009/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0080,Blaze Mortem,Cemetery Echoes,Blaze Mortem - Cemetery Echoes,SN-010/010,Rare,1750,blaze,A relic tied to Blaze Mortem from the Cemetery Echoes series.
+RLM-0081,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-001/010,Mythic,7000,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0082,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-002/010,Legendary,6000,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0083,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-003/010,Legendary,5000,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0084,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-004/010,Epic,4000,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0085,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-005/010,Epic,3000,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0086,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-006/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0087,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-007/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0088,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-008/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0089,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-009/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0090,Blaze Mortem,Kings & Queens,Blaze Mortem - Kings & Queens,SN-010/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Kings & Queens series.
+RLM-0091,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-001/010,Mythic,7000,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0092,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-002/010,Legendary,6000,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0093,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-003/010,Legendary,5000,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0094,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-004/010,Epic,4000,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0095,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-005/010,Epic,3000,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0096,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-006/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0097,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-007/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0098,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-008/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0099,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-009/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0100,Blaze Mortem,Ancient Myths,Blaze Mortem - Ancient Myths,SN-010/010,Epic,2500,blaze,A relic tied to Blaze Mortem from the Ancient Myths series.
+RLM-0101,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-001/010,Legendary,6250,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0102,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-002/010,Legendary,5250,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0103,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-003/010,Epic,4250,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0104,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-004/010,Epic,3250,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0105,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-005/010,Rare,2250,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0106,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-006/010,Rare,1750,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0107,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-007/010,Rare,1750,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0108,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-008/010,Rare,1750,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0109,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-009/010,Rare,1750,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0110,The Ghost,Infernal Heat,The Ghost - Infernal Heat,SN-010/010,Rare,1750,ghost,A relic tied to The Ghost from the Infernal Heat series.
+RLM-0111,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-001/010,Mythic,6500,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0112,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-002/010,Legendary,5500,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0113,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-003/010,Legendary,4500,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0114,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-004/010,Epic,3500,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0115,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-005/010,Epic,2500,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0116,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-006/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0117,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-007/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0118,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-008/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0119,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-009/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0120,The Ghost,Forgotten Legends,The Ghost - Forgotten Legends,SN-010/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgotten Legends series.
+RLM-0121,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-001/010,Mythic,6500,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0122,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-002/010,Legendary,5500,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0123,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-003/010,Legendary,4500,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0124,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-004/010,Epic,3500,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0125,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-005/010,Epic,2500,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0126,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-006/010,Rare,2000,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0127,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-007/010,Rare,2000,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0128,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-008/010,Rare,2000,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0129,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-009/010,Rare,2000,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0130,The Ghost,Sentinel's Oath,The Ghost - Sentinel's Oath,SN-010/010,Rare,2000,ghost,A relic tied to The Ghost from the Sentinel's Oath series.
+RLM-0131,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-001/010,Mythic,7000,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0132,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-002/010,Legendary,6000,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0133,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-003/010,Legendary,5000,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0134,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-004/010,Epic,4000,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0135,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-005/010,Epic,3000,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0136,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-006/010,Epic,2500,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0137,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-007/010,Epic,2500,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0138,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-008/010,Epic,2500,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0139,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-009/010,Epic,2500,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0140,The Ghost,Ghost Storm,The Ghost - Ghost Storm,SN-010/010,Epic,2500,ghost,A relic tied to The Ghost from the Ghost Storm series.
+RLM-0141,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-001/010,Legendary,6250,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0142,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-002/010,Legendary,5250,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0143,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-003/010,Epic,4250,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0144,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-004/010,Epic,3250,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0145,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-005/010,Rare,2250,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0146,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-006/010,Rare,1750,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0147,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-007/010,Rare,1750,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0148,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-008/010,Rare,1750,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0149,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-009/010,Rare,1750,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0150,The Ghost,Realm Relics,The Ghost - Realm Relics,SN-010/010,Rare,1750,ghost,A relic tied to The Ghost from the Realm Relics series.
+RLM-0151,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-001/010,Legendary,6250,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0152,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-002/010,Legendary,5250,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0153,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-003/010,Epic,4250,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0154,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-004/010,Epic,3250,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0155,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-005/010,Rare,2250,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0156,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-006/010,Rare,1750,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0157,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-007/010,Rare,1750,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0158,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-008/010,Rare,1750,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0159,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-009/010,Rare,1750,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0160,The Ghost,Hall of Lore,The Ghost - Hall of Lore,SN-010/010,Rare,1750,ghost,A relic tied to The Ghost from the Hall of Lore series.
+RLM-0161,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-001/010,Mythic,6500,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0162,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-002/010,Legendary,5500,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0163,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-003/010,Legendary,4500,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0164,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-004/010,Epic,3500,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0165,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-005/010,Epic,2500,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0166,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-006/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0167,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-007/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0168,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-008/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0169,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-009/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0170,The Ghost,Forgeborn,The Ghost - Forgeborn,SN-010/010,Rare,2000,ghost,A relic tied to The Ghost from the Forgeborn series.
+RLM-0171,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-001/010,Legendary,6250,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0172,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-002/010,Legendary,5250,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0173,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-003/010,Epic,4250,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0174,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-004/010,Epic,3250,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0175,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-005/010,Rare,2250,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0176,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-006/010,Rare,1750,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0177,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-007/010,Rare,1750,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0178,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-008/010,Rare,1750,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0179,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-009/010,Rare,1750,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0180,The Ghost,Cemetery Echoes,The Ghost - Cemetery Echoes,SN-010/010,Rare,1750,ghost,A relic tied to The Ghost from the Cemetery Echoes series.
+RLM-0181,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-001/010,Mythic,7000,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0182,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-002/010,Legendary,6000,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0183,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-003/010,Legendary,5000,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0184,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-004/010,Epic,4000,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0185,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-005/010,Epic,3000,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0186,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-006/010,Epic,2500,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0187,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-007/010,Epic,2500,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0188,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-008/010,Epic,2500,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0189,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-009/010,Epic,2500,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0190,The Ghost,Kings & Queens,The Ghost - Kings & Queens,SN-010/010,Epic,2500,ghost,A relic tied to The Ghost from the Kings & Queens series.
+RLM-0191,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-001/010,Mythic,7000,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0192,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-002/010,Legendary,6000,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0193,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-003/010,Legendary,5000,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0194,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-004/010,Epic,4000,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0195,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-005/010,Epic,3000,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0196,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-006/010,Epic,2500,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0197,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-007/010,Epic,2500,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0198,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-008/010,Epic,2500,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0199,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-009/010,Epic,2500,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0200,The Ghost,Ancient Myths,The Ghost - Ancient Myths,SN-010/010,Epic,2500,ghost,A relic tied to The Ghost from the Ancient Myths series.
+RLM-0201,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-001/010,Legendary,6250,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0202,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-002/010,Legendary,5250,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0203,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-003/010,Epic,4250,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0204,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-004/010,Epic,3250,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0205,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-005/010,Rare,2250,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0206,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-006/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0207,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-007/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0208,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-008/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0209,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-009/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0210,The Forgotten King,Infernal Heat,The Forgotten King - Infernal Heat,SN-010/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Infernal Heat series.
+RLM-0211,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-001/010,Mythic,6500,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0212,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-002/010,Legendary,5500,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0213,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-003/010,Legendary,4500,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0214,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-004/010,Epic,3500,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0215,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-005/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0216,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-006/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0217,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-007/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0218,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-008/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0219,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-009/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0220,The Forgotten King,Forgotten Legends,The Forgotten King - Forgotten Legends,SN-010/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgotten Legends series.
+RLM-0221,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-001/010,Mythic,6500,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0222,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-002/010,Legendary,5500,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0223,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-003/010,Legendary,4500,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0224,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-004/010,Epic,3500,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0225,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-005/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0226,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-006/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0227,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-007/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0228,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-008/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0229,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-009/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0230,The Forgotten King,Sentinel's Oath,The Forgotten King - Sentinel's Oath,SN-010/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Sentinel's Oath series.
+RLM-0231,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-001/010,Mythic,7000,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0232,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-002/010,Legendary,6000,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0233,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-003/010,Legendary,5000,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0234,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-004/010,Epic,4000,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0235,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-005/010,Epic,3000,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0236,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-006/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0237,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-007/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0238,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-008/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0239,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-009/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0240,The Forgotten King,Ghost Storm,The Forgotten King - Ghost Storm,SN-010/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ghost Storm series.
+RLM-0241,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-001/010,Legendary,6250,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0242,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-002/010,Legendary,5250,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0243,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-003/010,Epic,4250,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0244,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-004/010,Epic,3250,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0245,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-005/010,Rare,2250,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0246,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-006/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0247,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-007/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0248,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-008/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0249,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-009/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0250,The Forgotten King,Realm Relics,The Forgotten King - Realm Relics,SN-010/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Realm Relics series.
+RLM-0251,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-001/010,Legendary,6250,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0252,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-002/010,Legendary,5250,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0253,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-003/010,Epic,4250,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0254,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-004/010,Epic,3250,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0255,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-005/010,Rare,2250,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0256,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-006/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0257,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-007/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0258,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-008/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0259,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-009/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0260,The Forgotten King,Hall of Lore,The Forgotten King - Hall of Lore,SN-010/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Hall of Lore series.
+RLM-0261,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-001/010,Mythic,6500,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0262,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-002/010,Legendary,5500,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0263,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-003/010,Legendary,4500,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0264,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-004/010,Epic,3500,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0265,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-005/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0266,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-006/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0267,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-007/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0268,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-008/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0269,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-009/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0270,The Forgotten King,Forgeborn,The Forgotten King - Forgeborn,SN-010/010,Rare,2000,forgotten_king,A relic tied to The Forgotten King from the Forgeborn series.
+RLM-0271,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-001/010,Legendary,6250,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0272,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-002/010,Legendary,5250,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0273,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-003/010,Epic,4250,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0274,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-004/010,Epic,3250,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0275,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-005/010,Rare,2250,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0276,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-006/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0277,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-007/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0278,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-008/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0279,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-009/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0280,The Forgotten King,Cemetery Echoes,The Forgotten King - Cemetery Echoes,SN-010/010,Rare,1750,forgotten_king,A relic tied to The Forgotten King from the Cemetery Echoes series.
+RLM-0281,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-001/010,Mythic,7000,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0282,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-002/010,Legendary,6000,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0283,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-003/010,Legendary,5000,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0284,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-004/010,Epic,4000,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0285,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-005/010,Epic,3000,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0286,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-006/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0287,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-007/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0288,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-008/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0289,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-009/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0290,The Forgotten King,Kings & Queens,The Forgotten King - Kings & Queens,SN-010/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Kings & Queens series.
+RLM-0291,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-001/010,Mythic,7000,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0292,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-002/010,Legendary,6000,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0293,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-003/010,Legendary,5000,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0294,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-004/010,Epic,4000,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0295,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-005/010,Epic,3000,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0296,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-006/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0297,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-007/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0298,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-008/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0299,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-009/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0300,The Forgotten King,Ancient Myths,The Forgotten King - Ancient Myths,SN-010/010,Epic,2500,forgotten_king,A relic tied to The Forgotten King from the Ancient Myths series.
+RLM-0301,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-001/010,Legendary,5750,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0302,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-002/010,Legendary,4750,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0303,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-003/010,Epic,3750,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0304,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-004/010,Epic,2750,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0305,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-005/010,Rare,1750,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0306,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-006/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0307,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-007/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0308,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-008/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0309,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-009/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0310,The First Sentinel,Infernal Heat,The First Sentinel - Infernal Heat,SN-010/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Infernal Heat series.
+RLM-0311,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-001/010,Legendary,6000,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0312,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-002/010,Legendary,5000,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0313,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-003/010,Epic,4000,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0314,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-004/010,Epic,3000,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0315,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-005/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0316,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-006/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0317,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-007/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0318,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-008/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0319,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-009/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0320,The First Sentinel,Forgotten Legends,The First Sentinel - Forgotten Legends,SN-010/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgotten Legends series.
+RLM-0321,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-001/010,Legendary,6000,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0322,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-002/010,Legendary,5000,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0323,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-003/010,Epic,4000,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0324,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-004/010,Epic,3000,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0325,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-005/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0326,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-006/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0327,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-007/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0328,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-008/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0329,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-009/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0330,The First Sentinel,Sentinel's Oath,The First Sentinel - Sentinel's Oath,SN-010/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Sentinel's Oath series.
+RLM-0331,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-001/010,Mythic,6500,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0332,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-002/010,Legendary,5500,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0333,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-003/010,Legendary,4500,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0334,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-004/010,Epic,3500,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0335,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-005/010,Epic,2500,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0336,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-006/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0337,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-007/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0338,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-008/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0339,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-009/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0340,The First Sentinel,Ghost Storm,The First Sentinel - Ghost Storm,SN-010/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ghost Storm series.
+RLM-0341,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-001/010,Legendary,5750,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0342,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-002/010,Legendary,4750,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0343,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-003/010,Epic,3750,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0344,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-004/010,Epic,2750,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0345,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-005/010,Rare,1750,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0346,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-006/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0347,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-007/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0348,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-008/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0349,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-009/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0350,The First Sentinel,Realm Relics,The First Sentinel - Realm Relics,SN-010/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Realm Relics series.
+RLM-0351,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-001/010,Legendary,5750,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0352,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-002/010,Legendary,4750,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0353,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-003/010,Epic,3750,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0354,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-004/010,Epic,2750,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0355,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-005/010,Rare,1750,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0356,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-006/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0357,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-007/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0358,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-008/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0359,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-009/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0360,The First Sentinel,Hall of Lore,The First Sentinel - Hall of Lore,SN-010/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Hall of Lore series.
+RLM-0361,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-001/010,Legendary,6000,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0362,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-002/010,Legendary,5000,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0363,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-003/010,Epic,4000,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0364,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-004/010,Epic,3000,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0365,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-005/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0366,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-006/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0367,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-007/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0368,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-008/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0369,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-009/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0370,The First Sentinel,Forgeborn,The First Sentinel - Forgeborn,SN-010/010,Rare,1500,first_sentinel,A relic tied to The First Sentinel from the Forgeborn series.
+RLM-0371,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-001/010,Legendary,5750,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0372,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-002/010,Legendary,4750,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0373,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-003/010,Epic,3750,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0374,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-004/010,Epic,2750,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0375,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-005/010,Rare,1750,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0376,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-006/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0377,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-007/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0378,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-008/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0379,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-009/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0380,The First Sentinel,Cemetery Echoes,The First Sentinel - Cemetery Echoes,SN-010/010,Rare,1250,first_sentinel,A relic tied to The First Sentinel from the Cemetery Echoes series.
+RLM-0381,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-001/010,Mythic,6500,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0382,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-002/010,Legendary,5500,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0383,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-003/010,Legendary,4500,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0384,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-004/010,Epic,3500,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0385,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-005/010,Epic,2500,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0386,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-006/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0387,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-007/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0388,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-008/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0389,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-009/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0390,The First Sentinel,Kings & Queens,The First Sentinel - Kings & Queens,SN-010/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Kings & Queens series.
+RLM-0391,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-001/010,Mythic,6500,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0392,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-002/010,Legendary,5500,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0393,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-003/010,Legendary,4500,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0394,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-004/010,Epic,3500,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0395,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-005/010,Epic,2500,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0396,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-006/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0397,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-007/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0398,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-008/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0399,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-009/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0400,The First Sentinel,Ancient Myths,The First Sentinel - Ancient Myths,SN-010/010,Rare,2000,first_sentinel,A relic tied to The First Sentinel from the Ancient Myths series.
+RLM-0401,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-001/010,Legendary,5750,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0402,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-002/010,Legendary,4750,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0403,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-003/010,Epic,3750,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0404,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-004/010,Epic,2750,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0405,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-005/010,Rare,1750,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0406,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-006/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0407,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-007/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0408,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-008/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0409,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-009/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0410,Nyxara Vale,Infernal Heat,Nyxara Vale - Infernal Heat,SN-010/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Infernal Heat series.
+RLM-0411,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-001/010,Legendary,6000,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0412,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-002/010,Legendary,5000,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0413,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-003/010,Epic,4000,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0414,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-004/010,Epic,3000,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0415,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-005/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0416,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-006/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0417,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-007/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0418,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-008/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0419,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-009/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0420,Nyxara Vale,Forgotten Legends,Nyxara Vale - Forgotten Legends,SN-010/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgotten Legends series.
+RLM-0421,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-001/010,Legendary,6000,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0422,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-002/010,Legendary,5000,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0423,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-003/010,Epic,4000,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0424,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-004/010,Epic,3000,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0425,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-005/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0426,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-006/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0427,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-007/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0428,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-008/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0429,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-009/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0430,Nyxara Vale,Sentinel's Oath,Nyxara Vale - Sentinel's Oath,SN-010/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Sentinel's Oath series.
+RLM-0431,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-001/010,Mythic,6500,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0432,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-002/010,Legendary,5500,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0433,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-003/010,Legendary,4500,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0434,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-004/010,Epic,3500,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0435,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-005/010,Epic,2500,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0436,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-006/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0437,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-007/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0438,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-008/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0439,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-009/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0440,Nyxara Vale,Ghost Storm,Nyxara Vale - Ghost Storm,SN-010/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ghost Storm series.
+RLM-0441,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-001/010,Legendary,5750,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0442,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-002/010,Legendary,4750,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0443,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-003/010,Epic,3750,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0444,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-004/010,Epic,2750,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0445,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-005/010,Rare,1750,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0446,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-006/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0447,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-007/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0448,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-008/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0449,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-009/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0450,Nyxara Vale,Realm Relics,Nyxara Vale - Realm Relics,SN-010/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Realm Relics series.
+RLM-0451,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-001/010,Legendary,5750,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0452,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-002/010,Legendary,4750,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0453,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-003/010,Epic,3750,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0454,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-004/010,Epic,2750,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0455,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-005/010,Rare,1750,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0456,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-006/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0457,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-007/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0458,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-008/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0459,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-009/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0460,Nyxara Vale,Hall of Lore,Nyxara Vale - Hall of Lore,SN-010/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Hall of Lore series.
+RLM-0461,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-001/010,Legendary,6000,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0462,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-002/010,Legendary,5000,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0463,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-003/010,Epic,4000,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0464,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-004/010,Epic,3000,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0465,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-005/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0466,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-006/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0467,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-007/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0468,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-008/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0469,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-009/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0470,Nyxara Vale,Forgeborn,Nyxara Vale - Forgeborn,SN-010/010,Rare,1500,nyxara,A relic tied to Nyxara Vale from the Forgeborn series.
+RLM-0471,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-001/010,Legendary,5750,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0472,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-002/010,Legendary,4750,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0473,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-003/010,Epic,3750,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0474,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-004/010,Epic,2750,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0475,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-005/010,Rare,1750,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0476,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-006/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0477,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-007/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0478,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-008/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0479,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-009/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0480,Nyxara Vale,Cemetery Echoes,Nyxara Vale - Cemetery Echoes,SN-010/010,Rare,1250,nyxara,A relic tied to Nyxara Vale from the Cemetery Echoes series.
+RLM-0481,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-001/010,Mythic,6500,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0482,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-002/010,Legendary,5500,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0483,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-003/010,Legendary,4500,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0484,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-004/010,Epic,3500,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0485,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-005/010,Epic,2500,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0486,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-006/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0487,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-007/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0488,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-008/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0489,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-009/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0490,Nyxara Vale,Kings & Queens,Nyxara Vale - Kings & Queens,SN-010/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Kings & Queens series.
+RLM-0491,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-001/010,Mythic,6500,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0492,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-002/010,Legendary,5500,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0493,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-003/010,Legendary,4500,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0494,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-004/010,Epic,3500,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0495,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-005/010,Epic,2500,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0496,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-006/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0497,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-007/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0498,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-008/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0499,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-009/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0500,Nyxara Vale,Ancient Myths,Nyxara Vale - Ancient Myths,SN-010/010,Rare,2000,nyxara,A relic tied to Nyxara Vale from the Ancient Myths series.
+RLM-0501,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-001/010,Legendary,5750,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0502,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-002/010,Legendary,4750,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0503,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-003/010,Epic,3750,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0504,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-004/010,Epic,2750,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0505,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-005/010,Rare,1750,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0506,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-006/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0507,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-007/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0508,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-008/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0509,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-009/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0510,The Void Queen,Infernal Heat,The Void Queen - Infernal Heat,SN-010/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Infernal Heat series.
+RLM-0511,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-001/010,Legendary,6000,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0512,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-002/010,Legendary,5000,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0513,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-003/010,Epic,4000,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0514,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-004/010,Epic,3000,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0515,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-005/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0516,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-006/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0517,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-007/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0518,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-008/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0519,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-009/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0520,The Void Queen,Forgotten Legends,The Void Queen - Forgotten Legends,SN-010/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgotten Legends series.
+RLM-0521,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-001/010,Legendary,6000,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0522,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-002/010,Legendary,5000,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0523,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-003/010,Epic,4000,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0524,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-004/010,Epic,3000,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0525,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-005/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0526,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-006/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0527,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-007/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0528,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-008/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0529,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-009/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0530,The Void Queen,Sentinel's Oath,The Void Queen - Sentinel's Oath,SN-010/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Sentinel's Oath series.
+RLM-0531,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-001/010,Mythic,6500,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0532,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-002/010,Legendary,5500,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0533,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-003/010,Legendary,4500,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0534,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-004/010,Epic,3500,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0535,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-005/010,Epic,2500,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0536,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-006/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0537,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-007/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0538,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-008/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0539,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-009/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0540,The Void Queen,Ghost Storm,The Void Queen - Ghost Storm,SN-010/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ghost Storm series.
+RLM-0541,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-001/010,Legendary,5750,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0542,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-002/010,Legendary,4750,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0543,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-003/010,Epic,3750,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0544,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-004/010,Epic,2750,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0545,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-005/010,Rare,1750,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0546,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-006/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0547,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-007/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0548,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-008/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0549,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-009/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0550,The Void Queen,Realm Relics,The Void Queen - Realm Relics,SN-010/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Realm Relics series.
+RLM-0551,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-001/010,Legendary,5750,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0552,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-002/010,Legendary,4750,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0553,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-003/010,Epic,3750,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0554,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-004/010,Epic,2750,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0555,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-005/010,Rare,1750,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0556,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-006/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0557,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-007/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0558,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-008/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0559,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-009/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0560,The Void Queen,Hall of Lore,The Void Queen - Hall of Lore,SN-010/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Hall of Lore series.
+RLM-0561,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-001/010,Legendary,6000,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0562,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-002/010,Legendary,5000,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0563,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-003/010,Epic,4000,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0564,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-004/010,Epic,3000,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0565,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-005/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0566,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-006/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0567,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-007/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0568,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-008/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0569,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-009/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0570,The Void Queen,Forgeborn,The Void Queen - Forgeborn,SN-010/010,Rare,1500,void_queen,A relic tied to The Void Queen from the Forgeborn series.
+RLM-0571,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-001/010,Legendary,5750,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0572,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-002/010,Legendary,4750,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0573,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-003/010,Epic,3750,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0574,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-004/010,Epic,2750,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0575,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-005/010,Rare,1750,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0576,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-006/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0577,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-007/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0578,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-008/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0579,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-009/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0580,The Void Queen,Cemetery Echoes,The Void Queen - Cemetery Echoes,SN-010/010,Rare,1250,void_queen,A relic tied to The Void Queen from the Cemetery Echoes series.
+RLM-0581,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-001/010,Mythic,6500,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0582,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-002/010,Legendary,5500,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0583,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-003/010,Legendary,4500,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0584,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-004/010,Epic,3500,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0585,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-005/010,Epic,2500,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0586,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-006/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0587,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-007/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0588,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-008/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0589,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-009/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0590,The Void Queen,Kings & Queens,The Void Queen - Kings & Queens,SN-010/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Kings & Queens series.
+RLM-0591,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-001/010,Mythic,6500,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0592,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-002/010,Legendary,5500,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0593,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-003/010,Legendary,4500,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0594,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-004/010,Epic,3500,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0595,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-005/010,Epic,2500,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0596,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-006/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0597,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-007/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0598,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-008/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0599,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-009/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0600,The Void Queen,Ancient Myths,The Void Queen - Ancient Myths,SN-010/010,Rare,2000,void_queen,A relic tied to The Void Queen from the Ancient Myths series.
+RLM-0601,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-001/010,Legendary,5500,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0602,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-002/010,Legendary,4500,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0603,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-003/010,Epic,3500,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0604,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-004/010,Epic,2500,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0605,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-005/010,Rare,1500,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0606,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-006/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0607,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-007/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0608,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-008/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0609,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-009/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0610,The Original Forger,Infernal Heat,The Original Forger - Infernal Heat,SN-010/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Infernal Heat series.
+RLM-0611,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-001/010,Legendary,5750,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0612,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-002/010,Legendary,4750,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0613,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-003/010,Epic,3750,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0614,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-004/010,Epic,2750,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0615,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-005/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0616,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-006/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0617,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-007/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0618,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-008/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0619,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-009/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0620,The Original Forger,Forgotten Legends,The Original Forger - Forgotten Legends,SN-010/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgotten Legends series.
+RLM-0621,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-001/010,Legendary,5750,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0622,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-002/010,Legendary,4750,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0623,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-003/010,Epic,3750,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0624,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-004/010,Epic,2750,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0625,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-005/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0626,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-006/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0627,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-007/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0628,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-008/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0629,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-009/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0630,The Original Forger,Sentinel's Oath,The Original Forger - Sentinel's Oath,SN-010/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Sentinel's Oath series.
+RLM-0631,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-001/010,Legendary,6250,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0632,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-002/010,Legendary,5250,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0633,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-003/010,Epic,4250,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0634,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-004/010,Epic,3250,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0635,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-005/010,Rare,2250,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0636,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-006/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0637,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-007/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0638,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-008/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0639,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-009/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0640,The Original Forger,Ghost Storm,The Original Forger - Ghost Storm,SN-010/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ghost Storm series.
+RLM-0641,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-001/010,Legendary,5500,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0642,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-002/010,Legendary,4500,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0643,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-003/010,Epic,3500,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0644,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-004/010,Epic,2500,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0645,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-005/010,Rare,1500,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0646,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-006/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0647,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-007/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0648,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-008/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0649,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-009/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0650,The Original Forger,Realm Relics,The Original Forger - Realm Relics,SN-010/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Realm Relics series.
+RLM-0651,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-001/010,Legendary,5500,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0652,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-002/010,Legendary,4500,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0653,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-003/010,Epic,3500,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0654,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-004/010,Epic,2500,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0655,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-005/010,Rare,1500,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0656,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-006/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0657,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-007/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0658,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-008/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0659,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-009/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0660,The Original Forger,Hall of Lore,The Original Forger - Hall of Lore,SN-010/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Hall of Lore series.
+RLM-0661,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-001/010,Legendary,5750,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0662,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-002/010,Legendary,4750,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0663,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-003/010,Epic,3750,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0664,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-004/010,Epic,2750,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0665,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-005/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0666,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-006/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0667,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-007/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0668,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-008/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0669,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-009/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0670,The Original Forger,Forgeborn,The Original Forger - Forgeborn,SN-010/010,Rare,1250,original_forger,A relic tied to The Original Forger from the Forgeborn series.
+RLM-0671,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-001/010,Legendary,5500,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0672,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-002/010,Legendary,4500,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0673,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-003/010,Epic,3500,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0674,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-004/010,Epic,2500,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0675,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-005/010,Rare,1500,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0676,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-006/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0677,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-007/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0678,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-008/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0679,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-009/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0680,The Original Forger,Cemetery Echoes,The Original Forger - Cemetery Echoes,SN-010/010,Rare,1000,original_forger,A relic tied to The Original Forger from the Cemetery Echoes series.
+RLM-0681,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-001/010,Legendary,6250,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0682,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-002/010,Legendary,5250,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0683,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-003/010,Epic,4250,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0684,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-004/010,Epic,3250,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0685,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-005/010,Rare,2250,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0686,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-006/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0687,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-007/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0688,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-008/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0689,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-009/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0690,The Original Forger,Kings & Queens,The Original Forger - Kings & Queens,SN-010/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Kings & Queens series.
+RLM-0691,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-001/010,Legendary,6250,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0692,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-002/010,Legendary,5250,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0693,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-003/010,Epic,4250,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0694,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-004/010,Epic,3250,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0695,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-005/010,Rare,2250,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0696,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-006/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0697,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-007/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0698,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-008/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0699,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-009/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0700,The Original Forger,Ancient Myths,The Original Forger - Ancient Myths,SN-010/010,Rare,1750,original_forger,A relic tied to The Original Forger from the Ancient Myths series.
+RLM-0701,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-001/010,Legendary,5500,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0702,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-002/010,Legendary,4500,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0703,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-003/010,Epic,3500,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0704,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-004/010,Epic,2500,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0705,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-005/010,Rare,1500,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0706,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-006/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0707,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-007/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0708,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-008/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0709,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-009/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0710,The Stone Raven,Infernal Heat,The Stone Raven - Infernal Heat,SN-010/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Infernal Heat series.
+RLM-0711,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-001/010,Legendary,5750,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0712,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-002/010,Legendary,4750,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0713,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-003/010,Epic,3750,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0714,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-004/010,Epic,2750,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0715,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-005/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0716,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-006/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0717,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-007/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0718,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-008/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0719,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-009/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0720,The Stone Raven,Forgotten Legends,The Stone Raven - Forgotten Legends,SN-010/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgotten Legends series.
+RLM-0721,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-001/010,Legendary,5750,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0722,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-002/010,Legendary,4750,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0723,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-003/010,Epic,3750,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0724,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-004/010,Epic,2750,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0725,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-005/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0726,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-006/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0727,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-007/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0728,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-008/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0729,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-009/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0730,The Stone Raven,Sentinel's Oath,The Stone Raven - Sentinel's Oath,SN-010/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Sentinel's Oath series.
+RLM-0731,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-001/010,Legendary,6250,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0732,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-002/010,Legendary,5250,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0733,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-003/010,Epic,4250,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0734,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-004/010,Epic,3250,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0735,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-005/010,Rare,2250,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0736,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-006/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0737,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-007/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0738,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-008/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0739,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-009/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0740,The Stone Raven,Ghost Storm,The Stone Raven - Ghost Storm,SN-010/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ghost Storm series.
+RLM-0741,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-001/010,Legendary,5500,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0742,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-002/010,Legendary,4500,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0743,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-003/010,Epic,3500,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0744,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-004/010,Epic,2500,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0745,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-005/010,Rare,1500,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0746,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-006/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0747,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-007/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0748,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-008/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0749,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-009/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0750,The Stone Raven,Realm Relics,The Stone Raven - Realm Relics,SN-010/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Realm Relics series.
+RLM-0751,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-001/010,Legendary,5500,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0752,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-002/010,Legendary,4500,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0753,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-003/010,Epic,3500,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0754,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-004/010,Epic,2500,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0755,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-005/010,Rare,1500,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0756,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-006/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0757,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-007/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0758,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-008/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0759,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-009/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0760,The Stone Raven,Hall of Lore,The Stone Raven - Hall of Lore,SN-010/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Hall of Lore series.
+RLM-0761,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-001/010,Legendary,5750,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0762,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-002/010,Legendary,4750,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0763,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-003/010,Epic,3750,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0764,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-004/010,Epic,2750,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0765,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-005/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0766,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-006/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0767,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-007/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0768,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-008/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0769,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-009/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0770,The Stone Raven,Forgeborn,The Stone Raven - Forgeborn,SN-010/010,Rare,1250,stone_raven,A relic tied to The Stone Raven from the Forgeborn series.
+RLM-0771,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-001/010,Legendary,5500,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0772,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-002/010,Legendary,4500,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0773,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-003/010,Epic,3500,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0774,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-004/010,Epic,2500,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0775,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-005/010,Rare,1500,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0776,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-006/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0777,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-007/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0778,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-008/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0779,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-009/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0780,The Stone Raven,Cemetery Echoes,The Stone Raven - Cemetery Echoes,SN-010/010,Rare,1000,stone_raven,A relic tied to The Stone Raven from the Cemetery Echoes series.
+RLM-0781,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-001/010,Legendary,6250,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0782,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-002/010,Legendary,5250,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0783,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-003/010,Epic,4250,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0784,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-004/010,Epic,3250,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0785,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-005/010,Rare,2250,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0786,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-006/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0787,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-007/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0788,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-008/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0789,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-009/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0790,The Stone Raven,Kings & Queens,The Stone Raven - Kings & Queens,SN-010/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Kings & Queens series.
+RLM-0791,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-001/010,Legendary,6250,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0792,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-002/010,Legendary,5250,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0793,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-003/010,Epic,4250,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0794,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-004/010,Epic,3250,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0795,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-005/010,Rare,2250,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0796,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-006/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0797,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-007/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0798,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-008/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0799,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-009/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0800,The Stone Raven,Ancient Myths,The Stone Raven - Ancient Myths,SN-010/010,Rare,1750,stone_raven,A relic tied to The Stone Raven from the Ancient Myths series.
+RLM-0801,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-001/010,Legendary,5500,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0802,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-002/010,Legendary,4500,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0803,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-003/010,Epic,3500,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0804,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-004/010,Epic,2500,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0805,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-005/010,Rare,1500,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0806,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-006/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0807,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-007/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0808,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-008/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0809,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-009/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0810,The Ash Drake,Infernal Heat,The Ash Drake - Infernal Heat,SN-010/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Infernal Heat series.
+RLM-0811,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-001/010,Legendary,5750,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0812,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-002/010,Legendary,4750,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0813,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-003/010,Epic,3750,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0814,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-004/010,Epic,2750,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0815,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-005/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0816,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-006/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0817,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-007/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0818,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-008/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0819,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-009/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0820,The Ash Drake,Forgotten Legends,The Ash Drake - Forgotten Legends,SN-010/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgotten Legends series.
+RLM-0821,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-001/010,Legendary,5750,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0822,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-002/010,Legendary,4750,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0823,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-003/010,Epic,3750,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0824,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-004/010,Epic,2750,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0825,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-005/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0826,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-006/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0827,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-007/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0828,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-008/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0829,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-009/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0830,The Ash Drake,Sentinel's Oath,The Ash Drake - Sentinel's Oath,SN-010/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Sentinel's Oath series.
+RLM-0831,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-001/010,Legendary,6250,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0832,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-002/010,Legendary,5250,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0833,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-003/010,Epic,4250,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0834,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-004/010,Epic,3250,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0835,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-005/010,Rare,2250,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0836,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-006/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0837,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-007/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0838,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-008/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0839,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-009/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0840,The Ash Drake,Ghost Storm,The Ash Drake - Ghost Storm,SN-010/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ghost Storm series.
+RLM-0841,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-001/010,Legendary,5500,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0842,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-002/010,Legendary,4500,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0843,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-003/010,Epic,3500,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0844,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-004/010,Epic,2500,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0845,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-005/010,Rare,1500,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0846,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-006/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0847,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-007/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0848,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-008/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0849,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-009/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0850,The Ash Drake,Realm Relics,The Ash Drake - Realm Relics,SN-010/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Realm Relics series.
+RLM-0851,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-001/010,Legendary,5500,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0852,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-002/010,Legendary,4500,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0853,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-003/010,Epic,3500,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0854,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-004/010,Epic,2500,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0855,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-005/010,Rare,1500,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0856,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-006/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0857,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-007/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0858,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-008/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0859,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-009/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0860,The Ash Drake,Hall of Lore,The Ash Drake - Hall of Lore,SN-010/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Hall of Lore series.
+RLM-0861,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-001/010,Legendary,5750,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0862,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-002/010,Legendary,4750,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0863,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-003/010,Epic,3750,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0864,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-004/010,Epic,2750,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0865,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-005/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0866,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-006/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0867,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-007/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0868,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-008/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0869,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-009/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0870,The Ash Drake,Forgeborn,The Ash Drake - Forgeborn,SN-010/010,Rare,1250,ash_drake,A relic tied to The Ash Drake from the Forgeborn series.
+RLM-0871,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-001/010,Legendary,5500,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0872,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-002/010,Legendary,4500,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0873,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-003/010,Epic,3500,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0874,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-004/010,Epic,2500,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0875,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-005/010,Rare,1500,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0876,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-006/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0877,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-007/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0878,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-008/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0879,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-009/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0880,The Ash Drake,Cemetery Echoes,The Ash Drake - Cemetery Echoes,SN-010/010,Rare,1000,ash_drake,A relic tied to The Ash Drake from the Cemetery Echoes series.
+RLM-0881,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-001/010,Legendary,6250,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0882,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-002/010,Legendary,5250,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0883,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-003/010,Epic,4250,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0884,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-004/010,Epic,3250,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0885,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-005/010,Rare,2250,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0886,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-006/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0887,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-007/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0888,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-008/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0889,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-009/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0890,The Ash Drake,Kings & Queens,The Ash Drake - Kings & Queens,SN-010/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Kings & Queens series.
+RLM-0891,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-001/010,Legendary,6250,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0892,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-002/010,Legendary,5250,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0893,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-003/010,Epic,4250,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0894,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-004/010,Epic,3250,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0895,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-005/010,Rare,2250,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0896,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-006/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0897,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-007/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0898,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-008/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0899,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-009/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0900,The Ash Drake,Ancient Myths,The Ash Drake - Ancient Myths,SN-010/010,Rare,1750,ash_drake,A relic tied to The Ash Drake from the Ancient Myths series.
+RLM-0901,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-001/010,Legendary,5500,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0902,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-002/010,Legendary,4500,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0903,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-003/010,Epic,3500,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0904,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-004/010,Epic,2500,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0905,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-005/010,Rare,1500,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0906,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-006/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0907,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-007/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0908,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-008/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0909,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-009/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0910,The Last Chronicler,Infernal Heat,The Last Chronicler - Infernal Heat,SN-010/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Infernal Heat series.
+RLM-0911,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-001/010,Legendary,5750,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0912,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-002/010,Legendary,4750,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0913,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-003/010,Epic,3750,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0914,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-004/010,Epic,2750,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0915,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-005/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0916,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-006/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0917,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-007/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0918,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-008/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0919,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-009/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0920,The Last Chronicler,Forgotten Legends,The Last Chronicler - Forgotten Legends,SN-010/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgotten Legends series.
+RLM-0921,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-001/010,Legendary,5750,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0922,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-002/010,Legendary,4750,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0923,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-003/010,Epic,3750,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0924,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-004/010,Epic,2750,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0925,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-005/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0926,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-006/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0927,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-007/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0928,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-008/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0929,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-009/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0930,The Last Chronicler,Sentinel's Oath,The Last Chronicler - Sentinel's Oath,SN-010/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Sentinel's Oath series.
+RLM-0931,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-001/010,Legendary,6250,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0932,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-002/010,Legendary,5250,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0933,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-003/010,Epic,4250,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0934,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-004/010,Epic,3250,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0935,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-005/010,Rare,2250,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0936,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-006/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0937,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-007/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0938,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-008/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0939,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-009/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0940,The Last Chronicler,Ghost Storm,The Last Chronicler - Ghost Storm,SN-010/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ghost Storm series.
+RLM-0941,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-001/010,Legendary,5500,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0942,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-002/010,Legendary,4500,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0943,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-003/010,Epic,3500,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0944,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-004/010,Epic,2500,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0945,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-005/010,Rare,1500,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0946,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-006/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0947,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-007/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0948,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-008/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0949,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-009/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0950,The Last Chronicler,Realm Relics,The Last Chronicler - Realm Relics,SN-010/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Realm Relics series.
+RLM-0951,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-001/010,Legendary,5500,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0952,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-002/010,Legendary,4500,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0953,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-003/010,Epic,3500,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0954,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-004/010,Epic,2500,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0955,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-005/010,Rare,1500,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0956,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-006/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0957,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-007/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0958,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-008/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0959,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-009/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0960,The Last Chronicler,Hall of Lore,The Last Chronicler - Hall of Lore,SN-010/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Hall of Lore series.
+RLM-0961,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-001/010,Legendary,5750,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0962,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-002/010,Legendary,4750,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0963,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-003/010,Epic,3750,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0964,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-004/010,Epic,2750,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0965,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-005/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0966,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-006/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0967,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-007/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0968,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-008/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0969,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-009/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0970,The Last Chronicler,Forgeborn,The Last Chronicler - Forgeborn,SN-010/010,Rare,1250,last_chronicler,A relic tied to The Last Chronicler from the Forgeborn series.
+RLM-0971,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-001/010,Legendary,5500,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0972,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-002/010,Legendary,4500,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0973,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-003/010,Epic,3500,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0974,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-004/010,Epic,2500,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0975,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-005/010,Rare,1500,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0976,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-006/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0977,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-007/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0978,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-008/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0979,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-009/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0980,The Last Chronicler,Cemetery Echoes,The Last Chronicler - Cemetery Echoes,SN-010/010,Rare,1000,last_chronicler,A relic tied to The Last Chronicler from the Cemetery Echoes series.
+RLM-0981,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-001/010,Legendary,6250,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0982,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-002/010,Legendary,5250,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0983,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-003/010,Epic,4250,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0984,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-004/010,Epic,3250,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0985,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-005/010,Rare,2250,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0986,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-006/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0987,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-007/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0988,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-008/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0989,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-009/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0990,The Last Chronicler,Kings & Queens,The Last Chronicler - Kings & Queens,SN-010/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Kings & Queens series.
+RLM-0991,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-001/010,Legendary,6250,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0992,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-002/010,Legendary,5250,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0993,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-003/010,Epic,4250,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0994,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-004/010,Epic,3250,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0995,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-005/010,Rare,2250,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0996,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-006/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0997,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-007/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0998,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-008/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-0999,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-009/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
+RLM-1000,The Last Chronicler,Ancient Myths,The Last Chronicler - Ancient Myths,SN-010/010,Rare,1750,last_chronicler,A relic tied to The Last Chronicler from the Ancient Myths series.
