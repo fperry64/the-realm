@@ -16,11 +16,7 @@ function RealmMessageBoard() {
                 />
 
                 <div className="message-board-content">
-
-                    <h1>
-                        REALM MESSAGE BOARD
-                    </h1>
-
+                    
                     <p>
                         Share discoveries, discuss clues,
                         celebrate achievements, and exchange
