@@ -1,11 +1,18 @@
 import '../RealmMessageBoard.css'
 import { useState } from 'react'
+import {supabase } from '../supabase'
 import boardBanner from '../assets/board.png'
 
 function RealmMessageBoard() {
 
     const [title, setTitle] = useState('')
     const [message, setMessage] = useState('')
+
+    async function createPost() {
+
+        console.log('POST CLICKED')
+
+    }
 
     return (
 
@@ -40,7 +47,9 @@ function RealmMessageBoard() {
                         }
                     />
 
-                    <button>
+                    <button
+                        onClick={createPost}
+                    >
                         POST MESSAGE
                     </button>
 
