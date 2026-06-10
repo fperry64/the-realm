@@ -9,6 +9,7 @@ import CharacterSheet from './pages/CharacterSheet'
 import Casino from './pages/Casino'
 import HallOfForgottenLore from './pages/HallOfForgottenLore'
 import RealmMessageBoard from './pages/RealmMessageBoard'
+import Leaderboard from './pages/Leaderboard'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/casino" element={<Casino />} />
         <Route path="/hall" element={<HallOfForgottenLore />} />
         <Route path="/messageboard" element={<RealmMessageBoard />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </BrowserRouter>
   )

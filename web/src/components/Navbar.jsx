@@ -92,6 +92,10 @@ function Navbar() {
               Message Board
             </Link>
 
+            <Link to="/leaderboard">
+              Leaderboard
+            </Link>
+
             <button
               className="logout-button"
               onClick={handleLogout}

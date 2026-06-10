@@ -27,10 +27,8 @@ function Leaderboard() {
 
                 <p>
 
-                    The Realm's greatest champions are
-                    recorded here for all eternity.
-                    Wealth may fill one's treasury,
-                    but only renown secures a legacy.
+                    The Realm's greatest champions are recorded here for all eternity.
+                    Wealth may fill one's treasury, but only renown secures a legacy.
 
                 </p>
 
