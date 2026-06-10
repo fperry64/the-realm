@@ -4,6 +4,7 @@ import { supabase } from '../supabase'
 import '../Casino.css'
 import blazeCasinoBanner from '../assets/blaze-casino-banner.png'
 import SlotMachine from '../components/SlotMachine'
+import emberRaven from '../assets/ember_raven.png'
 
 
 function Casino() {
@@ -71,10 +72,139 @@ function Casino() {
             className="casino-banner"
         />        
         
-        <SlotMachine
-            jackpot={jackpot}
-            ghostCoins={profile.ghost_coins}
+<div className="casino-layout">
+
+    <div className="side-card">
+
+        <h3>🎰 HOW TO WIN</h3>
+
+        <div className="card-section">
+
+            <strong>Paylines: 5</strong>
+
+            <div className="payline-list">
+                Top Row<br />
+                Middle Row<br />
+                Bottom Row<br />
+                V Pattern<br />
+                Inverted V Pattern
+            </div>
+
+        </div>
+
+        <div className="card-section">
+
+            <strong>✨ SCATTER PAYS ✨</strong>
+
+            <div>
+                Scatter x3 = 5x Bet
+            </div>
+
+            <div>
+                Scatter x4 = 10x Bet
+            </div>
+
+            <div>
+                Scatter x5 = 25x Bet
+            </div>
+
+            <br />
+
+            <div>
+                Scatters may appear anywhere on the reels.
+            </div>
+
+        </div>
+
+        <div className="card-section">
+
+            <strong>🃏 WILD SYMBOL</strong>
+
+            <div>
+                Wilds substitute for all symbols except:
+            </div>
+
+            <ul>
+                <li>Scatter</li>
+                <li>Blaze's Jackpot</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <SlotMachine
+        jackpot={jackpot}
+        ghostCoins={ghostCoins}
+    />
+
+    <div className="side-card">
+
+        <img
+            src={emberRaven}
+            alt="Ember Raven"
+            className="feature-raven"
         />
+
+        <h3>🐦‍⬛ EMBER RAVEN FEATURE</h3>
+
+        <div className="card-section">
+
+            The Ember Raven Feature may be triggered on any spin.
+
+            <br /><br />
+
+            If activated:
+
+            <ul>
+                <li>The Ember Raven flies across the reels.</li>
+                <li>A mighty CAW! CAW! is heard.</li>
+                <li>The Raven drops 3-8 Wild Symbols.</li>
+                <li>Wilds may appear anywhere on the reels.</li>
+                <li>Wilds can create massive payouts.</li>
+            </ul>
+
+        </div>
+
+        <div className="card-section">
+
+            <strong>🔥 BLAZE'S JACKPOT 🔥</strong>
+
+            <br /><br />
+
+            The Blaze's Jackpot Symbol only appears on Reel 3.
+
+            <br /><br />
+
+            If it lands in the center position of Reel 3:
+
+            <br /><br />
+
+            <strong>
+                YOU WIN THE ENTIRE JACKPOT!
+            </strong>
+
+        </div>
+
+        <div className="card-section">
+
+            <strong>📜 REALM LORE</strong>
+
+            <br /><br />
+
+            The Ember Raven serves Blaze Mortem,
+            Master of the Infernal Forge.
+
+            <br /><br />
+
+            When the Raven appears,
+            fortune follows...
+
+        </div>
+
+    </div>
+
+</div>
 
       </div>
     </div>
