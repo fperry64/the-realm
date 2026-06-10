@@ -94,6 +94,38 @@ function RealmMessageBoard() {
 
     }
 
+    async function likePost(postId) {
+
+        const post = posts.find(
+            p => p.id === postId
+        )
+
+        if (!post) return
+
+        const { error } = await supabase
+
+            .from('realm_messages')
+
+            .update({
+
+                likes: (post.likes || 0) + 1
+
+            })
+
+            .eq('id', postId)
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        loadPosts()
+
+    }
+
     useEffect(() => {
         loadPosts()
 
@@ -178,6 +210,22 @@ function RealmMessageBoard() {
                             <p className="post-message">
                                 {post.message}
                             </p>
+
+                            <div className="post-actions">
+
+                                <button
+                                    onClick={(( =>
+                                        likePost(post.id)
+                                    }
+                                >
+                                    👍 Like
+                                </button>
+
+                                <span>
+                                    {post.likes || 0}
+                                </span>
+
+                            </div>
 
                         </div>
 

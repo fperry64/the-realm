@@ -172,3 +172,31 @@
     line-height: 1.6;
 
 }
+
+.post-actions {
+
+    margin-top: 15px;
+
+    color: #b9a37a;
+
+    font-size: 0.9rem;
+
+}
+
+.post-actions button {
+
+    background: #2a241b;
+
+    color: #f5e6c8;
+
+    border: 1px solid #7a5c2e;
+
+    border-radius: 6px;
+
+    padding: 6px 12px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+
+}
