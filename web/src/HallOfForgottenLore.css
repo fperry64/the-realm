@@ -1,0 +1,64 @@
+.hall-page {
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+}
+
+.hall-center {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+}
+
+.explore-button {
+
+    padding: 16px 40px;
+
+    font-size: 1.3rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.hall-lore-text {
+
+    position: absolute;
+
+    bottom: 25px;
+
+    left: 50%;
+
+    transform:
+        translateX(-50%);
+
+    width: 75%;
+
+    max-width: 1000px;
+
+    text-align: center;
+
+    color: #d4af37;
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+
+    text-shadow:
+        0 0 10px black;
+
+}
