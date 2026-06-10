@@ -1,4 +1,4 @@
-import './HallOfForgottenLore.css'
+import '../HallOfForgottenLore.css'
 import hallBackground from '../assets/hall.png'
 
 function HallOfForgottenLore() {
