@@ -147,6 +147,80 @@ function Leaderboard() {
 
     }
 
+    async function loadMyRelicCountRank() {
+
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) return
+
+        const { data, error } = await supabase
+
+            .from('relic_count_leaderboard')
+
+            .select('*')
+
+            .order(
+                'relic_count',
+                { ascending: false }
+            )
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        const rank =
+
+            data.findIndex(
+                profile => profile.id === user.id
+            ) + 1
+
+        setMyRelicCountRank(rank)
+
+    }
+
+    async function loadMyRelicValueRank() {
+
+        const {
+            data: { user }
+        } = await supabase.auth.getUser()
+
+        if (!user) return
+
+        const { data, error } = await supabase
+
+            .from('relic_value_leaderboard')
+
+            .select('*')
+
+            .order(
+                'relic_value',
+                { ascending: false }
+            )
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        const rank =
+
+            data.findIndex(
+                profile => profile.id === user.id
+            ) + 1
+
+        setMyRelicValueRank(rank)
+
+    }
+
     async function loadRelicCountLeaders() {
 
         const { data, error } = await supabase
@@ -209,6 +283,8 @@ function Leaderboard() {
         loadMyTreasuryRank()
         loadRelicCountLeaders()
         loadRelicValueLeaders()
+        loadMyRelicCountRank()
+        loadMyRelicValueRank()
 
     }, [])
 
@@ -345,7 +421,7 @@ function Leaderboard() {
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 RELIC LEADERS (COUNT)
+                        TOP 5 RELIC COLLECTORS
                     </h2>
 
                     <table className="leaderboard-table">
@@ -386,12 +462,18 @@ function Leaderboard() {
 
                     </table>
 
+                    <p className="my-rank">
+
+                        Your Rank: #{myRelicCountRank}
+
+                    </p>
+
                 </div>
 
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 RELIC LEADERS (VALUE)
+                        TOP 5 RELIC HUNTERS
                     </h2>
 
                     <table className="leaderboard-table">
@@ -431,6 +513,12 @@ function Leaderboard() {
                         </tbody>
 
                     </table>
+
+                    <p className="my-rank">
+
+                        Your Rank: #{myRelicValueRank}
+
+                    </p>
 
                 </div>
 
