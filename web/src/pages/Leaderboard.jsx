@@ -421,7 +421,7 @@ function Leaderboard() {
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 RELIC COLLECTORS
+                        TOP 5 RELIC HUNTERS
                     </h2>
 
                     <table className="leaderboard-table">
@@ -473,7 +473,7 @@ function Leaderboard() {
                 <div className="leaderboard-card">
 
                     <h2>
-                        TOP 5 RELIC HUNTERS
+                        TOP 5 RELIC COLLECTORS
                     </h2>
 
                     <table className="leaderboard-table">
