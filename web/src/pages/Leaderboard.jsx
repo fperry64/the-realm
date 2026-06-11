@@ -8,12 +8,16 @@ import leaderboardBanner from '../assets/leaderboard.png'
 function Leaderboard() {
 
     const [renownLeaders, setRenownLeaders] = useState([])
-
     const [treasuryLeaders, setTreasuryLeaders] = useState([])
 
     const [myRenownRank, setMyRenownRank] = useState(null)
-
     const [myTreasuryRank, setMyTreasuryRank] = useState(null)
+
+    const [relicCountLeaders, setRelicCountLeaders] = useState([])
+    const [relicValueLeaders, setRelicValueLeaders] = useState([])
+
+    const [myRelicCountRank, setMyRelicCountRank] = useState(null)
+    const [myRelicValueRank, setMyRelicValueRank] = useState(null)
 
     async function loadRenownLeaders() {
 
@@ -143,15 +147,68 @@ function Leaderboard() {
 
     }
 
+    async function loadRelicCountLeaders() {
+
+        const { data, error } = await supabase
+
+            .from('relic_count_leaderboard')
+
+            .select('*')
+
+            .order(
+                'relic_count',
+                { ascending: false }
+            )
+
+            .limit(5)
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        setRelicCountLeaders(data)
+
+    }
+
+    async function loadRelicValueLeaders() {
+
+        const { data, error } = await supabase
+
+            .from('relic_value_leaderboard')
+
+            .select('*')
+
+            .order(
+                'relic_value',
+                { ascending: false }
+            )
+
+            .limit(5)
+
+        if (error) {
+
+            console.error(error)
+
+            return
+
+        }
+
+        setRelicValueLeaders(data)
+
+    }
+
     useEffect(() => {
 
         loadRenownLeaders()
-
         loadTreasuryLeaders()
-
         loadMyRenownRank()
-
         loadMyTreasuryRank()
+        loadRelicCountLeaders()
+        loadRelicValueLeaders()
 
     }, [])
 
@@ -285,8 +342,99 @@ function Leaderboard() {
 
                 </div>
 
-            </div>
+                <div className="leaderboard-card">
 
+                    <h2>
+                        TOP 5 RELIC LEADERS (COUNT)
+                    </h2>
+
+                    <table className="leaderboard-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Rank</th>
+
+                                <th>Username</th>
+
+                                <th>Relics</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            {relicCountLeaders.map((user, index) => (
+
+                                <tr key={user.username}>
+
+                                    <td>{index + 1}</td>
+
+                                    <td>{user.username}</td>
+
+                                    <td>
+                                        {user.relic_count}
+                                    </td>
+
+                                </tr>
+
+                            ))}
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <div className="leaderboard-card">
+
+                    <h2>
+                        TOP 5 RELIC LEADERS (VALUE)
+                    </h2>
+
+                    <table className="leaderboard-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Rank</th>
+
+                                <th>Username</th>
+
+                                <th>Value</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            {relicValueLeaders.map((user, index) => (
+
+                                <tr key={user.username}>
+
+                                    <td>{index + 1}</td>
+
+                                    <td>{user.username}</td>
+
+                                    <td>
+                                        {user.relic_value?.toLocaleString()}
+                                    </td>
+
+                                </tr>
+
+                            ))}
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
 
             </div>
 
