@@ -260,3 +260,83 @@
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+
+.character-journal {
+
+    width: 100%;
+
+    margin-top: 30px;
+
+    background: rgba(10, 10, 20, 0.90);
+
+    border: 1px solid #8b7355;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    max-height: 350px;
+
+    overflow-y: auto;
+
+}
+
+.journal-card {
+
+    max-height: 400px;
+
+    overflow-y: auto;
+
+}
+
+.journal-entry {
+
+    padding: 12px;
+
+    margin-bottom: 12px;
+
+    border-radius: 8px;
+
+    background: rgba(255,255,255,0.05);
+
+}
+
+.journal-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 6px;
+
+}
+
+.journal-type {
+
+    font-weight: bold;
+
+    color: gold;
+
+}
+
+.journal-date {
+
+    opacity: 0.7;
+
+    font-size: 0.9rem;
+
+}
+
+.journal-title {
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+
+}
+
+.journal-text {
+
+    line-height: 1.4;
+
+}

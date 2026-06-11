@@ -6,6 +6,7 @@ import '../CharacterSheet.css'
 
 function CharacterSheet() {
   const [profile, setProfile] = useState(null)
+  const [journalEntries, setJournalEntries] = useState([])
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -34,6 +35,16 @@ function CharacterSheet() {
     }
 
     setProfile(data)
+
+    const { data: journalData } = await supabase
+      .from('user_journal')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('discovered_at', {
+        ascending: false
+      })
+
+    setJournalEntries(journalData || [])
   }
 
   async function handleAvatarUpload() {
@@ -217,6 +228,63 @@ function CharacterSheet() {
             <div className="coming-soon">
               COMING REAL SOON
             </div>
+          </div>
+
+          <div className="character-card journal-card full-width">
+
+            <h2>EXPLORER'S JOURNAL</h2>
+
+            {journalEntries.length === 0 ? (
+
+                <div className="coming-soon">
+                    No discoveries yet.
+                </div>
+
+            ) : (
+
+                journalEntries.map(entry => (
+
+                    <div
+                        key={entry.id}
+                        className={`journal-entry ${entry.entry_type}`}
+                    >
+
+                        <div className="journal-header">
+
+                            <span className="journal-type">
+
+                                {entry.entry_type?.toUpperCase()}
+
+                            </span>
+
+                            <span className="journal-date">
+
+                                {new Date(
+                                    entry.discovered_at
+                                ).toLocaleDateString()}
+
+                            </span>
+
+                        </div>
+
+                        <div className="journal-title">
+
+                            {entry.title}
+
+                        </div>
+
+                        <div className="journal-text">
+
+                            {entry.entry_text}
+
+                        </div>
+
+                    </div>
+
+                ))
+
+            )}
+
           </div>
 
         </div>
