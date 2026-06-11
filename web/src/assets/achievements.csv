@@ -1,52 +1,52 @@
 id,achievement_name,achievement_description,achievement_category,requirement_value,renown_reward,icon
 ACH-001,First Steps,Begin your journey through The Realm.,GENERAL,1,10,footprints
-ACH-002,First Discovery,Achievement for knowledge progression.,KNOWLEDGE,1,10,scroll
-ACH-003,Lore Seeker,Achievement for knowledge progression.,KNOWLEDGE,10,25,scroll
-ACH-004,Archivist,Achievement for knowledge progression.,KNOWLEDGE,25,40,scroll
-ACH-005,Keeper of Forgotten Knowledge,Achievement for knowledge progression.,KNOWLEDGE,50,75,scroll
-ACH-006,Lore Scholar,Achievement for knowledge progression.,KNOWLEDGE,75,100,scroll
-ACH-007,Lore Master,Achievement for knowledge progression.,KNOWLEDGE,100,150,scroll
-ACH-008,Ancient Historian,Achievement for knowledge progression.,KNOWLEDGE,150,200,scroll
-ACH-009,Hall Curator,Achievement for knowledge progression.,KNOWLEDGE,250,300,scroll
-ACH-010,Voice of the Archives,Achievement for knowledge progression.,KNOWLEDGE,500,500,scroll
-ACH-011,Living Chronicle,Achievement for knowledge progression.,KNOWLEDGE,1000,1000,scroll
-ACH-012,First Clue,Achievement for clues progression.,CLUES,1,10,magnifying_glass
-ACH-013,Trail Walker,Achievement for clues progression.,CLUES,10,25,magnifying_glass
-ACH-014,Pathfinder,Achievement for clues progression.,CLUES,25,40,magnifying_glass
-ACH-015,Puzzle Solver,Achievement for clues progression.,CLUES,50,75,magnifying_glass
-ACH-016,Cipher Breaker,Achievement for clues progression.,CLUES,75,100,magnifying_glass
-ACH-017,Master Investigator,Achievement for clues progression.,CLUES,100,150,magnifying_glass
-ACH-018,Shadow Tracker,Achievement for clues progression.,CLUES,150,200,magnifying_glass
-ACH-019,Truth Seeker,Achievement for clues progression.,CLUES,250,300,magnifying_glass
-ACH-020,Realm Detective,Achievement for clues progression.,CLUES,500,500,magnifying_glass
-ACH-021,Keeper of Secrets,Achievement for clues progression.,CLUES,1000,1000,magnifying_glass
-ACH-022,First Relic,Achievement for relics progression.,RELICS,1,25,relic
-ACH-023,Relic Hunter,Achievement for relics progression.,RELICS,5,50,relic
-ACH-024,Treasure Hoarder,Achievement for relics progression.,RELICS,10,75,relic
-ACH-025,Artifact Seeker,Achievement for relics progression.,RELICS,25,100,relic
-ACH-026,Master Collector,Achievement for relics progression.,RELICS,50,250,relic
-ACH-027,Vault of Wonders,Achievement for relics progression.,RELICS,75,350,relic
-ACH-028,Curator of Relics,Achievement for relics progression.,RELICS,100,500,relic
-ACH-029,Relic Baron,Achievement for relics progression.,RELICS,150,750,relic
-ACH-030,Legendary Collector,Achievement for relics progression.,RELICS,250,1000,relic
-ACH-031,Protector of the Vault,Achievement for relics progression.,RELICS,500,1500,relic
-ACH-032,Rising Adventurer,Achievement for renown progression.,RENOWN,100,25,star
-ACH-033,Realm Hero,Achievement for renown progression.,RENOWN,500,75,star
-ACH-034,Realm Champion,Achievement for renown progression.,RENOWN,1000,150,star
-ACH-035,Living Legend,Achievement for renown progression.,RENOWN,5000,500,star
-ACH-036,Realm Icon,Achievement for renown progression.,RENOWN,10000,750,star
-ACH-037,Realm Sovereign,Achievement for renown progression.,RENOWN,25000,1000,star
-ACH-038,Realm Myth,Achievement for renown progression.,RENOWN,50000,1500,star
-ACH-039,Realm Eternal,Achievement for renown progression.,RENOWN,100000,2500,star
-ACH-040,Name in Stone,Achievement for renown progression.,RENOWN,250000,5000,star
-ACH-041,Immortal of the Realm,Achievement for renown progression.,RENOWN,500000,10000,star
-ACH-042,First Fortune,Achievement for treasury progression.,TREASURY,1000,25,coin
-ACH-043,Merchant Prince,Achievement for treasury progression.,TREASURY,10000,75,coin
-ACH-044,Vault Keeper,Achievement for treasury progression.,TREASURY,50000,200,coin
-ACH-045,King's Treasurer,Achievement for treasury progression.,TREASURY,100000,500,coin
-ACH-046,Gold Magnate,Achievement for treasury progression.,TREASURY,1000000,750,coin
-ACH-047,Master Financier,Achievement for treasury progression.,TREASURY,10000000,1000,coin
-ACH-048,Treasury Lord,Achievement for treasury progression.,TREASURY,100000000,1500,coin
-ACH-049,Coin Emperor,Achievement for treasury progression.,TREASURY,1000000000,2500,coin
-ACH-050,Realm Banker,Achievement for treasury progression.,TREASURY,5000000000,5000,coin
-ACH-051,Wealth Beyond Measure,Achievement for treasury progression.,TREASURY,25000000000,10000,coin
+ACH-002,First Discovery,Gain 1 Point of Knowledge.,KNOWLEDGE,1,10,scroll
+ACH-003,Lore Seeker,Gain 12 Points of Knowledge.,KNOWLEDGE,12,25,scroll
+ACH-004,Archivist,Gain 24 Points of Knowledge.,KNOWLEDGE,24,40,scroll
+ACH-005,Keeper of Forgotten Knowledge,Gain 35 Points of Knowledge.,KNOWLEDGE,35,75,scroll
+ACH-006,Lore Scholar,Gain 47 Points of Knowledge.,KNOWLEDGE,47,100,scroll
+ACH-007,Lore Master,Gain 59 Points of Knowledge.,KNOWLEDGE,59,150,scroll
+ACH-008,Ancient Historian,Gain 70 Points of Knowledge.,KNOWLEDGE,70,200,scroll
+ACH-009,Hall Curator,Gain 82 Points of Knowledge.,KNOWLEDGE,82,300,scroll
+ACH-010,Voice of the Archives,Gain 91 Points of Knowledge.,KNOWLEDGE,91,500,scroll
+ACH-011,Living Chronicle,Gain 100 Points of Knowledge.,KNOWLEDGE,100,1000,scroll
+ACH-012,First Clue,Acquire 1 Clue.,CLUES,1,10,magnifying_glass
+ACH-013,Trail Walker,Acquire 12 Clues.,CLUES,12,25,magnifying_glass
+ACH-014,Pathfinder,Acquire 24 Clues.,CLUES,24,40,magnifying_glass
+ACH-015,Puzzle Solver,Acquire 35 Clues.,CLUES,35,75,magnifying_glass
+ACH-016,Cipher Breaker,Acquire 47 Clues.,CLUES,47,100,magnifying_glass
+ACH-017,Master Investigator,Acquire 59 Clues.,CLUES,59,150,magnifying_glass
+ACH-018,Shadow Tracker,Acquire 70 Clues.,CLUES,70,200,magnifying_glass
+ACH-019,Truth Seeker,Acquire 82 Clues.,CLUES,82,300,magnifying_glass
+ACH-020,Realm Detective,Acquire 91 Clues.,CLUES,91,500,magnifying_glass
+ACH-021,Keeper of Secrets,Acquire 100 Clues.,CLUES,100,1000,magnifying_glass
+ACH-022,First Relic,Acquire 1 Relic.,RELICS,1,25,relic
+ACH-023,Relic Hunter,Acquire 5 Relics.,RELICS,5,50,relic
+ACH-024,Treasure Hoarder,Acquire 10 Relics.,RELICS,10,75,relic
+ACH-025,Artifact Seeker,Acquire 25 Relics.,RELICS,25,100,relic
+ACH-026,Master Collector,Acquire 50 Relics.,RELICS,50,250,relic
+ACH-027,Vault of Wonders,Acquire 75 Relics.,RELICS,75,350,relic
+ACH-028,Curator of Relics,Acquire 100 Relics.,RELICS,100,500,relic
+ACH-029,Relic Baron,Acquire 150 Relics.,RELICS,150,750,relic
+ACH-030,Legendary Collector,Acquire 250 Relics.,RELICS,250,1000,relic
+ACH-031,Protector of the Vault,Acquire 500 Relics.,RELICS,500,1500,relic
+ACH-032,Rising Adventurer,Acquire 100 Points of Renown.,RENOWN,100,25,star
+ACH-033,Realm Hero,Acquire 500 Points of Renown.,RENOWN,500,75,star
+ACH-034,Realm Champion,"Acquire 1,000 Points of Renown.",RENOWN,1000,150,star
+ACH-035,Living Legend,"Acquire 5,000 Points of Renown.",RENOWN,5000,500,star
+ACH-036,Realm Icon,"Acquire 10,000 Points of Renown.",RENOWN,10000,750,star
+ACH-037,Realm Sovereign,"Acquire 25,000 Points of Renown.",RENOWN,25000,1000,star
+ACH-038,Realm Myth,"Acquire 50,000 Points of Renown.",RENOWN,50000,1500,star
+ACH-039,Realm Eternal,"Acquire 100,000 Points of Renown.",RENOWN,100000,2500,star
+ACH-040,Name in Stone,"Acquire 250,000 Points of Renown.",RENOWN,250000,5000,star
+ACH-041,Immortal of the Realm,"Acquire 500,000 Points of Renown.",RENOWN,500000,10000,star
+ACH-042,First Fortune,"Acquire 1,000 Ghost Coins.",TREASURY,1000,25,coin
+ACH-043,Merchant Prince,"Acquire 10,000 Ghost Coins.",TREASURY,10000,75,coin
+ACH-044,Vault Keeper,"Acquire 50,000 Ghost Coins.",TREASURY,50000,200,coin
+ACH-045,King's Treasurer,"Acquire 100,000 Ghost Coins.",TREASURY,100000,500,coin
+ACH-046,Gold Magnate,"Acquire 1,000,000 Ghost Coins.",TREASURY,1000000,750,coin
+ACH-047,Master Financier,"Acquire 10,000,000 Ghost Coins.",TREASURY,10000000,1000,coin
+ACH-048,Treasury Lord,"Acquire 100,000,000 Ghost Coins.",TREASURY,100000000,1500,coin
+ACH-049,Coin Emperor,"Acquire 1,000,000,000 Ghost Coins.",TREASURY,1000000000,2500,coin
+ACH-050,Realm Banker,"Acquire 5,000,000,000 Ghost Coins.",TREASURY,5000000000,5000,coin
+ACH-051,Wealth Beyond Measure,"Acquire 25,000,000,000 Ghost Coins.",TREASURY,25000000000,10000,coin
