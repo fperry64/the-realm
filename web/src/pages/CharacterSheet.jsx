@@ -281,7 +281,7 @@ function CharacterSheet() {
           </div>
           
           <div className="character-card">
-            <h2>ACHIEVEMENTS UNLOCKED</h2>
+            <h2>ACHIEVEMENTS</h2>
 
             <div className="coming-soon">
               COMING REAL SOON

@@ -624,7 +624,7 @@ function SlotMachine({
     </div>
 
         <div className="machine-balance-value">
-            GHOST COINT BALANCE: {balance.toLocaleString()}
+            GHOST COINS: {balance.toLocaleString()}
         </div>
 
         <div className="last-win">
