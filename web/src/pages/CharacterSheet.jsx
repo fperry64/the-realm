@@ -419,20 +419,7 @@ function CharacterSheet() {
                             />
 
                             <div className="relic-info">
-
-                                <strong>
-
-                                    {relic.legend}
-
-                                </strong>
-
-                                <p>
-
-                                    Relic ID:
-                                    {relic.id}
-
-                                </p>
-
+                                
                                 <p>
 
                                     Series:

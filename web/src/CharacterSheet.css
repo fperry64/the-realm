@@ -430,18 +430,24 @@
 
     margin: 4px 0;
 
-    font-size: 0.9rem;
+    color: #d4b26a;
+
+    font-size: 0.7rem;
 
 }
 
 .relic-image {
 
-    width: 100%;
+    width: 75%;
 
     height: auto;
 
+    display: block;
+
+    border: 2px solid #d4b26a;
+
     border-radius: 8px;
 
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
 
 }
