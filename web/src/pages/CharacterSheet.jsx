@@ -36,11 +36,13 @@ function CharacterSheet() {
   const [relics, setRelics] = useState([])
   const [portfolioStats, setPortfolioStats] = useState(null)
   const [achievementCount, setAchievementCount] = useState(0)
+  const [achievements, setAchievements] = useState([])
   const navigate = useNavigate()
 
   useEffect(() => {
     loadProfile()
     loadAchievements()
+    loadAchievementGallery()
   }, [])
 
   async function loadProfile() {
@@ -144,6 +146,45 @@ function CharacterSheet() {
 
   }
 
+  async function loadAchievementGallery() {
+
+    const {
+        data: { user }
+    } = await supabase.auth.getUser()
+
+    if (!user) return
+
+    const { data, error } = await supabase
+
+        .from('user_achievements')
+
+        .select(`
+            earned_at,
+            achievements (
+                achievement_name,
+                achievement_description,
+                achievement_category
+            )
+        `)
+
+        .eq('user_id', user.id)
+
+        .order(
+            'earned_at',
+            { ascending: false }
+        )
+
+    if (error) {
+
+        console.error(error)
+
+        return
+
+    }
+
+    setAchievements(data || [])
+
+  }
 
   async function handleAvatarUpload() {
     const input = document.createElement('input')
@@ -472,6 +513,71 @@ function CharacterSheet() {
                                     Relic Value: {relic.card_value.toLocaleString()}
 
                                 </p>
+
+                            </div>
+
+                        </div>
+
+                    ))
+
+                )}
+
+            </div>
+
+          </div>
+
+          <div className="character-card full-width achievement-card">
+
+            <h2>
+                ACHIEVEMENTS
+            </h2>
+
+            <div className="achievement-scroll">
+
+                {achievements.length === 0 ? (
+
+                    <div className="coming-soon">
+                        No achievements unlocked.
+                    </div>
+
+                ) : (
+
+                    achievements.map((achievement, index) => (
+
+                        <div
+                            key={index}
+                            className="achievement-entry"
+                        >
+
+                            <div className="achievement-header">
+
+                                <span className="achievement-name">
+
+                                    🏆 {
+                                        achievement.achievements
+                                            ?.achievement_name
+                                    }
+
+                                </span>
+
+                                <span className="achievement-date">
+
+                                    {
+                                        new Date(
+                                            achievement.earned_at
+                                        ).toLocaleDateString()
+                                    }
+
+                                </span>
+
+                            </div>
+
+                            <div className="achievement-description">
+
+                                {
+                                    achievement.achievements
+                                        ?.achievement_description
+                                }
 
                             </div>
 
