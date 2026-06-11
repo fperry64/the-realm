@@ -38,12 +38,12 @@ const PAYTABLE = {
   [loreScroll]:      { 3: 2, 4: 5, 5: 10 },
   [sentinelSymbol]:  { 3: 3, 4: 8, 5: 15 },
   [relicSymbol]:     { 3: 4, 4: 10, 5: 20 },
-  [forgeSymbol]:     { 3: 5, 4: 15, 5: 35 },
-  [dragonSymbol]:    { 3: 7, 4: 25, 5: 60 },
-  [kingSymbol]:      { 3: 10, 4: 40, 5: 100 },
-  [sigilSymbol]:     { 3: 15, 4: 75, 5: 200 },
-  [ghostSlot]:       { 3: 25, 4: 100, 5: 250 },
-  [blazeSlot]:       { 3: 50, 4: 200, 5: 500 }
+  [forgeSymbol]:     { 3: 5, 4: 13, 5: 25 },
+  [dragonSymbol]:    { 3: 7, 4: 18, 5: 35 },
+  [kingSymbol]:      { 3: 10, 4: 25, 5: 50 },
+  [sigilSymbol]:     { 3: 12, 4: 30, 5: 60 },
+  [ghostSlot]:       { 3: 17, 4: 40, 5: 80 },
+  [blazeSlot]:       { 3: 20, 4: 50, 5: 100 }
 }
 
 const PAYLINES = [
@@ -135,7 +135,7 @@ function calculateWinnings(reels, betAmount) {
         }
 
         else if (scatterCount >= 5) {
-            totalWin += betAmount * 25
+            totalWin += betAmount * 20
         }
 
     }   
