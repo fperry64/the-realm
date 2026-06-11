@@ -80,6 +80,96 @@ function HallOfForgottenLore() {
 
     }
 
+    async function checkAchievements(userId) {
+
+        const { data: progress } = await supabase
+            .from('user_progress')
+            .select('*')
+            .eq('user_id', userId)
+            .single()
+
+        if (!progress) return
+
+        const { data: achievements } = await supabase
+            .from('achievements')
+            .select('*')
+
+        const { data: owned } = await supabase
+            .from('user_achievements')
+            .select('achievement_id')
+            .eq('user_id', userId)
+
+        const ownedIds =
+            new Set(
+                owned?.map(
+                    a => a.achievement_id
+                ) || []
+            )
+
+        for (const achievement of achievements) {
+
+            if (
+                ownedIds.has(
+                    achievement.id
+                )
+            ) continue
+
+            let earned = false
+
+            switch (
+                achievement.achievement_category
+            ) {
+
+                case 'GENERAL':
+                    earned = true
+                    break
+
+                case 'KNOWLEDGE':
+                    earned =
+                        progress.knowledge_count >=
+                        achievement.requirement_value
+                    break
+
+                case 'CLUES':
+                    earned =
+                        progress.clue_count >=
+                        achievement.requirement_value
+                    break
+
+                case 'RELICS':
+                    earned =
+                        progress.relic_count >=
+                        achievement.requirement_value
+                    break
+
+                case 'RENOWN':
+                    earned =
+                        progress.renown >=
+                        achievement.requirement_value
+                    break
+
+                case 'TREASURY':
+                    earned =
+                        progress.ghost_coins >=
+                        achievement.requirement_value
+                    break
+
+            }
+
+            if (!earned) continue
+
+            await supabase
+                .from('user_achievements')
+                .insert({
+                    user_id: userId,
+                    achievement_id: achievement.id,
+                    earned_at: new Date()
+                })
+
+        }
+
+    }
+
     async function exploreArchives() {
 
         const {
@@ -186,6 +276,8 @@ function HallOfForgottenLore() {
                 entry
             )
 
+            await checkAchievements(user.id)
+
             setResult({
                 type: 'knowledge',
                 title: entry.title,
@@ -210,6 +302,8 @@ function HallOfForgottenLore() {
                 entry.id,
                 entry
             )
+
+            await checkAchievements(user.id)
 
             setResult({
                 type: 'clue',
@@ -255,6 +349,8 @@ function HallOfForgottenLore() {
                     user_id: user.id,
                     relic_id: relic.id
                 })
+
+            await checkAchievements(user.id)
 
             setResult({
                 type: 'relic',
