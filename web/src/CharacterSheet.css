@@ -451,3 +451,31 @@
     margin: 0 auto 10px auto;
 
 }
+
+.achievement-summary {
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+.achievement-count {
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    color: #d4af37;
+
+}
+
+.achievement-label {
+
+    margin-top: 8px;
+
+    color: #cccccc;
+
+    letter-spacing: 1px;
+
+}

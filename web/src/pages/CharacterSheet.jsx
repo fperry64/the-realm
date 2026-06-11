@@ -35,10 +35,12 @@ function CharacterSheet() {
   const [journalEntries, setJournalEntries] = useState([])
   const [relics, setRelics] = useState([])
   const [portfolioStats, setPortfolioStats] = useState(null)
+  const [achievementCount, setAchievementCount] = useState(0)
   const navigate = useNavigate()
 
   useEffect(() => {
     loadProfile()
+    loadAchievements()
   }, [])
 
   async function loadProfile() {
@@ -110,6 +112,38 @@ function CharacterSheet() {
     }
 
   }
+
+  async function loadAchievements() {
+
+    const {
+        data: { user }
+    } = await supabase.auth.getUser()
+
+    if (!user) return
+
+    const { count, error } = await supabase
+
+        .from('user_achievements')
+
+        .select('*', {
+            count: 'exact',
+            head: true
+        })
+
+        .eq('user_id', user.id)
+
+    if (error) {
+
+        console.error(error)
+
+        return
+
+    }
+
+    setAchievementCount(count || 0)
+
+  }
+
 
   async function handleAvatarUpload() {
     const input = document.createElement('input')
@@ -283,9 +317,16 @@ function CharacterSheet() {
           <div className="character-card">
             <h2>ACHIEVEMENTS</h2>
 
-            <div className="coming-soon">
-              COMING REAL SOON
+            <div className="achievement-summary">
+
+                <div className="achievement-count">
+
+                    {achievementCount} / 51
+              
+                </div>
+                
             </div>
+        
           </div>
 
           <div className="character-card full-width">
