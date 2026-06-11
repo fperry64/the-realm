@@ -142,10 +142,10 @@ function HallOfForgottenLore() {
         let renownAward
         let relicRarity = null
 
-        if (roll < 80) {
+        if (roll < 65) {
             outcome = 'knowledge'
             renownAward = 1
-        } else if (roll < 90) {
+        } else if (roll < 85) {
             outcome = 'clue'
             renownAward = 2
         } else if (roll < 95) {
