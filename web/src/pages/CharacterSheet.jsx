@@ -160,7 +160,7 @@ function CharacterSheet() {
 
         .select(`
             earned_at,
-            achievements (
+            achievements:user_achievements_achievement_id_fkey (
                 achievement_name,
                 achievement_description,
                 achievement_category
@@ -182,9 +182,7 @@ function CharacterSheet() {
 
     }
 
-    console.log(data)
-    console.log(error)
-
+    
     setAchievements(data || [])
 
   }
