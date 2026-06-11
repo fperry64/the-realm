@@ -455,18 +455,15 @@
 .achievement-summary {
 
     text-align: center;
-
-    padding: 10px;
-
 }
 
 .achievement-count {
 
-    font-size: 2rem;
+    font-size: 1rem;
 
-    font-weight: bold;
+    font-weight: normal;
 
-    color: #d4af37;
+    color: #e5e5e5;
 
 }
 
