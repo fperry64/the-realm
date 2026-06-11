@@ -340,3 +340,96 @@
     line-height: 1.4;
 
 }
+
+.portfolio-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+
+}
+
+.portfolio-stat {
+
+    text-align: center;
+
+    padding: 15px;
+
+    background:
+        rgba(255,255,255,0.05);
+
+    border-radius: 10px;
+
+}
+
+.portfolio-stat span {
+
+    display: block;
+
+    font-size: 0.85rem;
+
+    margin-bottom: 5px;
+
+}
+
+.portfolio-stat strong {
+
+    font-size: 1.3rem;
+
+}
+
+.relic-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+
+}
+
+.relic-tile {
+
+    background:
+        rgba(255,255,255,0.05);
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+}
+
+.relic-image-placeholder {
+
+    height: 250px;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        rgba(255,255,255,0.05);
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+.relic-info p {
+
+    margin: 4px 0;
+
+    font-size: 0.9rem;
+
+}

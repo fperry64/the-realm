@@ -7,6 +7,8 @@ import '../CharacterSheet.css'
 function CharacterSheet() {
   const [profile, setProfile] = useState(null)
   const [journalEntries, setJournalEntries] = useState([])
+  const [relics, setRelics] = useState([])
+  const [portfolioStats, setPortfolioStats] = useState(null)
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -45,6 +47,42 @@ function CharacterSheet() {
       })
 
     setJournalEntries(journalData || [])
+
+    const { data: relicData, error: relicError } =
+        await supabase
+            .from('user_relics')
+            .select(`
+                discovered_at,
+                relics (
+                    id,
+                    legend,
+                    card_name,
+                    series,
+                    serial_number,
+                    rarity,
+                    card_value,
+                    image_key,
+                    lore
+                )
+            `)
+            .eq('user_id', user.id)
+
+    if (relicError) {
+
+        console.error(relicError)
+
+    } else {
+
+        const relicList =
+            relicData.map(r => ({
+                ...r.relics,
+                discovered_at: r.discovered_at
+            }))
+
+        setRelics(relicList)
+
+    }
+
   }
 
   async function handleAvatarUpload() {
@@ -229,6 +267,181 @@ function CharacterSheet() {
               COMING REAL SOON
             </div>
           </div>
+
+          <div className="character-card full-width">
+
+            <h2>RELIC PORTFOLIO</h2>
+
+            <div className="portfolio-grid">
+
+                <div className="portfolio-stat">
+
+                    <span>Total Relics</span>
+
+                    <strong>
+                        {relics.length}
+                    </strong>
+
+                </div>
+
+                <div className="portfolio-stat">
+
+                    <span>Total Relic Value</span>
+
+                    <strong>
+
+                        {relics
+                            .reduce(
+                                (sum, relic) =>
+                                    sum +
+                                    (relic.card_value || 0),
+                                0
+                            )
+                            .toLocaleString()
+                        }
+
+                    </strong>
+
+                </div>
+
+                <div className="portfolio-stat">
+
+                    <span>Most Valuable Relic</span>
+
+                    <strong>
+
+                        {
+                            relics.length > 0
+                                ? Math.max(
+                                    ...relics.map(
+                                        relic =>
+                                            relic.card_value
+                                    )
+                                ).toLocaleString()
+                                : 0
+                        }
+
+                    </strong>
+
+                </div>
+
+                <div className="portfolio-stat">
+
+                    <span>
+                        Last Relic Discovered
+                    </span>
+
+                    <strong>
+
+                        {
+                            relics.length > 0
+
+                                ? new Date(
+
+                                    relics
+                                        .sort(
+                                            (a, b) =>
+                                                new Date(
+                                                    b.discovered_at
+                                                ) -
+                                                new Date(
+                                                    a.discovered_at
+                                                )
+                                        )[0]
+                                        .discovered_at
+
+                                ).toLocaleDateString()
+
+                                : 'None'
+                        }
+
+                    </strong>
+
+                </div>
+
+            </div>
+
+          </div>
+
+          <div className="character-card full-width">
+
+            <h2>MY RELICS</h2>
+
+            <div className="relic-grid">
+
+                {relics.length === 0 ? (
+
+                    <div className="coming-soon">
+
+                        No relics discovered.
+
+                    </div>
+
+                ) : (
+
+                    relics.map(relic => (
+
+                        <div
+                            key={relic.id}
+                            className="relic-tile"
+                        >
+
+                            <div
+                                className="relic-image-placeholder"
+                            >
+
+                                {relic.legend}
+
+                            </div>
+
+                            <div className="relic-info">
+
+                                <strong>
+
+                                    {relic.legend}
+
+                                </strong>
+
+                                <p>
+
+                                    Relic ID:
+                                    {relic.id}
+
+                                </p>
+
+                                <p>
+
+                                    Series:
+                                    {relic.series}
+
+                                </p>
+
+                                <p>
+
+                                    Serial:
+                                    {relic.serial_number}
+
+                                </p>
+
+                                <p>
+
+                                    Relic Value:
+                                    {relic.card_value.toLocaleString()}
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    ))
+
+                )}
+
+            </div>
+
+          </div>
+
 
           <div className="character-card journal-card full-width">
 
