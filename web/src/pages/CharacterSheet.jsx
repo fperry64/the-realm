@@ -4,6 +4,32 @@ import realmBanner from '../assets/realm-arrival-banner.png'
 import { useNavigate } from 'react-router-dom'
 import '../CharacterSheet.css'
 
+import blaze from '../assets/relics/blaze.png'
+import ghost from '../assets/relics/ghost.png'
+import forgottenKing from '../assets/relics/forgotten_king.png'
+import firstSentinel from '../assets/relics/first_sentinel.png'
+import nyxara from '../assets/relics/nyxara.png'
+import originalForger from '../assets/relics/original_forger.png'
+import ashDrake from '../assets/relics/ash_drake.png'
+import lastChronicler from '../assets/relics/last_chronicler.png'
+import stoneRaven from '../assets/relics/stone_raven.png'
+import voidQueen from '../assets/relics/void_queen.png'
+
+const relicImages = {
+
+    blaze,
+    ghost,
+    forgotten_king: forgottenKing,
+    first_sentinel: firstSentinel,
+    nyxara,
+    original_forger: originalForger,
+    ash_drake: ashDrake,
+    last_chronicler: lastChronicler,
+    stone_raven: stoneRaven,
+    void_queen: voidQueen
+
+}
+
 function CharacterSheet() {
   const [profile, setProfile] = useState(null)
   const [journalEntries, setJournalEntries] = useState([])
@@ -384,15 +410,13 @@ function CharacterSheet() {
                         <div
                             key={relic.id}
                             className="relic-tile"
-                        >
+                        >                            
 
-                            <div
-                                className="relic-image-placeholder"
-                            >
-
-                                {relic.legend}
-
-                            </div>
+                            <img
+                                src={relicImages[relic.image_key]}
+                                alt={relic.legend}
+                                className="relic-image"
+                            />
 
                             <div className="relic-info">
 

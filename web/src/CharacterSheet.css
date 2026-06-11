@@ -433,3 +433,15 @@
     font-size: 0.9rem;
 
 }
+
+.relic-image {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+}
