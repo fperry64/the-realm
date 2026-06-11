@@ -279,13 +279,7 @@ function CharacterSheet() {
 
             <p>{profile.renown.toLocaleString()}</p>
           </div>
-
-          <div className="character-card">
-            <h2>RELICS COLLECTED</h2>
-
-            <p>{profile.relics.toLocaleString()}</p>
-          </div>
-
+          
           <div className="character-card">
             <h2>ACHIEVEMENTS UNLOCKED</h2>
 
@@ -422,22 +416,19 @@ function CharacterSheet() {
                                 
                                 <p>
 
-                                    Series:
-                                    {relic.series}
+                                    Series: {relic.series}
 
                                 </p>
 
                                 <p>
 
-                                    Serial:
-                                    {relic.serial_number}
+                                    Serial: {relic.serial_number}
 
                                 </p>
 
                                 <p>
 
-                                    Relic Value:
-                                    {relic.card_value.toLocaleString()}
+                                    Relic Value: {relic.card_value.toLocaleString()}
 
                                 </p>
 
