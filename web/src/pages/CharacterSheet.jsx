@@ -182,6 +182,7 @@ function CharacterSheet() {
 
     }
 
+    console.log('Achievement Gallery Data:', data)
     
     setAchievements(data || [])
 
