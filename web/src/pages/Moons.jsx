@@ -88,15 +88,14 @@ function Moons() {
                 <div className="moon-section">
 
                     <h2>
-                        Additional Secrets
+                        Moon Druid Archives
                     </h2>
 
                     <p>
 
-                        Continue exploring the Hall of
-                        Forgotten Lore to uncover more
-                        knowledge concerning the Moon
-                        Druids.
+                        The Moon Druids preserve knowledge hidden from the rest of The Realm.
+                        Future discoveries associated with the Moon Druids will appear within
+                        these archives.
 
                     </p>
 
