@@ -288,53 +288,53 @@ function CharacterSheet() {
   const mapLocations = {
 
     Kings: {
-        top: '42%',
-        left: '57%'
+        top: '18%',
+        left: '49%'
     },
 
     'Lost Scribes': {
-        top: '28%',
-        left: '34%'
+        top: '29%',
+        left: '33%'
     },
 
     'Hidden Paths': {
-        top: '55%',
-        left: '22%'
+        top: '25%',
+        left: '65%'
     },
 
     'Ancient Symbols': {
-        top: '18%',
-        left: '48%'
+        top: '43%',
+        left: '67%'
     },
 
     Ravens: {
-        top: '25%',
-        left: '70%'
+        top: '51%',
+        left: '22%'
     },
 
     Crowns: {
-        top: '38%',
-        left: '62%'
+        top: '58%',
+        left: '78%'
     },
 
     Keys: {
-        top: '52%',
-        left: '48%'
+        top: '70%',
+        left: '30%'
     },
 
     Moons: {
-        top: '68%',
-        left: '35%'
+        top: '76%',
+        left: '49%'
     },
 
     Sentinels: {
-        top: '72%',
-        left: '60%'
+        top: '80%',
+        left: '70%'
     },
 
     'The Forge': {
-        top: '82%',
-        left: '50%'
+        top: '92%',
+        left: '54%'
     }
 
   }
