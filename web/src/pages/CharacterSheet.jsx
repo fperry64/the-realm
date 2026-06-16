@@ -254,6 +254,36 @@ function CharacterSheet() {
     destinyTitles[profile?.current_destiny] ||
     'Wanderer of The Realm'
 
+  const realmPages = [
+
+    "Forgotten Kings Chamber",
+
+    "Lost Scribes",
+
+    "Hidden Paths",
+
+    "Ancient Symbols",
+
+    "Ravens",
+
+    "Crowns",
+
+    "Keys",
+
+    "Moons",
+
+    "Sentinels",
+
+    "The Forge"
+
+  ]
+
+  const discoveredPages =
+
+    journalEntries.map(
+        entry => entry.realm_category
+    )
+
   if (!profile) {
     return (
       <div className="character-page">
@@ -711,9 +741,43 @@ function CharacterSheet() {
 
                     <h2>DISCOVERIES OF THE REALM</h2>
 
-                    <div className="coming-soon">
+                    <div className="discoveries-list">
 
-                        Realm Discoveries Coming Soon
+                        {realmPages.map(page => {
+
+                            const unlocked =
+                                discoveredPages.includes(page)
+
+                            return (
+
+                                <div
+                                    key={page}
+                                    className="discovery-row"
+                                >
+
+                                    <span>
+
+                                        {unlocked ? '✓' : '🔒'}
+
+                                        {' '}
+
+                                        {page}
+
+                                    </span>
+
+                                    <span>
+
+                                        {unlocked
+                                            ? 'Unlocked'
+                                            : 'Locked'}
+
+                                    </span>
+
+                                </div>
+
+                            )
+
+                        })}
 
                     </div>
 
