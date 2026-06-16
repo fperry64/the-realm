@@ -38,6 +38,7 @@ function CharacterSheet() {
   const [achievementCount, setAchievementCount] = useState(0)
   const [achievements, setAchievements] = useState([])
   const navigate = useNavigate()
+  const [activeTab, setActiveTab] = useState('character')
 
   useEffect(() => {
     loadProfile()
@@ -269,8 +270,43 @@ function CharacterSheet() {
           src={realmBanner}
           alt="The Realm Has Been Waiting"
           className="realm-banner"
-        />        
+        />
 
+        <div className="character-tabs">
+
+            <button
+                className={
+                    activeTab === 'character'
+                        ? 'tab-button active'
+                        : 'tab-button'
+                }
+                onClick={() =>
+                    setActiveTab('character')
+                }
+            >
+
+                Character Sheet
+
+            </button>
+
+            <button
+                className={
+                    activeTab === 'realm'
+                        ? 'tab-button active'
+                        : 'tab-button'
+                }
+                onClick={() =>
+                    setActiveTab('realm')
+                }
+            >
+
+                Realm
+
+            </button>
+
+        </div>       
+
+        {activeTab === 'character' && (
         <div className="character-grid">
 
           <div className="character-card identity-card full-width">
@@ -652,6 +688,40 @@ function CharacterSheet() {
           </div>
 
         </div>
+
+        )}
+
+        {activeTab === 'realm' && (
+
+            <div className="realm-tab">
+
+                <div className="character-card full-width">
+
+                    <h2>REALM MAP</h2>
+
+                    <div className="coming-soon">
+
+                        Realm Map Coming Soon
+
+                    </div>
+
+                </div>
+
+                <div className="character-card full-width">
+
+                    <h2>DISCOVERIES OF THE REALM</h2>
+
+                    <div className="coming-soon">
+
+                        Realm Discoveries Coming Soon
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        )}
 
       </div>
     </div>
