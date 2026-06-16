@@ -314,7 +314,7 @@ function CharacterSheet() {
 
     Crowns: {
         top: '58%',
-        left: '81%'
+        left: '84%'
     },
 
     Keys: {
@@ -324,7 +324,7 @@ function CharacterSheet() {
 
     Moons: {
         top: '76%',
-        left: '51%'
+        left: '52%'
     },
 
     Sentinels: {
