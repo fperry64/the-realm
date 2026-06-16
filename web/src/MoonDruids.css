@@ -1,0 +1,94 @@
+.moon-page {
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(5, 10, 25, 0.95),
+            rgba(5, 10, 25, 0.95)
+        );
+
+    color: white;
+
+    padding: 40px 20px;
+
+}
+
+.moon-banner {
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    display: block;
+
+    margin: 0 auto 40px auto;
+
+    border-radius: 12px;
+
+    border: 2px solid rgba(
+        216,
+        194,
+        122,
+        0.4
+    );
+
+}
+
+.moon-content {
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+.moon-content h1 {
+
+    text-align: center;
+
+    color: #d8c27a;
+
+    margin-bottom: 40px;
+
+    font-size: 3rem;
+
+}
+
+.moon-intro {
+
+    font-size: 1.25rem;
+
+    color: #d8c27a;
+
+}
+
+.moon-content p {
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+.moon-section {
+
+    margin-top: 40px;
+
+    padding-top: 20px;
+
+    border-top:
+        1px solid rgba(
+            216,
+            194,
+            122,
+            0.3
+        );
+
+}
+
+.moon-section h2 {
+
+    color: #d8c27a;
+
+}

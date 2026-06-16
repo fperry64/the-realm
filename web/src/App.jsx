@@ -10,6 +10,7 @@ import Casino from './pages/Casino'
 import HallOfForgottenLore from './pages/HallOfForgottenLore'
 import RealmMessageBoard from './pages/RealmMessageBoard'
 import Leaderboard from './pages/Leaderboard'
+import Moons from './pages/Moons'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/hall" element={<HallOfForgottenLore />} />
         <Route path="/messageboard" element={<RealmMessageBoard />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/realm/moons" element={<Moons />} />
       </Routes>
     </BrowserRouter>
   )
