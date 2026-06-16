@@ -285,6 +285,60 @@ function CharacterSheet() {
         entry => entry.realm_category
     )
 
+  const mapLocations = {
+
+    Kings: {
+        top: '42%',
+        left: '57%'
+    },
+
+    'Lost Scribes': {
+        top: '28%',
+        left: '34%'
+    },
+
+    'Hidden Paths': {
+        top: '55%',
+        left: '22%'
+    },
+
+    'Ancient Symbols': {
+        top: '18%',
+        left: '48%'
+    },
+
+    Ravens: {
+        top: '25%',
+        left: '70%'
+    },
+
+    Crowns: {
+        top: '38%',
+        left: '62%'
+    },
+
+    Keys: {
+        top: '52%',
+        left: '48%'
+    },
+
+    Moons: {
+        top: '68%',
+        left: '35%'
+    },
+
+    Sentinels: {
+        top: '72%',
+        left: '60%'
+    },
+
+    'The Forge': {
+        top: '82%',
+        left: '50%'
+    }
+
+  }
+
   if (!profile) {
     return (
       <div className="character-page">
@@ -730,12 +784,40 @@ function CharacterSheet() {
 
                     <h2>REALM MAP</h2>
 
-                    <img
-                        src={realmMap}
-                        alt="Realm Map"
-                        className="realm-map-image"
-                    
-                    />
+                    <div className="realm-map-container">
+
+                        <img
+                            src={realmMap}
+                            alt="Realm Map"
+                            className="realm-map-image"
+                        />
+
+                        {Object.entries(mapLocations).map(
+                            ([location, position]) =>
+
+                                discoveredPages.includes(location) && (
+
+                                    <div
+                                        key={location}
+                                        className="realm-marker"
+                                        style={{
+
+                                            top: position.top,
+
+                                            left: position.left
+
+                                        }}
+                                    >
+
+                                        ✨
+
+                                    </div>
+
+                                )
+
+                        )}
+
+                    </div>
 
                 </div>
 

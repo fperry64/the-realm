@@ -619,3 +619,59 @@
     border: 2px solid rgba(212, 175, 55, 0.4);
 
 }
+
+.realm-map-container {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.realm-marker {
+
+    position: absolute;
+
+    font-size: 2rem;
+
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+
+    animation: realmGlow 2s infinite;
+
+}
+
+@keyframes realmGlow {
+
+    0% {
+
+        opacity: 0.4;
+
+        transform:
+            translate(-50%, -50%)
+            scale(1);
+
+    }
+
+    50% {
+
+        opacity: 1;
+
+        transform:
+            translate(-50%, -50%)
+            scale(1.4);
+
+    }
+
+    100% {
+
+        opacity: 0.4;
+
+        transform:
+            translate(-50%, -50%)
+            scale(1);
+
+    }
+
+}
