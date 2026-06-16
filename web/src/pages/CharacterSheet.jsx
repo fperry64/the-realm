@@ -14,6 +14,7 @@ import ashDrake from '../assets/relics/ash_drake.png'
 import lastChronicler from '../assets/relics/last_chronicler.png'
 import stoneRaven from '../assets/relics/stone_raven.png'
 import voidQueen from '../assets/relics/void_queen.png'
+import realmMap from '../assets/maps/realm-map.png'
 
 const relicImages = {
 
@@ -729,11 +730,12 @@ function CharacterSheet() {
 
                     <h2>REALM MAP</h2>
 
-                    <div className="coming-soon">
-
-                        Realm Map Coming Soon
-
-                    </div>
+                    <img
+                        src={realmMap}
+                        alt="Realm Map"
+                        className="realm-map-image"
+                    
+                    />
 
                 </div>
 
