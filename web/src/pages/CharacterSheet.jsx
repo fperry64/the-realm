@@ -827,41 +827,43 @@ function CharacterSheet() {
 
                     <div className="discoveries-list">
 
-                        {realmPages.map(page => {
+                        {[...realmPages]
+                            .sort((a, b) => a.localeCompare(b))
+                            .map(page => {
 
-                            const unlocked =
-                                discoveredPages.includes(page)
+                                const unlocked =
+                                    discoveredPages.includes(page)
 
-                            return (
+                                return (
 
-                                <div
-                                    key={page}
-                                    className="discovery-row"
-                                >
+                                    <div
+                                        key={page}
+                                        className="discovery-row"
+                                    >
 
-                                    <span>
+                                        <span>
 
-                                        {unlocked ? '✓' : '🔒'}
+                                            {unlocked ? '✓' : '🔒'}
 
-                                        {' '}
+                                            {' '}
 
-                                        {page}
+                                            {page}
 
-                                    </span>
+                                        </span>
 
-                                    <span>
+                                        <span>
 
-                                        {unlocked
-                                            ? 'Unlocked'
-                                            : 'Locked'}
+                                            {unlocked
+                                                ? 'Enter'
+                                                : 'Locked'}
 
-                                    </span>
+                                        </span>
 
-                                </div>
+                                    </div>
 
-                            )
+                                )
 
-                        })}
+                            })}
 
                     </div>
 
