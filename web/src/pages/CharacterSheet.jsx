@@ -265,15 +265,15 @@ function CharacterSheet() {
 
     "Ancient Symbols",
 
-    "Ravens",
+    "Raven Keep",
 
-    "Crowns",
+    "The Fallen Crowns",
 
-    "Keys",
+    "Lost Keys",
 
-    "Moons",
+    "The Moon Chamber",
 
-    "Sentinels",
+    "Hall of Sentinels",
 
     "The Forge"
 
