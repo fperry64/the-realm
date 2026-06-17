@@ -62,32 +62,6 @@ function Moons() {
                 <div className="moon-section">
 
                     <h2>
-                        Known Relics
-                    </h2>
-
-                    <p>
-                        No associated relics have yet been
-                        identified.
-                    </p>
-
-                </div>
-
-                <div className="moon-section">
-
-                    <h2>
-                        Known Members
-                    </h2>
-
-                    <p>
-                        The identities of the Moon Druids
-                        remain hidden.
-                    </p>
-
-                </div>
-
-                <div className="moon-section">
-
-                    <h2>
                         Moon Druid Archives
                     </h2>
 
