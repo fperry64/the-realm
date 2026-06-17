@@ -142,33 +142,33 @@ function Moons() {
         rank2 &&
         hasCrowns &&
         hasGoldenAge &&
-        profile?.renown >= 1000
+        profile?.renown >= 15000
 
     const rank4 =
         rank3 &&
         hasKeys &&
         hasCemetery &&
-        profile?.renown >= 2000
+        profile?.renown >= 17500
 
     const rank5 =
         rank4 &&
         hasSentinels &&
         hasFirstSentinel &&
-        profile?.renown >= 2500
+        profile?.renown >= 25000
 
     const rank6 =
         rank5 &&
         hasForge &&
         hasRealmForge &&
         relicCount >= 5 &&
-        profile?.renown >= 5000
+        profile?.renown >= 32500
 
     const rank7 =
         rank6 &&
         hasKings &&
         hasForgottenKingsChamber &&
         relicCount >= 7 &&
-        profile?.renown >= 10000
+        profile?.renown >= 75000
 
     let currentRank =
         'Initiate of the First Moon'
