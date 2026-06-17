@@ -347,6 +347,22 @@ if (!profile) {
 
                     </p>
 
+                    <p>
+
+                        Renown:
+                        {' '}
+                        {profile.renown.toLocaleString()}
+
+                    </p>
+
+                    <p>
+
+                        Relics:
+                        {' '}
+                        {relicCount}
+
+                    </p>
+
                 </div>
 
                 <div className="moon-section">
@@ -362,6 +378,278 @@ if (!profile) {
                         {nextRank}
 
                     </p>
+
+                    <div className="requirements-list">
+
+                        {!rank2 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasRavens ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Ravens
+
+                                </p>
+
+                                <p>
+
+                                    {hasLostScribes ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Scrolls of the Lost Scribes
+
+                                </p>
+
+                            </>
+
+                        )}
+
+                        {rank2 && !rank3 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasCrowns ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Crowns
+
+                                </p>
+
+                                <p>
+
+                                    {hasGoldenAge ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Golden Age
+
+                                </p>
+
+                                <p>
+
+                                    {profile?.renown >= 1000
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    1,000 Renown
+
+                                </p>
+
+                            </>
+
+                        )}
+
+                        {rank3 && !rank4 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasKeys ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Keys
+
+                                </p>
+
+                                <p>
+
+                                    {hasCemetery ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover The Cemetery
+
+                                </p>
+
+                                <p>
+
+                                    {profile?.renown >= 2000
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    2,000 Renown
+
+                                </p>
+
+                            </>
+
+                        )}
+
+                        {rank4 && !rank5 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasSentinels ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Sentinels
+
+                                </p>
+
+                                <p>
+
+                                    {hasFirstSentinel
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    Discover The First Sentinel
+
+                                </p>
+
+                                <p>
+
+                                    {profile?.renown >= 2500
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    2,500 Renown
+
+                                </p>
+
+                            </>
+
+                        )}
+
+                        {rank5 && !rank6 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasForge ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover The Forge
+
+                                </p>
+
+                                <p>
+
+                                    {hasRealmForge
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    Discover The Realm Forge
+
+                                </p>
+
+                                <p>
+
+                                    {relicCount >= 5
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    Own 5 Relics
+
+                                </p>
+
+                                <p>
+
+                                    {profile?.renown >= 5000
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    5,000 Renown
+
+                                </p>
+
+                            </>
+
+                        )}
+
+                        {rank6 && !rank7 && (
+
+                            <>
+
+                                <p>
+
+                                    {hasKings ? '✓' : '🔒'}
+
+                                    {' '}
+
+                                    Discover Kings
+
+                                </p>
+
+                                <p>
+
+                                    {hasForgottenKingsChamber
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    Discover Forgotten Kings Chamber
+
+                                </p>
+
+                                <p>
+
+                                    {relicCount >= 7
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    Own 7 Relics
+
+                                </p>
+
+                                <p>
+
+                                    {profile?.renown >= 10000
+                                        ? '✓'
+                                        : '🔒'}
+
+                                    {' '}
+
+                                    10,000 Renown
+                
+                                </p>
+                            
+                            </>
+                        
+                        )}
+
+                        {rank7 && (
+
+                            <p>
+
+                                ✓ Maximum Rank Achieved
+
+                            </p>
+
+                        )}
+                    
+                    </div>
 
                 </div>
 
