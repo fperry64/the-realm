@@ -59,21 +59,13 @@ function Moons() {
 
                 </p>
 
-                <div className="moon-section">
+                <p>
 
-                    <h2>
-                        Moon Druid Archives
-                    </h2>
+                    The Moon Druids preserve knowledge hidden from the rest of The Realm.
+                    Future discoveries associated with the Moon Druids will appear within
+                    these archives.
 
-                    <p>
-
-                        The Moon Druids preserve knowledge hidden from the rest of The Realm.
-                        Future discoveries associated with the Moon Druids will appear within
-                        these archives.
-
-                    </p>
-
-                </div>
+                </p>
 
             </div>
 
