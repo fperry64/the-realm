@@ -6,6 +6,14 @@ import moonBanner from '../assets/moon-druids-banner.png'
 
 function Moons() {
 
+    useEffect(() => {
+
+        window.scrollTo(
+            0,
+            0
+        )
+    }, [])
+
     const [journalEntries, setJournalEntries] =
         useState([])
 
