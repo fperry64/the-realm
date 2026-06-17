@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../supabase'
 import realmBanner from '../assets/realm-arrival-banner.png'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import '../CharacterSheet.css'
 
 import blaze from '../assets/relics/blaze.png'
@@ -257,25 +257,35 @@ function CharacterSheet() {
 
   const realmPages = [
 
-    "Forgotten Kings Chamber",
+    {
+        name: 'Moons',
+        route: '/realm/moons'
+    },
 
-    "Lost Scribes",
+    {
+        name: 'Crowns',
+        route: null
+    },
 
-    "Hidden Paths",
+    {
+        name: 'Kings',
+        route: null
+    },
 
-    "Ancient Symbols",
+    {
+        name: 'Ravens',
+        route: null
+    },
 
-    "Ravens",
+    {
+        name: 'Sentinels',
+        route: null
+    },
 
-    "Crowns",
-
-    "Keys",
-
-    "Moons",
-
-    "Sentinels",
-
-    "The Forge"
+    {
+        name: 'The Forge',
+        route: null
+    }
 
   ]
 
@@ -853,9 +863,30 @@ function CharacterSheet() {
 
                                         <span>
 
-                                            {unlocked
-                                                ? 'Enter'
-                                                : 'Locked'}
+                                            {unlocked ? (
+
+                                                page === 'Moons' ? (
+
+                                                    <Link
+                                                        to="/realm/moons"
+                                                        className="realm-enter-link"
+                                                    >
+
+                                                        Enter
+
+                                                    </Link>
+
+                                                ) : (
+
+                                                    'Unlocked'
+
+                                                )
+
+                                            ) : (
+
+                                                'Locked'
+
+                                            )}
 
                                         </span>
 

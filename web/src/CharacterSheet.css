@@ -675,3 +675,19 @@
     }
 
 }
+
+.realm-enter-link {
+
+    color: #d8c27a;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.realm-enter-link:hover {
+
+    text-decoration: underline;
+
+}
