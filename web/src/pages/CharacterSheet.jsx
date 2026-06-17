@@ -838,16 +838,20 @@ function CharacterSheet() {
                     <div className="discoveries-list">
 
                         {[...realmPages]
-                            .sort((a, b) => a.localeCompare(b))
+                            .sort((a, b) =>
+                                a.name.localeCompare(b.name)
+                            )
                             .map(page => {
 
                                 const unlocked =
-                                    discoveredPages.includes(page)
+                                    discoveredPages.includes(
+                                        page.name
+                                    )
 
                                 return (
 
                                     <div
-                                        key={page}
+                                        key={page.name}
                                         className="discovery-row"
                                     >
 
@@ -857,7 +861,7 @@ function CharacterSheet() {
 
                                             {' '}
 
-                                            {page}
+                                            {page.name}
 
                                         </span>
 
@@ -865,10 +869,10 @@ function CharacterSheet() {
 
                                             {unlocked ? (
 
-                                                page === 'Moons' ? (
+                                                page.route ? (
 
                                                     <Link
-                                                        to="/realm/moons"
+                                                        to={page.route}
                                                         className="realm-enter-link"
                                                     >
 
