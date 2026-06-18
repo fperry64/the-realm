@@ -613,8 +613,8 @@ function CharacterSheet() {
     },
 
     Sentinels: {
-        top: '80%',
-        left: '70%'
+        top: '78%',
+        left: '75%'
     },
 
     'The Forge': {
