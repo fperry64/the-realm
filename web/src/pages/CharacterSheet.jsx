@@ -40,7 +40,7 @@ function CharacterSheet() {
   const [achievements, setAchievements] = useState([])
   const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState('character')
-  const [sentinelRank, setSentinelRank] = use_state('Initiate Sentinel')
+  const [sentinelRank, setSentinelRank] = useState('Initiate Sentinel')
 
   useEffect(() => {
     loadProfile()
