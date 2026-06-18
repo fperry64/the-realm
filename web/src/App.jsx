@@ -12,6 +12,7 @@ import RealmMessageBoard from './pages/RealmMessageBoard'
 import Leaderboard from './pages/Leaderboard'
 import Moons from './pages/Moons'
 import Crowns from './pages/Crowns'
+import Sentinels from './pages/Sentinels'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/realm/moons" element={<Moons />} />
         <Route path="/realm/crowns" element={<Crowns />} />
+        <Route path="/realm/sentinels" element={<Sentinels />} />
       </Routes>
     </BrowserRouter>
   )

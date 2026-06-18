@@ -267,7 +267,7 @@ function CharacterSheet() {
 
     {
         name: 'Sentinels',
-        route: null
+        route: '/realm/sentinels'
     },
 
     {
