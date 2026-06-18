@@ -40,6 +40,7 @@ function CharacterSheet() {
   const [achievements, setAchievements] = useState([])
   const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState('character')
+  const [sentinelRank, setSentinelRank] = use_state('Initiate Sentinel')
 
   useEffect(() => {
     loadProfile()
@@ -114,6 +115,57 @@ function CharacterSheet() {
         setRelics(relicList)
 
     }
+
+  const { data: battleData } =
+      await supabase
+          .from('sentinel_battles')
+          .select('result')
+          .eq('user_id', user.id)
+
+  const victoryCount =
+
+      battleData?.filter(
+          battle =>
+              battle.result === 'Victory'
+      ).length || 0
+
+  const { data: ranksData } =
+      await supabase
+          .from('sentinel_ranks')
+          .select('*')
+          .order(
+              'victories_required',
+              {
+                  ascending: true
+              }
+          )
+
+  if (
+      ranksData &&
+      ranksData.length > 0
+  ) {
+
+      let currentRank =
+          ranksData[0]
+
+      ranksData.forEach(rank => {
+
+          if (
+              victoryCount >=
+              rank.victories_required
+          ) {
+
+              currentRank = rank
+
+          }
+
+      })
+
+      setSentinelRank(
+          currentRank.rank_name
+      )
+
+  }
 
   }
 
@@ -718,6 +770,14 @@ function CharacterSheet() {
                             Moon Druid Path:
                             {' '}
                             {moonRank}
+
+                        </p>
+
+                        <p className="identity-subtitle">
+
+                            Sentinel Rank:
+                            {' '}
+                            {sentinelRank}
 
                         </p>
 
