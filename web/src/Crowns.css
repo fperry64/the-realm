@@ -125,3 +125,22 @@
     font-size: 1.05rem;
 
 }
+
+.crowns-section h2 {
+
+    color: #ffd700;
+
+    font-size: 1.8rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    text-shadow:
+        0 0 5px #ffd700,
+        0 0 10px #ffd700,
+        0 0 20px #ffcc00,
+        0 0 40px #ffb700,
+        0 0 80px rgba(255, 215, 0, 0.8);
+
+}
