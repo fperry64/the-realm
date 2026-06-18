@@ -11,6 +11,7 @@ import HallOfForgottenLore from './pages/HallOfForgottenLore'
 import RealmMessageBoard from './pages/RealmMessageBoard'
 import Leaderboard from './pages/Leaderboard'
 import Moons from './pages/Moons'
+import Crowns from './pages/Crowns'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/messageboard" element={<RealmMessageBoard />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/realm/moons" element={<Moons />} />
+        <Route path="/realm/crowns" element={<Crowns />} />
       </Routes>
     </BrowserRouter>
   )

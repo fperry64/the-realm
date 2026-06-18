@@ -1,0 +1,127 @@
+.crowns-page {
+
+    min-height: 100vh;
+
+    background: #0a0f1c;
+
+    color: #f5f1e8;
+
+}
+
+.crowns-banner {
+
+    width: 100%;
+
+    height: 500px;
+
+    object-fit: cover;
+
+}
+
+.crowns-content {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 50px 30px;
+
+}
+
+.crowns-content h1 {
+
+    text-align: center;
+
+    color: #d8c27a;
+
+    margin-bottom: 30px;
+
+}
+
+.crowns-intro {
+
+    font-size: 1.2rem;
+
+}
+
+.crowns-section {
+
+    margin-top: 50px;
+
+}
+
+.current-title {
+
+    font-size: 2.5rem;
+
+    color: #d8c27a;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+
+}
+
+.treasury-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(200px, 1fr)
+        );
+
+    gap: 20px;
+
+}
+
+.treasury-grid div {
+
+    background: rgba(
+        255,
+        255,
+        255,
+        0.05
+    );
+
+    border: 1px solid rgba(
+        216,
+        194,
+        122,
+        0.3
+    );
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.treasury-grid span {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+}
+
+.treasury-grid strong {
+
+    font-size: 1.4rem;
+
+    color: #d8c27a;
+
+}
+
+.title-list p {
+
+    margin-bottom: 12px;
+
+    font-size: 1.05rem;
+
+}

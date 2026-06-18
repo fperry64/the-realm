@@ -264,7 +264,7 @@ function CharacterSheet() {
 
     {
         name: 'Crowns',
-        route: null
+        route: '/realm/crowns'
     },
 
     {
