@@ -748,7 +748,7 @@ function CharacterSheet() {
 
                         <p>
 
-                            <span classname="identity-label">
+                            <span className="identity-label">
 
                                 Next Lore Search:
 
@@ -757,7 +757,7 @@ function CharacterSheet() {
                             {' '}
 
                             {nextLoreSearch}
-                            
+
                         </p>
 
                     </div>
