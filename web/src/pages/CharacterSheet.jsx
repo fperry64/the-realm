@@ -305,6 +305,52 @@ function CharacterSheet() {
   const ghostCoins =
       profile?.ghost_coins || 0
 
+  let nextLoreSearch =
+      'Available Now'
+
+  if (profile?.last_lore_search) {
+
+      const lastSearch =
+          new Date(
+              profile.last_lore_search
+          )
+
+      const nextSearch =
+          new Date(
+              lastSearch.getTime() +
+              (12 * 60 * 60 * 1000)
+          )
+
+      const now =
+          new Date()
+
+      const remaining =
+          nextSearch - now
+
+      if (remaining > 0) {
+
+          const hours =
+              Math.floor(
+                  remaining /
+                  (1000 * 60 * 60)
+              )
+
+          const minutes =
+              Math.floor(
+                  (
+                      remaining %
+                      (1000 * 60 * 60)
+                  ) /
+                  (1000 * 60)
+              )
+
+          nextLoreSearch =
+              `${hours}h ${minutes}m`
+
+      }
+
+  }
+
   let crownTitle =
     'Wanderer'
 
@@ -698,6 +744,20 @@ function CharacterSheet() {
 
                             {profile.current_destiny}
 
+                        </p>
+
+                        <p>
+
+                            <span classname="identity-label">
+
+                                Next Lore Search:
+
+                            </span>
+
+                            {' '}
+
+                            {nextLoreSearch}
+                            
                         </p>
 
                     </div>
