@@ -39,6 +39,12 @@ function Sentinels() {
     const [hallOfSentinels, setHallOfSentinels] =
         useState([])
 
+    const [activeBattle, setActiveBattle] =
+        useState(null)
+
+    const [activeEnemy, setActiveEnemy] =
+        useState(null)
+
     const enemyImages = {
 
         ash_drake: ashDrake,
@@ -256,7 +262,243 @@ function Sentinels() {
                 leaderboard
             )
 
+            const { data: activeBattleData } =
+                await supabase
+                    .from('active_sentinel_battles')
+                    .select('*')
+                    .eq('user_id', user.id)
+                    .eq('status', 'Active')
+                    .maybeSingle()
+
+            if (activeBattleData) {
+
+                setActiveBattle(activeBattleData)
+
+                const { data: activeEnemyData } =
+                    await supabase
+                        .from('sentinel_enemies')
+                        .select('*')
+                        .eq('id', activeBattleData.enemy_id)
+                        .single()
+
+                setActiveEnemy(activeEnemyData)
+
+            }
+
         }
+
+    }
+
+    async function acceptChallenge() {
+
+        if (!profile || !currentThreat || !rankData) return
+
+        if (activeBattle) return
+
+        const { data, error } =
+            await supabase
+                .from('active_sentinel_battles')
+                .insert({
+                    user_id: profile.id,
+                    enemy_id: currentThreat.id,
+                    player_hp: rankData.hit_points,
+                    enemy_hp: currentThreat.hit_points,
+                    round_number: 1,
+                    status: 'Active',
+                    last_battle_log:
+                        `${currentThreat.enemy_name} has appeared. The battle begins.`
+                })
+                .select()
+                .single()
+
+        if (error) {
+            console.error(error)
+            return
+        }
+
+        setActiveBattle(data)
+        setActiveEnemy(currentThreat)
+
+    }
+
+    function rollBetween(min, max) {
+
+        return Math.floor(
+            Math.random() * (max - min + 1)
+        ) + min
+
+    }
+
+    async function rollAttack() {
+
+        if (!activeBattle || !activeEnemy || !rankData) return
+
+        const playerRoll = rollBetween(1, 20)
+
+        const playerTotal =
+            playerRoll + rankData.strength
+
+        const playerCritical =
+            playerRoll === 20
+
+        const playerFail =
+            playerRoll === 1
+
+        const playerHit =
+            playerCritical ||
+            (
+                !playerFail &&
+                playerTotal >= activeEnemy.armor_class
+            )
+
+        let playerDamage = 0
+
+        if (playerHit) {
+
+            playerDamage =
+                rollBetween(
+                    rankData.damage_min,
+                    rankData.damage_max
+                )
+
+            if (playerCritical) {
+                playerDamage *= 2
+            }
+
+        }
+
+        const newEnemyHp =
+            Math.max(
+                activeBattle.enemy_hp - playerDamage,
+                0
+            )
+
+        let battleLog =
+            `You rolled ${playerRoll}. ` +
+            `${playerHit ? 'Hit!' : 'Miss.'} ` +
+            `Damage dealt: ${playerDamage}.`
+
+        if (newEnemyHp <= 0) {
+
+            await supabase
+                .from('sentinel_battles')
+                .insert({
+                    user_id: profile.id,
+                    enemy_id: activeEnemy.id,
+                    result: 'Victory',
+                    rounds_fought: activeBattle.round_number,
+                    renown_awarded: activeEnemy.reward_renown
+                })
+
+            await supabase
+                .from('profiles')
+                .update({
+                    renown:
+                        (profile.renown || 0) +
+                        activeEnemy.reward_renown
+                })
+                .eq('id', profile.id)
+
+            await supabase
+                .from('active_sentinel_battles')
+                .delete()
+                .eq('id', activeBattle.id)
+
+            setActiveBattle(null)
+            setActiveEnemy(null)
+
+            await loadSentinelData()
+
+            return
+
+        }
+
+        const enemyRoll = rollBetween(1, 20)
+
+        const enemyTotal =
+            enemyRoll + activeEnemy.attack_bonus
+
+        const enemyCritical =
+            enemyRoll === 20
+
+        const enemyFail =
+            enemyRoll === 1
+
+        const enemyHit =
+            enemyCritical ||
+            (
+                !enemyFail &&
+                enemyTotal >= rankData.armor_class
+            )
+
+        let enemyDamage = 0
+
+        if (enemyHit) {
+
+            enemyDamage =
+                rollBetween(
+                    activeEnemy.damage_min,
+                    activeEnemy.damage_max
+                )
+
+            if (enemyCritical) {
+                enemyDamage *= 2
+            }
+
+        }
+
+        const newPlayerHp =
+            Math.max(
+                activeBattle.player_hp - enemyDamage,
+                0
+            )
+
+        battleLog +=
+            ` ${activeEnemy.enemy_name} rolled ${enemyRoll}. ` +
+            `${enemyHit ? 'Hit!' : 'Miss.'} ` +
+            `Damage received: ${enemyDamage}.`
+
+        if (newPlayerHp <= 0) {
+
+            await supabase
+                .from('sentinel_battles')
+                .insert({
+                    user_id: profile.id,
+                    enemy_id: activeEnemy.id,
+                    result: 'Defeat',
+                    rounds_fought: activeBattle.round_number,
+                    renown_awarded: 0
+                })
+
+            await supabase
+                .from('active_sentinel_battles')
+                .delete()
+                .eq('id', activeBattle.id)
+
+            setActiveBattle(null)
+            setActiveEnemy(null)
+
+            await loadSentinelData()
+
+            return
+
+        }
+
+        const { data } =
+            await supabase
+                .from('active_sentinel_battles')
+                .update({
+                    player_hp: newPlayerHp,
+                    enemy_hp: newEnemyHp,
+                    round_number:
+                        activeBattle.round_number + 1,
+                    last_battle_log: battleLog
+                })
+                .eq('id', activeBattle.id)
+                .select()
+                .single()
+
+        setActiveBattle(data)
 
     }
 
@@ -461,10 +703,12 @@ function Sentinels() {
 
                                 <button
                                     className="challenge-button"
+                                    onClick={acceptChallenge}
+                                    disabled={!!activeBattle}
                                 >
-
-                                    ACCEPT CHALLENGE
-
+                                    {activeBattle
+                                        ? 'BATTLE IN PROGRESS'
+                                        : 'ACCEPT CHALLENGE'}
                                 </button>
 
                             </>
@@ -683,24 +927,52 @@ function Sentinels() {
 
                 <div className="sentinel-card full-width">
 
-                    <h2>
+                    <h2>ACTIVE BATTLE</h2>
 
-                        ACTIVE BATTLE
+                    {activeBattle && activeEnemy ? (
 
-                    </h2>
+                        <>
 
-                    <p>
+                            <h3>{activeEnemy.enemy_name}</h3>
 
-                        No active battle.
+                            <p>
+                                Your HP: {activeBattle.player_hp} / {rankData.hit_points}
+                            </p>
 
-                    </p>
+                            <p>
+                                Enemy HP: {activeBattle.enemy_hp} / {activeEnemy.hit_points}
+                            </p>
 
-                    <p>
+                            <p>
+                                Round: {activeBattle.round_number}
+                            </p>
 
-                        Accept a challenge to
-                        defend The Realm.
+                            <p>
+                                {activeBattle.last_battle_log}
+                            </p>
 
-                    </p>
+                            <button
+                                className="challenge-button"
+                                onClick={rollAttack}
+                            >
+                                ROLL ATTACK
+                            </button>
+
+                        </>
+
+                    ) : (
+
+                        <>
+
+                            <p>No active battle.</p>
+
+                            <p>
+                                Accept a challenge to defend The Realm.
+                            </p>
+
+                        </>
+
+                    )}
 
                 </div>
 
