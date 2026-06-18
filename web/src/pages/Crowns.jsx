@@ -218,10 +218,6 @@ function Crowns() {
                     as symbols of wealth, influence,
                     and power.
 
-                </p>
-
-                <p>
-
                     Some rulers earned their crowns
                     through wisdom. Others claimed
                     them through conquest. In the end,
