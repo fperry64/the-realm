@@ -243,18 +243,6 @@ function CharacterSheet() {
     input.click()
   }
 
-  const destinyTitles = {
-    LORE: 'Keeper of Forgotten Knowledge',
-    RELICS: 'Seeker of Lost Artifacts',
-    WEALTH: 'Master of Fortune and Prosperity',
-    LEGACY: 'Builder of Enduring Greatness',
-    FORTUNE: "Walker of Fate's Uncertain Road"
-  }
-
-  const destinySubtitle =
-    destinyTitles[profile?.current_destiny] ||
-    'Wanderer of The Realm'
-
   const realmPages = [
 
     {
@@ -294,6 +282,244 @@ function CharacterSheet() {
     journalEntries.map(
         entry => entry.realm_category
     )
+
+  const totalRelicValue =
+
+    relics.reduce(
+
+        (sum, relic) =>
+
+            sum +
+            (relic.card_value || 0),
+
+        0
+
+    )
+
+  const renown =
+      profile?.renown || 0
+
+  const ghostCoins =
+      profile?.ghost_coins || 0
+
+  let crownTitle =
+    'Wanderer'
+
+  if (
+      renown >= 5000 &&
+      ghostCoins >= 1000000
+  ) {
+
+      crownTitle =
+          'Keeper of the Coin'
+
+  }
+
+  if (
+      renown >= 7500 &&
+      ghostCoins >= 1500000
+  ) {
+
+      crownTitle =
+          'Master of the Treasury'
+
+  }
+
+  if (
+      renown >= 10000 &&
+      ghostCoins >= 2000000 &&
+      totalRelicValue >= 10000
+  ) {
+
+      crownTitle =
+          'Guardian of the Forge'
+
+  }
+
+  if (
+      renown >= 25000 &&
+      ghostCoins >= 3500000 &&
+      totalRelicValue >= 15000
+  ) {
+
+      crownTitle =
+          'Warden of the Golden Vault'
+
+  }
+
+  if (
+      renown >= 50000 &&
+      ghostCoins >= 4500000 &&
+      totalRelicValue >= 25000
+  ) {
+
+      crownTitle =
+          'Crownbearer of the Realm'
+
+  }
+
+  if (
+      renown >= 100000 &&
+      ghostCoins >= 5000000 &&
+      totalRelicValue >= 35000
+  ) {
+
+      crownTitle =
+          'High Treasurer of the Forgotten Kingdom'
+
+  }
+
+  if (
+      renown >= 250000 &&
+      ghostCoins >= 10000000 &&
+      totalRelicValue >= 50000
+  ) {
+
+      crownTitle =
+          'The Crowned Sovereign'
+
+  }
+
+    let moonRank =
+        'Initiate of the First Moon'
+
+    const hasRavens =
+        discoveredCategories.includes(
+            'Ravens'
+        )
+
+    const hasLostScribes =
+        discoveredCategories.includes(
+            'Scrolls of the Lost Scribes'
+        )
+
+    const hasCrowns =
+        discoveredCategories.includes(
+            'Crowns'
+        )
+
+    const hasGoldenAge =
+        discoveredCategories.includes(
+            'Golden Age'
+        )
+
+    const hasKeys =
+        discoveredCategories.includes(
+            'Keys'
+        )
+
+    const hasCemetery =
+        discoveredCategories.includes(
+            'The Cemetery'
+        )
+
+    const hasSentinels =
+        discoveredCategories.includes(
+            'Sentinels'
+        )
+
+    const hasFirstSentinel =
+        discoveredCategories.includes(
+            'The First Sentinel'
+        )
+
+    const hasForge =
+        discoveredCategories.includes(
+            'The Forge'
+        )
+
+    const hasRealmForge =
+        discoveredCategories.includes(
+            'The Realm Forge'
+        )
+
+    const hasKings =
+        discoveredCategories.includes(
+            'Kings'
+        )
+
+    const hasForgottenKingsChamber =
+        discoveredCategories.includes(
+            'Forgotten Kings Chamber'
+        )
+
+    const rank2 =
+        hasRavens &&
+        hasLostScribes
+
+    const rank3 =
+        rank2 &&
+        hasCrowns &&
+        hasGoldenAge &&
+        profile?.renown >= 15000
+
+    const rank4 =
+        rank3 &&
+        hasKeys &&
+        hasCemetery &&
+        profile?.renown >= 17500
+
+    const rank5 =
+        rank4 &&
+        hasSentinels &&
+        hasFirstSentinel &&
+        profile?.renown >= 25000
+
+    const rank6 =
+        rank5 &&
+        hasForge &&
+        hasRealmForge &&
+        relicCount >= 5 &&
+        profile?.renown >= 32500
+
+    const rank7 =
+        rank6 &&
+        hasKings &&
+        hasForgottenKingsChamber &&
+        relicCount >= 7 &&
+        profile?.renown >= 75000
+
+    if (rank2) {
+
+        moonRank =
+            'Moon Observer'
+
+    }
+
+    if (rank3) {
+
+        moonRank =
+            'Keeper of the Silver Grove'
+
+    }
+
+    if (rank4) {
+
+        moonRank =
+            'Warden of the Moonstone Circle'
+
+    }
+
+    if (rank5) {
+
+        moonRank =
+            'Lunar Sage'
+
+    }
+
+    if (rank6) {
+
+        moonRank =
+            'Elder of the Silver Sky'
+
+    }
+
+    if (rank7) {
+
+        moonRank =
+            'Archdruid of the Moon'
+
+    }
 
   const mapLocations = {
 
@@ -424,14 +650,26 @@ function CharacterSheet() {
 
                     <div className="identity-left">
 
-                        <h3>{profile.username}</h3>
+                        <h3>
+
+                            {profile.username}
+
+                        </h3>
 
                         <p className="identity-title">
-                        {profile.title}
+
+                            Title:
+                            {' '}
+                            {crownTitle}
+
                         </p>
 
                         <p className="identity-subtitle">
-                        {destinySubtitle}
+
+                            Moon Druid Path:
+                            {' '}
+                            {moonRank}
+
                         </p>
 
                         <button
@@ -446,27 +684,17 @@ function CharacterSheet() {
                     <div className="identity-right">
 
                         <p>
+
                             <span className="identity-label">
-                                Current Destiny:
+
+                                Destiny:
+
                             </span>
-                            <br />
+
+                            {' '}
+
                             {profile.current_destiny}
-                        </p>
 
-                        <p>
-                            <span className="identity-label">
-                                Original Destiny:
-                            </span>
-                            <br />
-                            {profile.original_destiny}
-                        </p>
-
-                        <p>
-                            <span className="identity-label">
-                                Alignment:
-                            </span>
-                            <br />
-                            {profile.alignment || 'Neutral'}
                         </p>
 
                     </div>
