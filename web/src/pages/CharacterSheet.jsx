@@ -283,7 +283,7 @@ function CharacterSheet() {
         entry => entry.realm_category
     )
 
-  const discoverCategories = 
+  const discoveredCategories = 
     discoveredPages
 
   const totalRelicValue =
