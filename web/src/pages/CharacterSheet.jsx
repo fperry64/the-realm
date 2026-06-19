@@ -672,8 +672,8 @@ function CharacterSheet() {
     },
 
     'The Forge': {
-        top: '90%',
-        left: '64%'
+        top: '88%',
+        left: '58%'
     }
 
   }
