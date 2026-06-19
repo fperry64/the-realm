@@ -96,7 +96,7 @@ function Navbar() {
               Leaders
             </Link>
 
-            <Link to="/wanderers">
+            <Link to="/realm/wanderers">
               Wanderers
             </Link>
 
