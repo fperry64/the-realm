@@ -339,7 +339,6 @@ function CharacterSheet() {
     discoveredPages
 
   const totalRelicValue =
-
     relics.reduce(
 
         (sum, relic) =>
@@ -350,6 +349,9 @@ function CharacterSheet() {
         0
 
     )
+
+  const relicCount = 
+    relics.length
 
   const renown =
       profile?.renown || 0

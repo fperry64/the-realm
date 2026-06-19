@@ -1,0 +1,161 @@
+.wanderers-page {
+
+    min-height: 100vh;
+
+    background: #0a0f1c;
+
+    color: #f5f5f5;
+
+}
+
+.wanderers-banner {
+
+    width: 100%;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    display: block;
+
+}
+
+.wanderers-content {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 2rem;
+
+}
+
+.wanderers-content h1 {
+
+    text-align: center;
+
+    color: #d8c27a;
+
+    font-family: 'Cinzel', serif;
+
+    margin-bottom: 1rem;
+
+}
+
+.wanderers-intro {
+
+    text-align: center;
+
+    max-width: 900px;
+
+    margin: 0 auto 2rem auto;
+
+    line-height: 1.8;
+
+    color: #d4d4d4;
+
+}
+
+.wanderers-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                320px,
+                1fr
+            )
+        );
+
+    gap: 1.5rem;
+
+}
+
+.wanderer-card {
+
+    background: rgba(
+        255,
+        255,
+        255,
+        0.05
+    );
+
+    border: 1px solid
+        rgba(
+            216,
+            194,
+            122,
+            0.3
+        );
+
+    border-radius: 12px;
+
+    padding: 1.5rem;
+
+    text-align: center;
+
+    backdrop-filter: blur(8px);
+
+}
+
+.wanderer-avatar {
+
+    width: 120px;
+
+    height: 120px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid #d8c27a;
+
+    margin-bottom: 1rem;
+
+}
+
+.wanderer-card h3 {
+
+    color: #d8c27a;
+
+    margin-bottom: 1rem;
+
+    font-family: 'Cinzel', serif;
+
+}
+
+.wanderer-card p {
+
+    margin: 0.5rem 0;
+
+    line-height: 1.5;
+
+}
+
+.wanderer-card strong {
+
+    color: #d8c27a;
+
+}
+
+@media (
+    max-width: 768px
+) {
+
+    .wanderers-content {
+
+        padding: 1rem;
+
+    }
+
+    .wanderers-banner {
+
+        height: 120px;
+
+    }
+
+}

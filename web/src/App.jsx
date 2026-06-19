@@ -13,6 +13,7 @@ import Leaderboard from './pages/Leaderboard'
 import Moons from './pages/Moons'
 import Crowns from './pages/Crowns'
 import Sentinels from './pages/Sentinels'
+import Wanderers from './pages/Wanderers'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/realm/moons" element={<Moons />} />
         <Route path="/realm/crowns" element={<Crowns />} />
         <Route path="/realm/sentinels" element={<Sentinels />} />
+        <Route path="/realm/wanderers" element={<Wanderers />} />
       </Routes>
     </BrowserRouter>
   )
