@@ -96,6 +96,10 @@ function Navbar() {
               Leaders
             </Link>
 
+            <Link to="/wanderers">
+              Wanderers
+            </Link>
+
             <button
               className="logout-button"
               onClick={handleLogout}
